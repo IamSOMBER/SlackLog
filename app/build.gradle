@@ -1,0 +1,46 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion '28.0.3'
+
+    defaultConfig {
+        // Enabling multidex support
+        multiDexEnabled true
+        applicationId "com.sombersoft.slacklog"
+        minSdkVersion 21
+        targetSdkVersion 29
+        versionCode 81
+        versionName "2.1.31"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    // jsoup HTML parser library @ http://jsoup.org/
+    implementation 'org.jsoup:jsoup:1.11.3'
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.0.0'
+    implementation 'androidx.legacy:legacy-support-v13:1.0.0'
+    implementation 'com.evernote:android-job:1.2.5'
+}
+
+// REQUIRED: Google's new Maven repo is required for the latest
+// support library that is compatible with Android 8.0
+repositories {
+    maven {
+        url 'https://maven.google.com'
+        // Alternative URL is 'https://dl.google.com/dl/android/maven2/'
+    }
+}
+
+

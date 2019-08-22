@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="num_threads" translatable="false">
+        <item>@string/last10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>@string/all</item>
+    </string-array>
+
+    <string-array name="values_threads" translatable="false">
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>50</item>
+    </string-array>
+
+    <string-array name="arch_name" translatable="false">
+        <item>64bit</item>
+        <item>32bit</item>
+        <item>@string/both</item>
+    </string-array>
+
+    <string-array name="arch_type" translatable="false">
+        <item>64</item>
+        <item>32</item>
+        <item>96</item>
+        <!-- Check for both type -->
+    </string-array>
+</resources>

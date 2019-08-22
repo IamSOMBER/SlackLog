@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/changelog"
+            android:checked="false"
+            android:icon="@drawable/change"
+            android:title="Changelog" />
+
+        <item
+            android:id="@+id/multilib"
+            android:checked="false"
+            android:icon="@drawable/alien"
+            android:title="Alien Multilib" />
+
+        <item
+            android:id="@+id/kernel"
+            android:checked="false"
+            android:icon="@drawable/kernel"
+            android:title="Kernel" />
+
+        <item
+            android:id="@+id/forum"
+            android:checked="false"
+            android:icon="@drawable/slacky_s"
+            android:title="Forum slacky (ita)" />
+
+        <item
+            android:id="@+id/forum_lq"
+            android:checked="false"
+            android:icon="@drawable/lq_logo"
+            android:title="Forum LQ (en)" />
+
+    </group>
+</menu>

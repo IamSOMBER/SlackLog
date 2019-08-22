@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/mirko/studio_workspace/Slacklog/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/home/mirko/studio_workspace/Slacklog/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_730b0ddf6b1b499b01539ed2f35fdab38d2f5e09/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/mirko/.android/build-cache/e446388e4b19e9062c44724976615863effac9ce/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/home/mirko/studio_workspace/Slacklog/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_571fdf73c25c3751c95bbe90007819126771d643/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/mirko/.android/build-cache/769094c158ee2d4bc65af955dbc6aad0d7e84587/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="/home/mirko/studio_workspace/Slacklog/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_94ac2d21072faeebb72ccee214118893db5cf2c0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/mirko/.android/build-cache/4df5c7e7b6788b3c0d1ec80f2669f0a1cf192ffc/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="/home/mirko/studio_workspace/Slacklog/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9498a4fa295bb62ac11de270ba8be65cf5e5b0e3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/mirko/.android/build-cache/cfe90a3463dca5780d4e8f028ec6e71c7c5ed428/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
+        <dex dex="/home/mirko/studio_workspace/Slacklog/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9a23ca43bb7f0e4a7fc58439e1104a6aea481028/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/mirko/.android/build-cache/8f8c7b29ce63d1af22326029cd7d2958d42e36b1/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="/home/mirko/studio_workspace/Slacklog/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_51b623ab3d53c22f4d6d0ba4799f03c09b5de915/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/mirko/.android/build-cache/0d1a3c852b09443a160d816f1f9e5bb306c86386/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8531f2d46b35de75e6130f25830e0c2c0d6bb98c">
+        <dex dex="/home/mirko/studio_workspace/Slacklog/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_61e9dd727f143e082e0ecc8d97df2a58d062bb15/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/mirko/.android/build-cache/c13c1812b0c7213aa942a04e62ed08f1ffe79747/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/home/mirko/studio_workspace/Slacklog/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e5b3baad9e50c70771bbc0770526b369e7f469a4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/mirko/.android/build-cache/e0d4c29d227d4f8b97b2959a91fdfc31f03cb2e3/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/home/mirko/studio_workspace/Slacklog/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1fe1344ccb1644331d5b9746397627e8e71d2ba5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/mirko/studio_workspace/Slacklog/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c876c8960dee3a8846c358f636fdbbb8cb9e3884">
+        <dex dex="/home/mirko/studio_workspace/Slacklog/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_244b3849d60ee9fae56fde58eb5d8d09a9a4153f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/mirko/.android/build-cache/2b5a2d0133884ac9420b6dcd504e9c4aa44c26cf/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/home/mirko/studio_workspace/Slacklog/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5cf0a44c384e78d6fafb24d3ae2e2d0b4950bb33/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/mirko/.android/build-cache/1af48cf2e79e7434a1ec079fa9fa5e5201f49e88/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/home/mirko/studio_workspace/Slacklog/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_97e471bf2245b722bb8effdb0455cc4454fc6b8b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/mirko/.android/build-cache/5d858be14748ea406c28c7aef845fc302f716a4f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/mirko/studio_workspace/Slacklog/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_66747356580130fdcb3931dcb18c1b129ace6419/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/mirko/.android/build-cache/bbf816dfabba28a09333e20cdd2df4f1a6a5bf58/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/home/mirko/studio_workspace/Slacklog/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8484af1a428f3faaa07b4ec01b3d145c9bd7524a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/mirko/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/25.3.1/bf8841d29fa39e077730e7a91222c2ce269fa7c9/support-annotations-25.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/home/mirko/studio_workspace/Slacklog/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.3.1_e2b882199cca255bcad3f4de4a11e862b2a93b0a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/mirko/.android/build-cache/b8db92b82fb932e9fd28d35da68230c2dfdd16a1/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/home/mirko/studio_workspace/Slacklog/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_070232b5ceaf745c0395551fe4f71ec831ab29df/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/mirko/.gradle/caches/modules-2/files-2.1/org.jsoup/jsoup/1.10.3/b842f960942503cf1abbcc8c173a7f2c19d43726/jsoup-1.10.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b842f960942503cf1abbcc8c173a7f2c19d43726">
+        <dex dex="/home/mirko/studio_workspace/Slacklog/app/build/intermediates/transforms/dex/debug/folders/1000/10/jsoup-1.10.3_6ca5afacef5adf28de3f4f59b2da51e541b9cc72/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/mirko/.android/build-cache/87bba131b055d2679b04149d60255ee68e3aa83f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/home/mirko/studio_workspace/Slacklog/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ee62ff5919092ad99f5280e004fb86a6627e44c6/classes.dex" />
+    </item>
+
+</items>

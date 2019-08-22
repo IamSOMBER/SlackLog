@@ -1,0 +1,1 @@
+[{"outputType":{"type":"BUNDLE_MANIFEST"},"apkData":{"type":"MAIN","splits":[],"versionCode":80,"versionName":"2.1.30.99","enabled":true,"outputFile":"app-release.apk","fullName":"release","baseName":"release"},"path":"AndroidManifest.xml","properties":{"packageId":"com.sombersoft.slacklog","split":"","minSdkVersion":"21"}}]
