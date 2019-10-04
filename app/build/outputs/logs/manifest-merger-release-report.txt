@@ -4,40 +4,43 @@ ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidMani
 INJECTED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:2:1-107:12
 INJECTED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:2:1-107:12
 INJECTED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:2:1-107:12
-MERGED from [com.android.support:design:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/a42a28bbf76532ec054fcfdfefa6a1ba/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:appcompat-v7:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/f8b8ee57aea1ba3754022f4921765cca/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-v13:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/8d7ad015b1d1b9867da00df84396a713/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-v4:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/b0251525dfe503cbb6482a0986496a4a/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cardview-v7:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/1cf91a4bba0ecfc2946e8daf58da84cf/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/10622c4296dc7c9bcd9edfc1bfa4f089/AndroidManifest.xml:17:1-22:12
-MERGED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/a325fc17aa41e2825aceafcbb6b5e13e/AndroidManifest.xml:2:1-65:12
-MERGED from [com.android.support:support-fragment:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/9b6e786490b6e468a75545cb7c0c45b6/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/ecbd0e84d3801d36878bf7442f5ae3d0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/d490ee33708b51fc2bf1a50745e6bd97/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/4896a65eecc8f98c9843bd5636d00448/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/1524d9c517510852840433c01b413977/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/fc79d5a09b466b49320704acacc4c88f/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/544405769e8a385b1ae0f4a596f9cbf6/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:loader:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/4d909f3fc323bdd849cf728839e6b729/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:viewpager:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/0337d0a08baaf1751259d2bdaaa0a7e9/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/661ec25cb462e9a0979b089ee87594bc/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:drawerlayout:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/f3890df51a3d83341b4e467284ed2c72/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/ee0c2291fba9447ab11b98405b176a23/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customview:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/82ce5a659fd2d38ae05b10cbf27c0e84/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/ebe1711b106d64deb860c5daac7cb926/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/5440ea98f6feba8a8b7ec3c89f3bed53/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/e1b15b4673e9bd6816aec3801b23a586/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:versionedparcelable:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/765a6c79536218a0e32ec0cbfd73b315/AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:cursoradapter:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/923120caaf36a8d86346a81ddbe656d0/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/mirko/.gradle/caches/transforms-2/files-2.1/30eab61540ce288ff72f7a32f07a732a/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:documentfile:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/9f649ddda057b133131a1a1c2ba4da71/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/234d009b2dcb638428c66f79b379c0b4/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:print:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/6fde5db82b26d64d5d640be64bfc7bbb/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/mirko/.gradle/caches/transforms-2/files-2.1/5bb1726781755eb3678faa8a153eaaa5/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/1b109f8f349491839b62d92fb6733398/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/mirko/.gradle/caches/transforms-2/files-2.1/42c52dd9d75a7c7eb3e14d40226952f2/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/mirko/.gradle/caches/transforms-2/files-2.1/ff75c5d697db0a6f2b8a4c3643027a10/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] /home/mirko/.gradle/caches/transforms-2/files-2.1/2c0f85d38c49170af8f4505ba6763d30/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.material:material:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/9ee5da6fca20f6f07dce6c73fc4ca33a/material-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/f5bdf8930f5b0dade80802408310dda6/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v13:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/805a63f73d908fd7ffb404cb47a1d665/legacy-support-v13-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/1d93c655cdcaa19a3180f48e63f30b3d/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/c034f7088c57e18a85dafc68b942945f/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/99839343cfb353ec06147cc6109cf9b2/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:2:1-65:12
+MERGED from [androidx.fragment:fragment:1.1.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/df9a84c4655b7cf6fd3ecff2821fd9d3/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/a44642c3bddc1cd9ae77529ce5394be3/appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/67e3a22614326cadf216274f01d6d423/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/3d66247cb3e229dc7753f5f4d3b35b4b/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/984e9edaa0792ad5f44429be517dd8ee/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/4ea847ccfe34de0657fc7a139eae5de8/transition-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/e7201af0ac6a1eb782d2b896d1ec4242/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/7ae8c1d65b7331eeb350edf91287a16c/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/de3b4aff63e255359d6d83ac6fbdaff5/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/b96b3435fb358bdd7f04f1152639314c/activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/bf0848ee243e36dc13961016c6f63543/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/9572194aa98bde0ee13f87e0985824cf/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/cbfe81a657ef2afb513a6ca64388f844/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/985ff358bb91108c25d3fd24361b35b6/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/2dfde23a071269bfc073d57af77f7873/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/9b9140e118d7f4f83e504277c0661cb2/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/7b3b7b721ad53547c0e35001526b3ae3/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/fb37b7f790edcc9d7fe6d3e5314b8c56/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/9a29ee90fd211f611caccd9d338a3e44/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/2d1f640c1b4beb33089ff5c91bbd7f31/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/8506ddbc1ed30380944ad7f0369e4760/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/35d6382087ac1999db47004e3bf24934/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/8893b90c6f2a61edd1acfa898cb4cde1/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/1bd2f6a321d0549948d7f1edb5f036d6/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/55566c395264c409f125230efea7fd76/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/f031147607d3aeb238f176a00d5e308c/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/e7284bace20bec096294b5474e153fbf/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/c073c929da6ad4e112abaac7d3212747/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/e72949b043b8df7a6068dab5e7cd21f2/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
 INJECTED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:2:1-107:12
 INJECTED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:2:1-107:12
 INJECTED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:2:1-107:12
@@ -57,236 +60,240 @@ INJECTED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidM
 		INJECTED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:2:11-69
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:6:5-79
-MERGED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/a325fc17aa41e2825aceafcbb6b5e13e/AndroidManifest.xml:13:5-79
-MERGED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/a325fc17aa41e2825aceafcbb6b5e13e/AndroidManifest.xml:13:5-79
-	android:name
-		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:6:22-76
 uses-permission#android.permission.INTERNET
-ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:7:5-67
+ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:6:5-67
 	android:name
-		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:7:22-64
+		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:6:22-64
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:8:5-81
-MERGED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/a325fc17aa41e2825aceafcbb6b5e13e/AndroidManifest.xml:14:5-81
-MERGED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/a325fc17aa41e2825aceafcbb6b5e13e/AndroidManifest.xml:14:5-81
+ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:7:5-81
+MERGED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:14:5-81
+MERGED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:14:5-81
 	android:name
-		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:8:22-78
+		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:7:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:8:5-79
+MERGED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:13:5-79
+MERGED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:8:22-76
 application
 ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:10:5-105:19
-MERGED from [com.android.support:design:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/a42a28bbf76532ec054fcfdfefa6a1ba/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:design:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/a42a28bbf76532ec054fcfdfefa6a1ba/AndroidManifest.xml:22:5-20
-MERGED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/a325fc17aa41e2825aceafcbb6b5e13e/AndroidManifest.xml:16:5-63:19
-MERGED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/a325fc17aa41e2825aceafcbb6b5e13e/AndroidManifest.xml:16:5-63:19
-MERGED from [com.android.support:support-compat:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/e1b15b4673e9bd6816aec3801b23a586/AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:support-compat:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/e1b15b4673e9bd6816aec3801b23a586/AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:versionedparcelable:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/765a6c79536218a0e32ec0cbfd73b315/AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:versionedparcelable:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/765a6c79536218a0e32ec0cbfd73b315/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.material:material:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/9ee5da6fca20f6f07dce6c73fc4ca33a/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/9ee5da6fca20f6f07dce6c73fc4ca33a/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:16:5-63:19
+MERGED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:16:5-63:19
+MERGED from [androidx.core:core:1.1.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/9a29ee90fd211f611caccd9d338a3e44/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/9a29ee90fd211f611caccd9d338a3e44/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
-		ADDED from [com.android.support:support-compat:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/e1b15b4673e9bd6816aec3801b23a586/AndroidManifest.xml:22:18-91
+		ADDED from [androidx.core:core:1.1.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
 		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:14:9-35
 	android:label
 		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:13:9-41
 	tools:ignore
-		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:16:9-48
+		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:17:9-48
 	android:icon
 		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:12:9-45
 	android:allowBackup
 		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:11:9-35
 	android:theme
 		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:15:9-44
-service#com.sombersoft.slacklog.ChangelogService
-ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:17:9-19:72
-	android:permission
-		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:19:13-69
-	android:name
-		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:18:13-68
-service#com.sombersoft.slacklog.MultilibService
-ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:20:9-22:72
-	android:permission
-		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:22:13-69
-	android:name
-		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:21:13-67
-receiver#com.sombersoft.slacklog.ChangelogBroadcastReceiver
-ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:24:9-35:20
-	android:enabled
-		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:26:13-35
-	android:exported
-		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:27:13-36
-	android:name
-		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:25:13-78
-intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.QUICKBOOT_POWERON+action:name:android.net.conn.CONNECTIVITY_CHANGE+category:name:android.intent.category.DEFAULT
-ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:28:13-34:29
-action#android.net.conn.CONNECTIVITY_CHANGE
-ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:29:17-79
-	android:name
-		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:29:25-76
-action#android.intent.action.BOOT_COMPLETED
-ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:30:17-79
-	android:name
-		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:30:25-76
-action#android.intent.action.QUICKBOOT_POWERON
-ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:31:17-82
-	android:name
-		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:31:25-79
-category#android.intent.category.DEFAULT
-ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:33:17-76
-	android:name
-		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:33:27-73
-receiver#com.sombersoft.slacklog.MultilibBroadcastReceiver
-ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:36:9-47:20
-	android:enabled
-		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:38:13-35
-	android:exported
-		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:39:13-36
-	android:name
-		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:37:13-77
+	android:usesCleartextTraffic
+		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:16:9-44
 activity#com.sombersoft.slacklog.MainActivity
-ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:49:9-59:20
+ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:18:9-27:20
+	android:screenOrientation
+		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:21:13-49
+	android:label
+		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:20:13-45
+	android:name
+		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:19:13-64
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:23:13-26:29
+action#android.intent.action.MAIN
+ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:24:17-69
+	android:name
+		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:24:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:25:27-74
+activity#com.sombersoft.slacklog.Changelog
+ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:28:9-37:20
+	android:parentActivityName
+		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:31:13-78
+	android:label
+		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:30:13-46
+	android:name
+		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:29:13-61
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:34:13-36:72
+	android:value
+		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:35:17-63
+activity#com.sombersoft.slacklog.Multilib
+ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:39:9-47:20
+	android:screenOrientation
+		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:43:13-49
+	android:parentActivityName
+		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:42:13-78
+	android:label
+		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:41:13-60
+	android:name
+		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:40:13-60
+activity#com.sombersoft.slacklog.Kernel
+ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:48:9-56:20
 	android:screenOrientation
 		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:52:13-49
-	android:label
-		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:51:13-45
-	android:name
-		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:50:13-64
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:54:13-58:29
-action#android.intent.action.MAIN
-ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:55:17-69
-	android:name
-		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:55:25-66
-category#android.intent.category.LAUNCHER
-ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:57:17-77
-	android:name
-		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:57:27-74
-activity#com.sombersoft.slacklog.Changelog
-ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:60:9-69:20
 	android:parentActivityName
-		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:63:13-78
+		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:51:13-78
 	android:label
-		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:62:13-46
+		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:50:13-58
 	android:name
-		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:61:13-61
-meta-data#android.support.PARENT_ACTIVITY
-ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:66:13-68:72
-	android:value
-		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:68:17-69
-	android:name
-		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:67:17-63
-activity#com.sombersoft.slacklog.Multilib
-ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:70:9-78:20
-	android:screenOrientation
-		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:74:13-49
-	android:parentActivityName
-		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:73:13-78
-	android:label
-		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:72:13-60
-	android:name
-		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:71:13-60
-activity#com.sombersoft.slacklog.Kernel
-ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:79:9-87:20
-	android:screenOrientation
-		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:83:13-49
-	android:parentActivityName
-		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:82:13-78
-	android:label
-		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:81:13-58
-	android:name
-		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:80:13-58
+		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:49:13-58
 activity#com.sombersoft.slacklog.Forum
-ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:88:9-96:20
+ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:58:9-66:20
 	android:parentActivityName
-		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:92:13-78
+		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:62:13-78
 	android:label
-		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:91:13-57
+		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:61:13-57
 	android:configChanges
-		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:90:13-59
+		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:60:13-59
 	android:name
-		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:89:13-57
+		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:59:13-57
 activity#com.sombersoft.slacklog.SettingsActivity
-ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:97:9-54
+ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:67:9-54
 	android:name
-		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:97:19-51
+		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:67:19-51
 activity#com.sombersoft.slacklog.ForumLQ
-ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:98:9-104:20
+ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:68:9-74:20
 	android:label
-		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:100:13-60
+		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:70:13-60
 	android:name
-		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:99:13-59
+		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:69:13-59
+receiver#com.sombersoft.slacklog.ChangelogBroadcastReceiver
+ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:76:9-86:20
+	android:enabled
+		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:78:13-35
+	android:exported
+		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:79:13-36
+	android:name
+		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:77:13-78
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.QUICKBOOT_POWERON+category:name:android.intent.category.DEFAULT
+ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:80:13-85:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:81:17-79
+	android:name
+		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:81:25-76
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:82:17-82
+	android:name
+		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:82:25-79
+category#android.intent.category.DEFAULT
+ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:84:17-76
+	android:name
+		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:84:27-73
+receiver#com.sombersoft.slacklog.MultilibBroadcastReceiver
+ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:87:9-97:20
+	android:enabled
+		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:89:13-35
+	android:exported
+		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:90:13-36
+	android:name
+		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:88:13-77
+service#com.sombersoft.slacklog.ChangelogService
+ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:99:9-101:72
+	android:permission
+		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:101:13-69
+	android:name
+		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:100:13-68
+service#com.sombersoft.slacklog.MultilibService
+ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:102:9-104:72
+	android:permission
+		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:104:13-69
+	android:name
+		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:103:13-67
 uses-sdk
 INJECTED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml
 INJECTED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml
-MERGED from [com.android.support:design:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/a42a28bbf76532ec054fcfdfefa6a1ba/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/a42a28bbf76532ec054fcfdfefa6a1ba/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/f8b8ee57aea1ba3754022f4921765cca/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/f8b8ee57aea1ba3754022f4921765cca/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v13:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/8d7ad015b1d1b9867da00df84396a713/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v13:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/8d7ad015b1d1b9867da00df84396a713/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/b0251525dfe503cbb6482a0986496a4a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/b0251525dfe503cbb6482a0986496a4a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/1cf91a4bba0ecfc2946e8daf58da84cf/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/1cf91a4bba0ecfc2946e8daf58da84cf/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/10622c4296dc7c9bcd9edfc1bfa4f089/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/10622c4296dc7c9bcd9edfc1bfa4f089/AndroidManifest.xml:20:5-44
-MERGED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/a325fc17aa41e2825aceafcbb6b5e13e/AndroidManifest.xml:8:5-10:41
-MERGED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/a325fc17aa41e2825aceafcbb6b5e13e/AndroidManifest.xml:8:5-10:41
-MERGED from [com.android.support:support-fragment:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/9b6e786490b6e468a75545cb7c0c45b6/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/9b6e786490b6e468a75545cb7c0c45b6/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/ecbd0e84d3801d36878bf7442f5ae3d0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/ecbd0e84d3801d36878bf7442f5ae3d0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/d490ee33708b51fc2bf1a50745e6bd97/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/d490ee33708b51fc2bf1a50745e6bd97/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/4896a65eecc8f98c9843bd5636d00448/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/4896a65eecc8f98c9843bd5636d00448/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/1524d9c517510852840433c01b413977/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/1524d9c517510852840433c01b413977/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/fc79d5a09b466b49320704acacc4c88f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/fc79d5a09b466b49320704acacc4c88f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/544405769e8a385b1ae0f4a596f9cbf6/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/544405769e8a385b1ae0f4a596f9cbf6/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/4d909f3fc323bdd849cf728839e6b729/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/4d909f3fc323bdd849cf728839e6b729/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/0337d0a08baaf1751259d2bdaaa0a7e9/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/0337d0a08baaf1751259d2bdaaa0a7e9/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/661ec25cb462e9a0979b089ee87594bc/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/661ec25cb462e9a0979b089ee87594bc/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/f3890df51a3d83341b4e467284ed2c72/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/f3890df51a3d83341b4e467284ed2c72/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/ee0c2291fba9447ab11b98405b176a23/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/ee0c2291fba9447ab11b98405b176a23/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/82ce5a659fd2d38ae05b10cbf27c0e84/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/82ce5a659fd2d38ae05b10cbf27c0e84/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/ebe1711b106d64deb860c5daac7cb926/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/ebe1711b106d64deb860c5daac7cb926/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/5440ea98f6feba8a8b7ec3c89f3bed53/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/5440ea98f6feba8a8b7ec3c89f3bed53/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/e1b15b4673e9bd6816aec3801b23a586/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/e1b15b4673e9bd6816aec3801b23a586/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/765a6c79536218a0e32ec0cbfd73b315/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/765a6c79536218a0e32ec0cbfd73b315/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/923120caaf36a8d86346a81ddbe656d0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/923120caaf36a8d86346a81ddbe656d0/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/mirko/.gradle/caches/transforms-2/files-2.1/30eab61540ce288ff72f7a32f07a732a/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/mirko/.gradle/caches/transforms-2/files-2.1/30eab61540ce288ff72f7a32f07a732a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/9f649ddda057b133131a1a1c2ba4da71/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/9f649ddda057b133131a1a1c2ba4da71/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/234d009b2dcb638428c66f79b379c0b4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/234d009b2dcb638428c66f79b379c0b4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/6fde5db82b26d64d5d640be64bfc7bbb/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/6fde5db82b26d64d5d640be64bfc7bbb/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/mirko/.gradle/caches/transforms-2/files-2.1/5bb1726781755eb3678faa8a153eaaa5/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/mirko/.gradle/caches/transforms-2/files-2.1/5bb1726781755eb3678faa8a153eaaa5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/1b109f8f349491839b62d92fb6733398/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/1b109f8f349491839b62d92fb6733398/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/mirko/.gradle/caches/transforms-2/files-2.1/42c52dd9d75a7c7eb3e14d40226952f2/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/mirko/.gradle/caches/transforms-2/files-2.1/42c52dd9d75a7c7eb3e14d40226952f2/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/mirko/.gradle/caches/transforms-2/files-2.1/ff75c5d697db0a6f2b8a4c3643027a10/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/mirko/.gradle/caches/transforms-2/files-2.1/ff75c5d697db0a6f2b8a4c3643027a10/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /home/mirko/.gradle/caches/transforms-2/files-2.1/2c0f85d38c49170af8f4505ba6763d30/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /home/mirko/.gradle/caches/transforms-2/files-2.1/2c0f85d38c49170af8f4505ba6763d30/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/9ee5da6fca20f6f07dce6c73fc4ca33a/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/9ee5da6fca20f6f07dce6c73fc4ca33a/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/f5bdf8930f5b0dade80802408310dda6/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/f5bdf8930f5b0dade80802408310dda6/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v13:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/805a63f73d908fd7ffb404cb47a1d665/legacy-support-v13-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v13:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/805a63f73d908fd7ffb404cb47a1d665/legacy-support-v13-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/1d93c655cdcaa19a3180f48e63f30b3d/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/1d93c655cdcaa19a3180f48e63f30b3d/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/c034f7088c57e18a85dafc68b942945f/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/c034f7088c57e18a85dafc68b942945f/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/99839343cfb353ec06147cc6109cf9b2/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/99839343cfb353ec06147cc6109cf9b2/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:8:5-10:41
+MERGED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:8:5-10:41
+MERGED from [androidx.fragment:fragment:1.1.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/df9a84c4655b7cf6fd3ecff2821fd9d3/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/df9a84c4655b7cf6fd3ecff2821fd9d3/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/a44642c3bddc1cd9ae77529ce5394be3/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/a44642c3bddc1cd9ae77529ce5394be3/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/67e3a22614326cadf216274f01d6d423/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/67e3a22614326cadf216274f01d6d423/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/3d66247cb3e229dc7753f5f4d3b35b4b/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/3d66247cb3e229dc7753f5f4d3b35b4b/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/984e9edaa0792ad5f44429be517dd8ee/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/984e9edaa0792ad5f44429be517dd8ee/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/4ea847ccfe34de0657fc7a139eae5de8/transition-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/4ea847ccfe34de0657fc7a139eae5de8/transition-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/e7201af0ac6a1eb782d2b896d1ec4242/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/e7201af0ac6a1eb782d2b896d1ec4242/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/7ae8c1d65b7331eeb350edf91287a16c/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/7ae8c1d65b7331eeb350edf91287a16c/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/de3b4aff63e255359d6d83ac6fbdaff5/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/de3b4aff63e255359d6d83ac6fbdaff5/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/b96b3435fb358bdd7f04f1152639314c/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/b96b3435fb358bdd7f04f1152639314c/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/bf0848ee243e36dc13961016c6f63543/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/bf0848ee243e36dc13961016c6f63543/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/9572194aa98bde0ee13f87e0985824cf/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/9572194aa98bde0ee13f87e0985824cf/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/cbfe81a657ef2afb513a6ca64388f844/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/cbfe81a657ef2afb513a6ca64388f844/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/985ff358bb91108c25d3fd24361b35b6/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/985ff358bb91108c25d3fd24361b35b6/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/2dfde23a071269bfc073d57af77f7873/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/2dfde23a071269bfc073d57af77f7873/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/9b9140e118d7f4f83e504277c0661cb2/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/9b9140e118d7f4f83e504277c0661cb2/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/7b3b7b721ad53547c0e35001526b3ae3/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/7b3b7b721ad53547c0e35001526b3ae3/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/fb37b7f790edcc9d7fe6d3e5314b8c56/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/fb37b7f790edcc9d7fe6d3e5314b8c56/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/9a29ee90fd211f611caccd9d338a3e44/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/9a29ee90fd211f611caccd9d338a3e44/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/2d1f640c1b4beb33089ff5c91bbd7f31/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/2d1f640c1b4beb33089ff5c91bbd7f31/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/8506ddbc1ed30380944ad7f0369e4760/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/8506ddbc1ed30380944ad7f0369e4760/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/35d6382087ac1999db47004e3bf24934/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/35d6382087ac1999db47004e3bf24934/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/8893b90c6f2a61edd1acfa898cb4cde1/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/8893b90c6f2a61edd1acfa898cb4cde1/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/1bd2f6a321d0549948d7f1edb5f036d6/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/1bd2f6a321d0549948d7f1edb5f036d6/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/55566c395264c409f125230efea7fd76/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/55566c395264c409f125230efea7fd76/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/f031147607d3aeb238f176a00d5e308c/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/f031147607d3aeb238f176a00d5e308c/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/e7284bace20bec096294b5474e153fbf/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/e7284bace20bec096294b5474e153fbf/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/c073c929da6ad4e112abaac7d3212747/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/c073c929da6ad4e112abaac7d3212747/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/e72949b043b8df7a6068dab5e7cd21f2/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/e72949b043b8df7a6068dab5e7cd21f2/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
 INJECTED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml
 INJECTED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
@@ -298,84 +305,84 @@ INJECTED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidM
 		ADDED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml
 		INJECTED from /media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/a325fc17aa41e2825aceafcbb6b5e13e/AndroidManifest.xml:12:5-68
+ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:12:5-68
 	android:name
-		ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/a325fc17aa41e2825aceafcbb6b5e13e/AndroidManifest.xml:12:22-65
+		ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:12:22-65
 service#com.evernote.android.job.v21.PlatformJobService
-ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/a325fc17aa41e2825aceafcbb6b5e13e/AndroidManifest.xml:17:9-20:72
+ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:17:9-20:72
 	android:exported
-		ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/a325fc17aa41e2825aceafcbb6b5e13e/AndroidManifest.xml:19:13-37
+		ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:19:13-37
 	android:permission
-		ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/a325fc17aa41e2825aceafcbb6b5e13e/AndroidManifest.xml:20:13-69
+		ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:20:13-69
 	android:name
-		ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/a325fc17aa41e2825aceafcbb6b5e13e/AndroidManifest.xml:18:13-75
+		ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:18:13-75
 service#com.evernote.android.job.v14.PlatformAlarmService
-ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/a325fc17aa41e2825aceafcbb6b5e13e/AndroidManifest.xml:21:9-24:72
+ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:21:9-24:72
 	android:exported
-		ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/a325fc17aa41e2825aceafcbb6b5e13e/AndroidManifest.xml:23:13-37
+		ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:23:13-37
 	android:permission
-		ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/a325fc17aa41e2825aceafcbb6b5e13e/AndroidManifest.xml:24:13-69
+		ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:24:13-69
 	android:name
-		ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/a325fc17aa41e2825aceafcbb6b5e13e/AndroidManifest.xml:22:13-77
+		ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:22:13-77
 service#com.evernote.android.job.v14.PlatformAlarmServiceExact
-ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/a325fc17aa41e2825aceafcbb6b5e13e/AndroidManifest.xml:25:9-27:40
+ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:25:9-27:40
 	android:exported
-		ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/a325fc17aa41e2825aceafcbb6b5e13e/AndroidManifest.xml:27:13-37
+		ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:27:13-37
 	android:name
-		ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/a325fc17aa41e2825aceafcbb6b5e13e/AndroidManifest.xml:26:13-82
+		ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:26:13-82
 receiver#com.evernote.android.job.v14.PlatformAlarmReceiver
-ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/a325fc17aa41e2825aceafcbb6b5e13e/AndroidManifest.xml:29:9-38:20
+ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:29:9-38:20
 	android:exported
-		ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/a325fc17aa41e2825aceafcbb6b5e13e/AndroidManifest.xml:31:13-37
+		ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:31:13-37
 	android:name
-		ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/a325fc17aa41e2825aceafcbb6b5e13e/AndroidManifest.xml:30:13-78
+		ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:30:13-78
 intent-filter#action:name:com.evernote.android.job.v14.RUN_JOB+action:name:net.vrallev.android.job.v14.RUN_JOB
-ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/a325fc17aa41e2825aceafcbb6b5e13e/AndroidManifest.xml:32:13-37:29
+ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:32:13-37:29
 action#com.evernote.android.job.v14.RUN_JOB
-ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/a325fc17aa41e2825aceafcbb6b5e13e/AndroidManifest.xml:35:17-79
+ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:35:17-79
 	android:name
-		ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/a325fc17aa41e2825aceafcbb6b5e13e/AndroidManifest.xml:35:25-76
+		ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:35:25-76
 action#net.vrallev.android.job.v14.RUN_JOB
-ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/a325fc17aa41e2825aceafcbb6b5e13e/AndroidManifest.xml:36:17-78
+ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:36:17-78
 	android:name
-		ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/a325fc17aa41e2825aceafcbb6b5e13e/AndroidManifest.xml:36:25-75
+		ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:36:25-75
 receiver#com.evernote.android.job.JobBootReceiver
-ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/a325fc17aa41e2825aceafcbb6b5e13e/AndroidManifest.xml:39:9-48:20
+ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:39:9-48:20
 	android:exported
-		ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/a325fc17aa41e2825aceafcbb6b5e13e/AndroidManifest.xml:41:13-37
+		ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:41:13-37
 	android:name
-		ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/a325fc17aa41e2825aceafcbb6b5e13e/AndroidManifest.xml:40:13-68
+		ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:40:13-68
 intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.MY_PACKAGE_REPLACED+action:name:android.intent.action.QUICKBOOT_POWERON+action:name:com.htc.intent.action.QUICKBOOT_POWERON
-ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/a325fc17aa41e2825aceafcbb6b5e13e/AndroidManifest.xml:42:13-47:29
+ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:42:13-47:29
 action#com.htc.intent.action.QUICKBOOT_POWERON
-ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/a325fc17aa41e2825aceafcbb6b5e13e/AndroidManifest.xml:45:17-82
+ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:45:17-82
 	android:name
-		ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/a325fc17aa41e2825aceafcbb6b5e13e/AndroidManifest.xml:45:25-79
+		ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:45:25-79
 action#android.intent.action.MY_PACKAGE_REPLACED
-ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/a325fc17aa41e2825aceafcbb6b5e13e/AndroidManifest.xml:46:17-84
+ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:46:17-84
 	android:name
-		ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/a325fc17aa41e2825aceafcbb6b5e13e/AndroidManifest.xml:46:25-81
+		ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:46:25-81
 service#com.evernote.android.job.gcm.PlatformGcmService
-ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/a325fc17aa41e2825aceafcbb6b5e13e/AndroidManifest.xml:50:9-58:19
+ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:50:9-58:19
 	android:enabled
-		ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/a325fc17aa41e2825aceafcbb6b5e13e/AndroidManifest.xml:52:13-36
+		ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:52:13-36
 	android:exported
-		ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/a325fc17aa41e2825aceafcbb6b5e13e/AndroidManifest.xml:53:13-36
+		ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:53:13-36
 	android:permission
-		ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/a325fc17aa41e2825aceafcbb6b5e13e/AndroidManifest.xml:54:13-93
+		ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:54:13-93
 	android:name
-		ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/a325fc17aa41e2825aceafcbb6b5e13e/AndroidManifest.xml:51:13-75
+		ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:51:13-75
 intent-filter#action:name:com.google.android.gms.gcm.ACTION_TASK_READY
-ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/a325fc17aa41e2825aceafcbb6b5e13e/AndroidManifest.xml:55:13-57:29
+ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:55:13-57:29
 action#com.google.android.gms.gcm.ACTION_TASK_READY
-ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/a325fc17aa41e2825aceafcbb6b5e13e/AndroidManifest.xml:56:17-87
+ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:56:17-87
 	android:name
-		ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/a325fc17aa41e2825aceafcbb6b5e13e/AndroidManifest.xml:56:25-84
+		ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:56:25-84
 service#com.evernote.android.job.JobRescheduleService
-ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/a325fc17aa41e2825aceafcbb6b5e13e/AndroidManifest.xml:59:9-62:72
+ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:59:9-62:72
 	android:exported
-		ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/a325fc17aa41e2825aceafcbb6b5e13e/AndroidManifest.xml:61:13-37
+		ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:61:13-37
 	android:permission
-		ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/a325fc17aa41e2825aceafcbb6b5e13e/AndroidManifest.xml:62:13-69
+		ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:62:13-69
 	android:name
-		ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/a325fc17aa41e2825aceafcbb6b5e13e/AndroidManifest.xml:60:13-73
+		ADDED from [com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:60:13-73

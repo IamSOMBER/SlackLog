@@ -4,7 +4,7 @@
             "outputFile": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "/home/mirko/.gradle/caches/transforms-2/files-2.1/f8b8ee57aea1ba3754022f4921765cca/res/values-watch-v20/values-watch-v20.xml",
+                    "source": "/home/mirko/.gradle/caches/transforms-2/files-2.1/f5bdf8930f5b0dade80802408310dda6/appcompat-1.1.0/res/values-watch-v20/values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",

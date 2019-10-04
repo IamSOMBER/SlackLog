@@ -48,7 +48,8 @@ public class MainActivity extends AppCompatActivity {
     private Editor editor;
     private Toast mToast;
     private ActionBarDrawerToggle mDrawerToggle;
-    public static final String USER_AGENT = "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:44.0) Gecko/20100101 Firefox/44.0";
+    public static final String USER_AGENT = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) " +
+            "Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.66";
     private final String EXECUTE_UPDATE = "auto_update_flag";
     private ChangelogBroadcastReceiver changelogBroadcastReceiver;
     private MultilibBroadcastReceiver multilibBroadcastReceiver;

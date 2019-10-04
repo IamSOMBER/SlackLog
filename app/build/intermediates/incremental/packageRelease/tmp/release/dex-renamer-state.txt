@@ -1,4 +1,0 @@
-#Tue May 21 15:15:00 CEST 2019
-base.0=/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/dex/release/mergeDexRelease/out
-path.0=classes.dex
-renamed.0=classes.dex

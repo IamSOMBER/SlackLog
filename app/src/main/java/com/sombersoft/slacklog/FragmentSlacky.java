@@ -6,11 +6,6 @@ import android.graphics.Color;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import androidx.annotation.NonNull;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
-import androidx.fragment.app.Fragment;
-import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 import android.text.Html;
 import android.text.Spanned;
 import android.view.Gravity;
@@ -20,6 +15,13 @@ import android.view.ViewGroup;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+
+import androidx.annotation.NonNull;
+import androidx.fragment.app.Fragment;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
+
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.android.material.snackbar.Snackbar;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -31,7 +33,6 @@ import java.net.URL;
 import java.util.ArrayList;
 
 public class FragmentSlacky extends Fragment {
-
     private static File newsFile;
     private static TextView tvNews;
     private static SwipeRefreshLayout swipeRefreshLayout;
@@ -44,13 +45,11 @@ public class FragmentSlacky extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-
         view = inflater.inflate(R.layout.activity_fragment_slacky,
                 container, false);
         mContext = view.getContext();
         bar = view.findViewById(R.id.progressBar);
         File rootDir = new File(mContext.getFilesDir(), "SlackLog");
-
         if (!rootDir.exists())
             rootDir.mkdir();
 
@@ -68,7 +67,6 @@ public class FragmentSlacky extends Fragment {
         fabSlacky.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
                 Intent openSite = new Intent(Intent.ACTION_VIEW, Uri.parse(SLACKYSITE_URL));
                 if (ConnectionClass.isConnected(mContext))
                     startActivity(openSite);
@@ -91,7 +89,6 @@ public class FragmentSlacky extends Fragment {
     public static void updateFile(boolean setProgressBar) {
         if (setProgressBar)
             bar.setVisibility(View.VISIBLE);
-
         DownloadSlacky slackyDownload = new DownloadSlacky();
         slackyDownload.execute();
     }
@@ -125,31 +122,23 @@ public class FragmentSlacky extends Fragment {
     /*
      * SlackyNews downloading async class
      */
-    public static class DownloadSlacky extends
-            AsyncTask<Void, Void, ArrayList<String>> {
+    public static class DownloadSlacky extends AsyncTask<Void, Void, ArrayList<String>> {
         @Override
         protected ArrayList<String> doInBackground(Void... params) {
             ArrayList<String> array = new ArrayList<>();
-
             if (ConnectionClass.isConnected(MainActivity.mContext)) {
                 String line;
                 int numNews = 0;
                 try {
                     URL url = new URL(SLACKYSITE_URL);
-                    HttpURLConnection conn = (HttpURLConnection) url
-                            .openConnection();
+                    HttpURLConnection conn = (HttpURLConnection) url.openConnection();
                     conn.setConnectTimeout(15 * 1000);
                     conn.setReadTimeout(20 * 1000);
-
-                    // Set the string sent in the User-Agent request header in http
-                    // requests
+                    // Set the string sent in the User-Agent request header in http requests
                     conn.setRequestProperty("User-Agent", MainActivity.USER_AGENT);
-
                     int rCode = conn.getResponseCode();
-
                     if (rCode == HttpURLConnection.HTTP_OK) {
-                        BufferedReader br = new BufferedReader(
-                                new InputStreamReader(conn.getInputStream()));
+                        BufferedReader br = new BufferedReader(new InputStreamReader(conn.getInputStream()));
                         while ((line = br.readLine()) != null) {
                             if (isCancelled())
                                 break;
@@ -160,7 +149,6 @@ public class FragmentSlacky extends Fragment {
                                         break;
                                     if (line.startsWith("</pre>"))
                                         numNews++;
-
                                     array.add(line);
                                 }
                             }
@@ -178,7 +166,6 @@ public class FragmentSlacky extends Fragment {
         protected void onPostExecute(ArrayList<String> a) {
             swipeRefreshLayout.setRefreshing(false);
             bar.setVisibility(View.GONE);
-
             if (a != null && !a.isEmpty()) {
                 MainActivity.makeFile(a, MainActivity.newsFileSlacky);
             }

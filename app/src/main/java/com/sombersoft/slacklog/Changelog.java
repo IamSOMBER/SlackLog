@@ -77,68 +77,52 @@ public class Changelog extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         setContentView(R.layout.activity_changelog);
 
         mContext = this;
         bar = findViewById(R.id.progressBar);
         mainLayout = findViewById(R.id.mainLayout);
-
         // version preference will be stored with SharedPreferences class
         slackPreferences = getSharedPreferences(PREF, MODE_PRIVATE);
         editor = slackPreferences.edit();
-
         rootDir = new File(getFilesDir(), "SlackLog");
-
         // Initialize preferences with default values contained in xml folder
         PreferenceManager.setDefaultValues(this, R.xml.settings, false);
-
         viewPager = findViewById(R.id.pager);
         adapter = new ChangelogFragmentAdapter(getSupportFragmentManager());
         viewPager.setAdapter(adapter);
-
         textViewBranch = findViewById(R.id.tvMirror);
         textViewBranch.setShadowLayer(2, 0, 0, Color.BLACK);
-
         // create/restore version branch textview
         if (viewPager.getCurrentItem() == 0) {
             textViewBranch.setText(slackPreferences.getString(BRANCH_64BIT,
                     getString(R.string.branch) + " CURRENT"));
-
         } else if (viewPager.getCurrentItem() == 1) {
             textViewBranch.setText(slackPreferences.getString(BRANCH_32BIT,
                     getString(R.string.branch) + " CURRENT"));
-
         } else {
             textViewBranch.setText(MIRROR_ARM);
         }
-
         // Set up the action bar.
         Toolbar toolbar = findViewById(R.id.toolbar);
         toolbar.setTitle("");
         toolbar.setNavigationIcon(R.drawable.ic_launcher);
         setSupportActionBar(toolbar);
-
         // copy of the String LAST_UPDATE, in case trying to retrieve on line
         // date would fail
         // and LAST_UPDATE would be overwritten with bugged value
         copyLastUpdate64 = slackPreferences.getString(LAST_UPDATE_64BIT,
                 "never");
-
         copyLastUpdate32 = slackPreferences.getString(LAST_UPDATE_32BIT,
                 "never");
-
         Intent serviceIntent = new Intent(this,
                 ChangelogBroadcastReceiver.class);
         startService(serviceIntent);
-
         // Available type of version
         listVersion = new ArrayList<>();
         listVersion = Arrays.asList("CURRENT", "STABLE");
-
         // AlertDialog needs of array CharSequence for elements list
         CharSequence[] versionList = (CharSequence[]) listVersion.toArray();
-
         // Version selection dialog window
         alertMirror = new AlertDialog.Builder(this);
         alertMirror.setTitle(getString(R.string.branch_version));
@@ -147,15 +131,11 @@ public class Changelog extends AppCompatActivity {
 
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-
                         version = listVersion.get(which);
-
                         if (tabLayout.getSelectedTabPosition() == 0) {
-
                             editor.putString(VERSION_PREF64, version);
                             editor.putString(BRANCH_64BIT, getString(R.string.branch)
                                     + version);
-
                             textViewBranch.setText(new StringBuilder().append(getString(R.string.branch))
                                     .append(version).toString());
 
@@ -187,7 +167,6 @@ public class Changelog extends AppCompatActivity {
                                 update(true, null);
                             }
                         }
-
                         dialog.dismiss();
                     }
                 });
@@ -197,21 +176,16 @@ public class Changelog extends AppCompatActivity {
         tabLayout.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
             public void onTabSelected(TabLayout.Tab tab) {
-
                 viewPager.setCurrentItem(tab.getPosition());
-
-                switch (tab.getPosition()) {
-                    case (0):
+                switch (tab.getPosition()) {                    case (0):
                         branch = slackPreferences.getString(BRANCH_64BIT,
                                 getString(R.string.branch) + " CURRENT");
-
                         textViewBranch.setText(branch);
                         break;
 
                     case (1):
                         branch = slackPreferences.getString(BRANCH_32BIT,
                                 getString(R.string.branch) + " CURRENT");
-
                         textViewBranch.setText(branch);
                         break;
 
@@ -233,7 +207,6 @@ public class Changelog extends AppCompatActivity {
         // check if the class call comes from the background service, if true
         // run update function immediately
         if (slackPreferences.getBoolean(UPDATE_COMMAND, false)) {
-
             update(true, null);
         }
     }
@@ -241,13 +214,10 @@ public class Changelog extends AppCompatActivity {
     @Override
     protected void onPause() {
         super.onPause();
-
         editor.putInt(STATE_SELECTED_NAVIGATION_ITEM, viewPager.getCurrentItem());
         editor.apply();
-
         if (bar.isShown())
             bar.setVisibility(View.GONE);
-
         if (download != null && download.getStatus() == AsyncTask.Status.RUNNING)
             download.cancel(true);
     }
@@ -255,13 +225,10 @@ public class Changelog extends AppCompatActivity {
     @Override
     protected void onStop() {
         super.onStop();
-
         editor.putInt(STATE_SELECTED_NAVIGATION_ITEM, viewPager.getCurrentItem());
         editor.apply();
-
         if (bar.isShown())
             bar.setVisibility(View.GONE);
-
         if (download != null && download.getStatus() == AsyncTask.Status.RUNNING)
             download.cancel(true);
     }
@@ -269,7 +236,6 @@ public class Changelog extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
-
         viewPager.setCurrentItem(slackPreferences.getInt(
                 STATE_SELECTED_NAVIGATION_ITEM, 0));
     }
@@ -284,27 +250,20 @@ public class Changelog extends AppCompatActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-
         // Inflate the menu; this adds items to the action bar if it is present.
         MenuInflater mInfl = getMenuInflater();
         mInfl.inflate(R.menu.ab_mirror, menu);
-
         return true;
     }
 
     public boolean onOptionsItemSelected(MenuItem item) {
-
         switch (item.getItemId()) {
-
             case (R.id.abMirror):
-
                 AlertDialog alert = alertMirror.create();
                 alert.show();
-
                 return true;
 
             case (android.R.id.home):
-
                 NavUtils.navigateUpFromSameTask(this);
 
             default:
@@ -316,11 +275,9 @@ public class Changelog extends AppCompatActivity {
      * store the last date update
      */
     public static void setDateFile(String date, String bit) {
-
         if (bit.equals("64")) {
             editor.putString(LAST_UPDATE_64BIT, date);
             editor.apply();
-
         } else {
             editor.putString(LAST_UPDATE_32BIT, date);
             editor.apply();
@@ -328,26 +285,18 @@ public class Changelog extends AppCompatActivity {
     }
 
     public static void update(boolean showBar, SwipeRefreshLayout swipeRefreshLayout) {
-
         if (ConnectionClass.isConnected(mContext)) {
-
             int tab;
-
             if (slackPreferences.getBoolean(UPDATE_COMMAND, false)) {
-
                 editor.putBoolean(UPDATE_COMMAND, false);
                 editor.apply();
-
                 tab = slackPreferences.getInt(STATE_SELECTED_NAVIGATION_ITEM, 0);
             } else
                 tab = viewPager.getCurrentItem();
-
             String suffix;
             download = new DownloadLog(swipeRefreshLayout);
-
             if (showBar)
                 bar.setVisibility(View.VISIBLE);
-
             switch (tab) {
                 case (0):
                     // determine which version of 32/64bit you want to download whether if CURRENT or STABLE
@@ -358,16 +307,13 @@ public class Changelog extends AppCompatActivity {
 
                     download.execute((MIRROR + "slackware64" + suffix), "Changelog64Bit.txt");
                     break;
-
                 case (1):
                     if (slackPreferences.getString(VERSION_PREF32, "CURRENT").equals("STABLE"))
                         suffix = "-14.2/";
                     else
                         suffix = "-current/";
-
                     download.execute((MIRROR + "slackware" + suffix), "Changelog32Bit.txt");
                     break;
-
                 case (2):
                     download.execute(MIRROR_ARM, "ChangelogARM.txt");
                     break;
@@ -375,7 +321,6 @@ public class Changelog extends AppCompatActivity {
         } else {
             Snackbar.make(mainLayout, mContext.getString(R.string.no_conn), Snackbar.LENGTH_SHORT)
                     .show();
-
             if (swipeRefreshLayout != null) /* if update is called from ChangelogService, but connection is no more available
                                                 we'll get NullPointerException without this check
                                             */
@@ -387,7 +332,6 @@ public class Changelog extends AppCompatActivity {
      * download async class
      */
     private static class DownloadLog extends AsyncTask<String, Void, String> {
-
         private String vers = null;
         private String pathFileLog;
         private File file;
@@ -399,7 +343,6 @@ public class Changelog extends AppCompatActivity {
 
         @Override
         protected String doInBackground(String... params) {
-
             String result = null;
             boolean errorGettingChangelog = false;
             URL url;
@@ -407,11 +350,9 @@ public class Changelog extends AppCompatActivity {
             String mainAddress = params[0];
             pathFileLog = params[1];
             String riga;
-
             // download the log file
             try {
                 urlFile = new URL(mainAddress + "ChangeLog.txt");
-
                 HttpURLConnection conn = (HttpURLConnection) urlFile
                         .openConnection();
                 conn.setConnectTimeout(15 * 1000);
@@ -419,14 +360,12 @@ public class Changelog extends AppCompatActivity {
                 // Set the string sent in the User-Agent request header in http
                 // requests
                 conn.setRequestProperty("User-Agent", MainActivity.USER_AGENT);
-
                 if (conn.getResponseCode() == HttpURLConnection.HTTP_OK) {
                     InputStream is = conn.getInputStream();
                     file = new File(rootDir, pathFileLog);
                     FileOutputStream fos = new FileOutputStream(file);
                     byte[] b = new byte[8 * 1024];
                     int i;
-
                     while ((i = is.read(b)) != -1 && !isCancelled()) {
                         fos.write(b, 0, i);
                     }
@@ -434,7 +373,6 @@ public class Changelog extends AppCompatActivity {
                     // should
                     // ensure that any buffered data is written out
                     fos.flush();
-
                     // Closes this stream. Concrete implementations of this
                     // class
                     // should free any resources during close
@@ -447,21 +385,18 @@ public class Changelog extends AppCompatActivity {
 
             // if file changelog is downloaded CORRECTLY retrieve the date
             if (!errorGettingChangelog) {
-
                 // If check doesn't involve ARM arch, which doesn't have
                 // background check available,
                 // take the on line date and store it on file
                 if (!pathFileLog.equalsIgnoreCase(MIRROR_ARM)) {
                     BufferedReader br = null;
                     // get the date file from Internet
-
                     try {
                         url = new URL(mainAddress);
                         if (mainAddress.contains("64"))
                             vers = "64";
                         else
                             vers = "32";
-
                         HttpURLConnection conn = (HttpURLConnection) url
                                 .openConnection();
                         conn.setConnectTimeout(15 * 1000);
@@ -469,10 +404,8 @@ public class Changelog extends AppCompatActivity {
                         // Set the string sent in the User-Agent request header
                         // in http requests
                         conn.setRequestProperty("User-Agent", MainActivity.USER_AGENT);
-
                         if (conn.getResponseCode() == HttpURLConnection.HTTP_OK) {
                             br = new BufferedReader(new InputStreamReader(conn.getInputStream()));
-
                             while ((riga = br.readLine()) != null
                                     && !isCancelled()) {
                                 if (riga.contains("<a href=\"ChangeLog.txt\">ChangeLog.txt</a>")) {
@@ -480,10 +413,8 @@ public class Changelog extends AppCompatActivity {
                                     break;
                                 }
                             }
-
                             br.close();
                         }
-
                     } catch (IOException e) {
                         if (vers.equals("64"))
                             result = copyLastUpdate64;
@@ -499,7 +430,6 @@ public class Changelog extends AppCompatActivity {
                                 mContext.getString(R.string.error),
                                 Toast.LENGTH_LONG).show();
                         siobe.printStackTrace();
-
                         if (vers.equals("64"))
                             result = copyLastUpdate64;
                         else
@@ -523,7 +453,6 @@ public class Changelog extends AppCompatActivity {
             super.onCancelled();
             if (swipeRefreshLayout != null)
                 swipeRefreshLayout.setRefreshing(false);
-
             bar.setVisibility(View.GONE);
         }
 
@@ -532,7 +461,6 @@ public class Changelog extends AppCompatActivity {
             if (swipeRefreshLayout != null)
                 swipeRefreshLayout.setRefreshing(false);
             bar.setVisibility(View.GONE);
-
             if (date != null && vers != null) {
                 setDateFile(date, vers);
                 adapter.notifyDataSetChanged();

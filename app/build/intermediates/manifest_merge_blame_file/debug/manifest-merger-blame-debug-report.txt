@@ -5,30 +5,30 @@
 5    android:versionName="2.1.31" >
 6
 7    <uses-sdk
-8        android:minSdkVersion="21"
+8        android:minSdkVersion="23"
 8-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="29" />
 9-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml
 10
-11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-11-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:6:5-79
-11-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:6:22-76
-12    <uses-permission android:name="android.permission.INTERNET" />
-12-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:7:5-67
-12-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:7:22-64
-13    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-13-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:8:5-81
-13-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:8:22-78
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:6:5-67
+11-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+12-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:7:5-81
+12-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:7:22-78
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:8:5-79
+13-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:8:22-76
 14    <uses-permission android:name="android.permission.WAKE_LOCK" />
-14-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/2bc3dfbe010f2c0c119871de3ef9dff3/jetified-android-job-1.2.5/AndroidManifest.xml:12:5-68
-14-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/2bc3dfbe010f2c0c119871de3ef9dff3/jetified-android-job-1.2.5/AndroidManifest.xml:12:22-65
+14-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:12:5-68
+14-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:12:22-65
 15
 16    <application
 16-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:10:5-105:19
 17        android:allowBackup="true"
 17-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:11:9-35
 18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-18-->[androidx.core:core:1.0.1] /home/mirko/.gradle/caches/transforms-2/files-2.1/72b2b92ec4ab73ff21fb9bc348de3b22/core-1.0.1/AndroidManifest.xml:22:18-86
+18-->[androidx.core:core:1.1.0] /home/mirko/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/AndroidManifest.xml:24:18-86
 19        android:debuggable="true"
 20        android:icon="@drawable/ic_launcher"
 20-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:12:9-45
@@ -36,265 +36,261 @@
 21-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:13:9-41
 22        android:supportsRtl="true"
 22-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:14:9-35
-23        android:theme="@style/AppBaseTheme" >
-23-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:15:9-44
-24        <service
-24-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:17:9-19:72
-25            android:name="com.sombersoft.slacklog.ChangelogService"
-25-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:18:13-68
-26            android:permission="android.permission.BIND_JOB_SERVICE" />
-26-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:19:13-69
-27        <service
-27-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:20:9-22:72
-28            android:name="com.sombersoft.slacklog.MultilibService"
-28-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:21:13-67
-29            android:permission="android.permission.BIND_JOB_SERVICE" />
-29-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:22:13-69
-30
-31        <receiver
-31-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:24:9-35:20
-32            android:name="com.sombersoft.slacklog.ChangelogBroadcastReceiver"
-32-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:25:13-78
-33            android:enabled="true"
-33-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:26:13-35
-34            android:exported="true" >
-34-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:27:13-36
-35            <intent-filter>
-35-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:28:13-34:29
-36                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
-36-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:29:17-79
-36-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:29:25-76
-37                <action android:name="android.intent.action.BOOT_COMPLETED" />
-37-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:30:17-79
-37-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:30:25-76
-38                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
-38-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:31:17-82
-38-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:31:25-79
-39
-40                <category android:name="android.intent.category.DEFAULT" />
-40-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:33:17-76
-40-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:33:27-73
-41            </intent-filter>
-42        </receiver>
-43        <receiver
-43-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:36:9-47:20
-44            android:name="com.sombersoft.slacklog.MultilibBroadcastReceiver"
-44-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:37:13-77
-45            android:enabled="true"
-45-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:38:13-35
-46            android:exported="true" >
-46-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:39:13-36
-47            <intent-filter>
-47-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:28:13-34:29
-48                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
-48-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:29:17-79
-48-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:29:25-76
-49                <action android:name="android.intent.action.BOOT_COMPLETED" />
-49-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:30:17-79
-49-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:30:25-76
-50                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
-50-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:31:17-82
-50-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:31:25-79
-51
-52                <category android:name="android.intent.category.DEFAULT" />
-52-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:33:17-76
-52-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:33:27-73
-53            </intent-filter>
-54        </receiver>
-55
-56        <activity
-56-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:49:9-59:20
-57            android:name="com.sombersoft.slacklog.MainActivity"
-57-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:50:13-64
-58            android:label="@string/app_name"
-58-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:51:13-45
+23        android:testOnly="true"
+24        android:theme="@style/AppBaseTheme"
+24-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:15:9-44
+25        android:usesCleartextTraffic="true" >
+25-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:16:9-44
+26        <activity
+26-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:18:9-27:20
+27            android:name="com.sombersoft.slacklog.MainActivity"
+27-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:19:13-64
+28            android:label="@string/app_name"
+28-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:20:13-45
+29            android:screenOrientation="portrait" >
+29-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:21:13-49
+30            <intent-filter>
+30-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:23:13-26:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:24:17-69
+31-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:24:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:25:17-77
+33-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:25:27-74
+34            </intent-filter>
+35        </activity>
+36        <activity
+36-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:28:9-37:20
+37            android:name="com.sombersoft.slacklog.Changelog"
+37-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:29:13-61
+38            android:label="@string/changelog"
+38-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:30:13-46
+39            android:parentActivityName="com.sombersoft.slacklog.MainActivity" >
+39-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:31:13-78
+40
+41            <!-- Parent activity meta-data to support API level 7+ -->
+42            <meta-data
+42-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:34:13-36:72
+43                android:name="android.support.PARENT_ACTIVITY"
+43-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:35:17-63
+44                android:value="com.sombersoft.slacklog.MainActivity" />
+44-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:36:17-69
+45        </activity>
+46        <activity
+46-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:39:9-47:20
+47            android:name="com.sombersoft.slacklog.Multilib"
+47-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:40:13-60
+48            android:label="@string/title_activity_multilib"
+48-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:41:13-60
+49            android:parentActivityName="com.sombersoft.slacklog.MainActivity"
+49-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:42:13-78
+50            android:screenOrientation="portrait" >
+50-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:43:13-49
+51            <meta-data
+51-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:34:13-36:72
+52                android:name="android.support.PARENT_ACTIVITY"
+52-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:35:17-63
+53                android:value="com.sombersoft.slacklog.MainActivity" />
+53-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:36:17-69
+54        </activity>
+55        <activity
+55-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:48:9-56:20
+56            android:name="com.sombersoft.slacklog.Kernel"
+56-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:49:13-58
+57            android:label="@string/title_activity_kernel"
+57-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:50:13-58
+58            android:parentActivityName="com.sombersoft.slacklog.MainActivity"
+58-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:51:13-78
 59            android:screenOrientation="portrait" >
 59-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:52:13-49
-60            <intent-filter>
-60-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:54:13-58:29
-61                <action android:name="android.intent.action.MAIN" />
-61-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:55:17-69
-61-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:55:25-66
-62
-63                <category android:name="android.intent.category.LAUNCHER" />
-63-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:57:17-77
-63-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:57:27-74
-64            </intent-filter>
-65        </activity>
-66        <activity
-66-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:60:9-69:20
-67            android:name="com.sombersoft.slacklog.Changelog"
-67-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:61:13-61
-68            android:label="@string/changelog"
-68-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:62:13-46
-69            android:parentActivityName="com.sombersoft.slacklog.MainActivity" >
-69-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:63:13-78
-70
-71            <!-- Parent activity meta-data to support API level 7+ -->
-72            <meta-data
-72-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:66:13-68:72
-73                android:name="android.support.PARENT_ACTIVITY"
-73-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:67:17-63
-74                android:value="com.sombersoft.slacklog.MainActivity" />
-74-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:68:17-69
-75        </activity>
-76        <activity
-76-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:70:9-78:20
-77            android:name="com.sombersoft.slacklog.Multilib"
-77-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:71:13-60
-78            android:label="@string/title_activity_multilib"
-78-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:72:13-60
-79            android:parentActivityName="com.sombersoft.slacklog.MainActivity"
-79-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:73:13-78
-80            android:screenOrientation="portrait" >
-80-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:74:13-49
-81            <meta-data
-81-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:66:13-68:72
-82                android:name="android.support.PARENT_ACTIVITY"
-82-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:67:17-63
-83                android:value="com.sombersoft.slacklog.MainActivity" />
-83-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:68:17-69
-84        </activity>
-85        <activity
-85-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:79:9-87:20
-86            android:name="com.sombersoft.slacklog.Kernel"
-86-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:80:13-58
-87            android:label="@string/title_activity_kernel"
-87-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:81:13-58
-88            android:parentActivityName="com.sombersoft.slacklog.MainActivity"
-88-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:82:13-78
-89            android:screenOrientation="portrait" >
-89-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:83:13-49
-90            <meta-data
-90-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:66:13-68:72
-91                android:name="android.support.PARENT_ACTIVITY"
-91-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:67:17-63
-92                android:value="com.sombersoft.slacklog.MainActivity" />
-92-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:68:17-69
-93        </activity>
-94        <activity
-94-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:88:9-96:20
-95            android:name="com.sombersoft.slacklog.Forum"
-95-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:89:13-57
-96            android:configChanges="orientation|screenSize"
-96-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:90:13-59
-97            android:label="@string/title_activity_forum"
-97-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:91:13-57
-98            android:parentActivityName="com.sombersoft.slacklog.MainActivity" >
-98-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:92:13-78
-99            <meta-data
-99-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:66:13-68:72
-100                android:name="android.support.PARENT_ACTIVITY"
-100-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:67:17-63
-101                android:value="com.sombersoft.slacklog.MainActivity" />
-101-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:68:17-69
-102        </activity>
-103        <activity android:name="com.sombersoft.slacklog.SettingsActivity" />
-103-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:97:9-54
-103-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:97:19-51
-104        <activity
-104-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:98:9-104:20
-105            android:name="com.sombersoft.slacklog.ForumLQ"
-105-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:99:13-59
-106            android:label="@string/title_activity_forum_lq" >
-106-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:100:13-60
-107            <meta-data
-107-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:66:13-68:72
-108                android:name="android.support.PARENT_ACTIVITY"
-108-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:67:17-63
-109                android:value="com.sombersoft.slacklog.MainActivity" />
-109-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:68:17-69
-110        </activity>
-111
-112        <service
-112-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/2bc3dfbe010f2c0c119871de3ef9dff3/jetified-android-job-1.2.5/AndroidManifest.xml:17:9-20:72
-113            android:name="com.evernote.android.job.v21.PlatformJobService"
-113-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/2bc3dfbe010f2c0c119871de3ef9dff3/jetified-android-job-1.2.5/AndroidManifest.xml:18:13-75
-114            android:exported="false"
-114-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/2bc3dfbe010f2c0c119871de3ef9dff3/jetified-android-job-1.2.5/AndroidManifest.xml:19:13-37
-115            android:permission="android.permission.BIND_JOB_SERVICE" />
-115-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/2bc3dfbe010f2c0c119871de3ef9dff3/jetified-android-job-1.2.5/AndroidManifest.xml:20:13-69
-116        <service
-116-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/2bc3dfbe010f2c0c119871de3ef9dff3/jetified-android-job-1.2.5/AndroidManifest.xml:21:9-24:72
-117            android:name="com.evernote.android.job.v14.PlatformAlarmService"
-117-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/2bc3dfbe010f2c0c119871de3ef9dff3/jetified-android-job-1.2.5/AndroidManifest.xml:22:13-77
-118            android:exported="false"
-118-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/2bc3dfbe010f2c0c119871de3ef9dff3/jetified-android-job-1.2.5/AndroidManifest.xml:23:13-37
-119            android:permission="android.permission.BIND_JOB_SERVICE" />
-119-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/2bc3dfbe010f2c0c119871de3ef9dff3/jetified-android-job-1.2.5/AndroidManifest.xml:24:13-69
-120        <service
-120-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/2bc3dfbe010f2c0c119871de3ef9dff3/jetified-android-job-1.2.5/AndroidManifest.xml:25:9-27:40
-121            android:name="com.evernote.android.job.v14.PlatformAlarmServiceExact"
-121-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/2bc3dfbe010f2c0c119871de3ef9dff3/jetified-android-job-1.2.5/AndroidManifest.xml:26:13-82
-122            android:exported="false" />
-122-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/2bc3dfbe010f2c0c119871de3ef9dff3/jetified-android-job-1.2.5/AndroidManifest.xml:27:13-37
-123
-124        <receiver
-124-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/2bc3dfbe010f2c0c119871de3ef9dff3/jetified-android-job-1.2.5/AndroidManifest.xml:29:9-38:20
-125            android:name="com.evernote.android.job.v14.PlatformAlarmReceiver"
-125-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/2bc3dfbe010f2c0c119871de3ef9dff3/jetified-android-job-1.2.5/AndroidManifest.xml:30:13-78
-126            android:exported="false" >
-126-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/2bc3dfbe010f2c0c119871de3ef9dff3/jetified-android-job-1.2.5/AndroidManifest.xml:31:13-37
-127            <intent-filter>
-127-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/2bc3dfbe010f2c0c119871de3ef9dff3/jetified-android-job-1.2.5/AndroidManifest.xml:32:13-37:29
-128
-129                <!-- Keep the filter for legacy intents -->
-130                <action android:name="com.evernote.android.job.v14.RUN_JOB" />
-130-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/2bc3dfbe010f2c0c119871de3ef9dff3/jetified-android-job-1.2.5/AndroidManifest.xml:35:17-79
-130-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/2bc3dfbe010f2c0c119871de3ef9dff3/jetified-android-job-1.2.5/AndroidManifest.xml:35:25-76
-131                <action android:name="net.vrallev.android.job.v14.RUN_JOB" />
-131-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/2bc3dfbe010f2c0c119871de3ef9dff3/jetified-android-job-1.2.5/AndroidManifest.xml:36:17-78
-131-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/2bc3dfbe010f2c0c119871de3ef9dff3/jetified-android-job-1.2.5/AndroidManifest.xml:36:25-75
-132            </intent-filter>
-133        </receiver>
-134        <receiver
-134-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/2bc3dfbe010f2c0c119871de3ef9dff3/jetified-android-job-1.2.5/AndroidManifest.xml:39:9-48:20
-135            android:name="com.evernote.android.job.JobBootReceiver"
-135-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/2bc3dfbe010f2c0c119871de3ef9dff3/jetified-android-job-1.2.5/AndroidManifest.xml:40:13-68
-136            android:exported="false" >
-136-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/2bc3dfbe010f2c0c119871de3ef9dff3/jetified-android-job-1.2.5/AndroidManifest.xml:41:13-37
-137            <intent-filter>
-137-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/2bc3dfbe010f2c0c119871de3ef9dff3/jetified-android-job-1.2.5/AndroidManifest.xml:42:13-47:29
-138                <action android:name="android.intent.action.BOOT_COMPLETED" />
-138-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:30:17-79
-138-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:30:25-76
-139                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
-139-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:31:17-82
-139-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:31:25-79
-140                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
-140-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/2bc3dfbe010f2c0c119871de3ef9dff3/jetified-android-job-1.2.5/AndroidManifest.xml:45:17-82
-140-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/2bc3dfbe010f2c0c119871de3ef9dff3/jetified-android-job-1.2.5/AndroidManifest.xml:45:25-79
-141                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
-141-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/2bc3dfbe010f2c0c119871de3ef9dff3/jetified-android-job-1.2.5/AndroidManifest.xml:46:17-84
-141-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/2bc3dfbe010f2c0c119871de3ef9dff3/jetified-android-job-1.2.5/AndroidManifest.xml:46:25-81
-142            </intent-filter>
-143        </receiver>
-144
-145        <service
-145-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/2bc3dfbe010f2c0c119871de3ef9dff3/jetified-android-job-1.2.5/AndroidManifest.xml:50:9-58:19
-146            android:name="com.evernote.android.job.gcm.PlatformGcmService"
-146-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/2bc3dfbe010f2c0c119871de3ef9dff3/jetified-android-job-1.2.5/AndroidManifest.xml:51:13-75
-147            android:enabled="false"
-147-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/2bc3dfbe010f2c0c119871de3ef9dff3/jetified-android-job-1.2.5/AndroidManifest.xml:52:13-36
-148            android:exported="true"
-148-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/2bc3dfbe010f2c0c119871de3ef9dff3/jetified-android-job-1.2.5/AndroidManifest.xml:53:13-36
-149            android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE" >
-149-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/2bc3dfbe010f2c0c119871de3ef9dff3/jetified-android-job-1.2.5/AndroidManifest.xml:54:13-93
-150            <intent-filter>
-150-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/2bc3dfbe010f2c0c119871de3ef9dff3/jetified-android-job-1.2.5/AndroidManifest.xml:55:13-57:29
-151                <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY" />
-151-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/2bc3dfbe010f2c0c119871de3ef9dff3/jetified-android-job-1.2.5/AndroidManifest.xml:56:17-87
-151-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/2bc3dfbe010f2c0c119871de3ef9dff3/jetified-android-job-1.2.5/AndroidManifest.xml:56:25-84
-152            </intent-filter>
-153        </service>
-154        <service
-154-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/2bc3dfbe010f2c0c119871de3ef9dff3/jetified-android-job-1.2.5/AndroidManifest.xml:59:9-62:72
-155            android:name="com.evernote.android.job.JobRescheduleService"
-155-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/2bc3dfbe010f2c0c119871de3ef9dff3/jetified-android-job-1.2.5/AndroidManifest.xml:60:13-73
-156            android:exported="false"
-156-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/2bc3dfbe010f2c0c119871de3ef9dff3/jetified-android-job-1.2.5/AndroidManifest.xml:61:13-37
-157            android:permission="android.permission.BIND_JOB_SERVICE" />
-157-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/2bc3dfbe010f2c0c119871de3ef9dff3/jetified-android-job-1.2.5/AndroidManifest.xml:62:13-69
-158    </application>
-159
-160</manifest>
+60            <meta-data
+60-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:34:13-36:72
+61                android:name="android.support.PARENT_ACTIVITY"
+61-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:35:17-63
+62                android:value="com.sombersoft.slacklog.MainActivity" />
+62-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:36:17-69
+63        </activity>
+64        <activity
+64-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:58:9-66:20
+65            android:name="com.sombersoft.slacklog.Forum"
+65-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:59:13-57
+66            android:configChanges="orientation|screenSize"
+66-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:60:13-59
+67            android:label="@string/title_activity_forum"
+67-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:61:13-57
+68            android:parentActivityName="com.sombersoft.slacklog.MainActivity" >
+68-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:62:13-78
+69            <meta-data
+69-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:34:13-36:72
+70                android:name="android.support.PARENT_ACTIVITY"
+70-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:35:17-63
+71                android:value="com.sombersoft.slacklog.MainActivity" />
+71-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:36:17-69
+72        </activity>
+73        <activity android:name="com.sombersoft.slacklog.SettingsActivity" />
+73-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:67:9-54
+73-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:67:19-51
+74        <activity
+74-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:68:9-74:20
+75            android:name="com.sombersoft.slacklog.ForumLQ"
+75-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:69:13-59
+76            android:label="@string/title_activity_forum_lq" >
+76-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:70:13-60
+77            <meta-data
+77-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:34:13-36:72
+78                android:name="android.support.PARENT_ACTIVITY"
+78-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:35:17-63
+79                android:value="com.sombersoft.slacklog.MainActivity" />
+79-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:36:17-69
+80        </activity>
+81
+82        <receiver
+82-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:76:9-86:20
+83            android:name="com.sombersoft.slacklog.ChangelogBroadcastReceiver"
+83-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:77:13-78
+84            android:enabled="true"
+84-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:78:13-35
+85            android:exported="true" >
+85-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:79:13-36
+86            <intent-filter>
+86-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:80:13-85:29
+87                <action android:name="android.intent.action.BOOT_COMPLETED" />
+87-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:81:17-79
+87-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:81:25-76
+88                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+88-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:82:17-82
+88-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:82:25-79
+89
+90                <category android:name="android.intent.category.DEFAULT" />
+90-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:84:17-76
+90-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:84:27-73
+91            </intent-filter>
+92        </receiver>
+93        <receiver
+93-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:87:9-97:20
+94            android:name="com.sombersoft.slacklog.MultilibBroadcastReceiver"
+94-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:88:13-77
+95            android:enabled="true"
+95-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:89:13-35
+96            android:exported="true" >
+96-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:90:13-36
+97            <intent-filter>
+97-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:80:13-85:29
+98                <action android:name="android.intent.action.BOOT_COMPLETED" />
+98-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:81:17-79
+98-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:81:25-76
+99                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+99-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:82:17-82
+99-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:82:25-79
+100
+101                <category android:name="android.intent.category.DEFAULT" />
+101-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:84:17-76
+101-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:84:27-73
+102            </intent-filter>
+103        </receiver>
+104
+105        <service
+105-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:99:9-101:72
+106            android:name="com.sombersoft.slacklog.ChangelogService"
+106-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:100:13-68
+107            android:permission="android.permission.BIND_JOB_SERVICE" />
+107-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:101:13-69
+108        <service
+108-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:102:9-104:72
+109            android:name="com.sombersoft.slacklog.MultilibService"
+109-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:103:13-67
+110            android:permission="android.permission.BIND_JOB_SERVICE" />
+110-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:104:13-69
+111        <service
+111-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:17:9-20:72
+112            android:name="com.evernote.android.job.v21.PlatformJobService"
+112-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:18:13-75
+113            android:exported="false"
+113-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:19:13-37
+114            android:permission="android.permission.BIND_JOB_SERVICE" />
+114-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:20:13-69
+115        <service
+115-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:21:9-24:72
+116            android:name="com.evernote.android.job.v14.PlatformAlarmService"
+116-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:22:13-77
+117            android:exported="false"
+117-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:23:13-37
+118            android:permission="android.permission.BIND_JOB_SERVICE" />
+118-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:24:13-69
+119        <service
+119-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:25:9-27:40
+120            android:name="com.evernote.android.job.v14.PlatformAlarmServiceExact"
+120-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:26:13-82
+121            android:exported="false" />
+121-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:27:13-37
+122
+123        <receiver
+123-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:29:9-38:20
+124            android:name="com.evernote.android.job.v14.PlatformAlarmReceiver"
+124-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:30:13-78
+125            android:exported="false" >
+125-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:31:13-37
+126            <intent-filter>
+126-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:32:13-37:29
+127
+128                <!-- Keep the filter for legacy intents -->
+129                <action android:name="com.evernote.android.job.v14.RUN_JOB" />
+129-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:35:17-79
+129-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:35:25-76
+130                <action android:name="net.vrallev.android.job.v14.RUN_JOB" />
+130-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:36:17-78
+130-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:36:25-75
+131            </intent-filter>
+132        </receiver>
+133        <receiver
+133-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:39:9-48:20
+134            android:name="com.evernote.android.job.JobBootReceiver"
+134-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:40:13-68
+135            android:exported="false" >
+135-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:41:13-37
+136            <intent-filter>
+136-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:42:13-47:29
+137                <action android:name="android.intent.action.BOOT_COMPLETED" />
+137-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:81:17-79
+137-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:81:25-76
+138                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+138-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:82:17-82
+138-->/media/mirko/share/studio_workspace/Slacklog/app/src/main/AndroidManifest.xml:82:25-79
+139                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+139-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:45:17-82
+139-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:45:25-79
+140                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+140-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:46:17-84
+140-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:46:25-81
+141            </intent-filter>
+142        </receiver>
+143
+144        <service
+144-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:50:9-58:19
+145            android:name="com.evernote.android.job.gcm.PlatformGcmService"
+145-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:51:13-75
+146            android:enabled="false"
+146-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:52:13-36
+147            android:exported="true"
+147-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:53:13-36
+148            android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE" >
+148-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:54:13-93
+149            <intent-filter>
+149-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:55:13-57:29
+150                <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY" />
+150-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:56:17-87
+150-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:56:25-84
+151            </intent-filter>
+152        </service>
+153        <service
+153-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:59:9-62:72
+154            android:name="com.evernote.android.job.JobRescheduleService"
+154-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:60:13-73
+155            android:exported="false"
+155-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:61:13-37
+156            android:permission="android.permission.BIND_JOB_SERVICE" />
+156-->[com.evernote:android-job:1.2.5] /home/mirko/.gradle/caches/transforms-2/files-2.1/cf15751ecee8b37f7aaa140027121d7d/jetified-android-job-1.2.5/AndroidManifest.xml:62:13-69
+157    </application>
+158
+159</manifest>

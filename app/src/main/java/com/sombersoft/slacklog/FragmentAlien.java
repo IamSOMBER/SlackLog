@@ -6,13 +6,18 @@ import android.graphics.Color;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
+
 import androidx.annotation.NonNull;
+
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
+
 import androidx.fragment.app.Fragment;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
+
 import android.text.Html;
 import android.text.Spanned;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -135,32 +140,31 @@ public class FragmentAlien extends Fragment {
                 BufferedReader br;
                 try {
                     URL url = new URL("https://alien.slackbook.org/blog");
-                    HttpURLConnection conn = (HttpURLConnection) url
-                            .openConnection();
+                    HttpURLConnection conn = (HttpURLConnection) url.openConnection();
                     conn.setConnectTimeout(15 * 1000);
                     conn.setReadTimeout(20 * 1000);
-
                     // Set the string sent in the User-Agent request header in http
                     // requests
                     conn.setRequestProperty("User-Agent", MainActivity.USER_AGENT);
                     if (conn.getResponseCode() == HttpURLConnection.HTTP_OK) {
-                        br = new BufferedReader(new InputStreamReader(
-                                conn.getInputStream()));
+                        Log.d("ALIEN", "url response OK");
+                        br = new BufferedReader(new InputStreamReader(conn.getInputStream()));
                         while ((line = br.readLine()) != null) {
-                            if (line.contains("<div class=\"post\">")) {
-                                while ((line = br.readLine()) != null
-                                        && !line.contains("Next page</a></span>")) {
+                            if (line.contains("<article id=\"post-")) {
+                                while ((line = br.readLine()) != null && !line.contains("Post navigation")) {
                                     if (isCancelled())
                                         break;
-
-                                    if (!line.contains("<img class=\""))
-                                        array.add(line);
+                                    if (!line.contains("class=\"alignleft wp-image-") &&
+                                            !line.contains("alt=\"\" scrset=") &&
+                                            !line.contains("data-lazy-loaded=\"1\""))
+                                        array.add(line.replace("     ", ""));
                                 }
                             }
                         }
                         br.close();
                     }
                 } catch (IOException e) {
+                    Log.d("ALIEN", e.toString());
                     e.printStackTrace();
                 }
             }
@@ -172,8 +176,10 @@ public class FragmentAlien extends Fragment {
             swipeRefreshLayout.setRefreshing(false);
             bar.setVisibility(View.GONE);
             if (a != null && !a.isEmpty()) {
+                Log.d("ALIEN", "array not empty or null");
                 MainActivity.makeFile(a, MainActivity.newsFileAlien);
-            }
+            } else
+                Log.d("ALIEN", "array IS empty or null");
         }
 
         @Override

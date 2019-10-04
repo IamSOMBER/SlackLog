@@ -4,7 +4,7 @@
             "outputFile": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "/home/mirko/.gradle/caches/transforms-2/files-2.1/f8b8ee57aea1ba3754022f4921765cca/res/values-land/values-land.xml",
+                    "source": "/home/mirko/.gradle/caches/transforms-2/files-2.1/f5bdf8930f5b0dade80802408310dda6/appcompat-1.1.0/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/home/mirko/.gradle/caches/transforms-2/files-2.1/a42a28bbf76532ec054fcfdfefa6a1ba/res/values-land/values-land.xml",
+                    "source": "/home/mirko/.gradle/caches/transforms-2/files-2.1/9ee5da6fca20f6f07dce6c73fc4ca33a/material-1.0.0/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

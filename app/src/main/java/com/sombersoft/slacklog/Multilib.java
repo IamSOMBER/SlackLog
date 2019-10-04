@@ -4,17 +4,19 @@ import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import com.google.android.material.snackbar.Snackbar;
-import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-import androidx.appcompat.widget.Toolbar;
 import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
+
+import com.google.android.material.snackbar.Snackbar;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
@@ -34,22 +36,20 @@ public class Multilib extends AppCompatActivity {
     private File rootDir;
     private File fileMultilib;
     private final String PREF = "slackPref";
-    private String copyLastUpdate;
+    private static String copyLastUpdate;
     private SharedPreferences mPref;
     private static ProgressBar bar;
-    private Editor editor;
+    private static Editor editor;
     private final String UPDATE_COMMAND = "updateFlag_multilib";
-    private final String LAST_UPDATE = "lastMultilibUpdate";
+    private static final String LAST_UPDATE = "lastMultilibUpdate";
     private MultilibAdapter adapter;
-    private SwipeRefreshLayout swipeRefreshLayout;
+    private static SwipeRefreshLayout swipeRefreshLayout;
     private static RelativeLayout mainLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         setContentView(R.layout.activity_multilib);
-
         rootDir = new File(getFilesDir(), "SlackLog");
         Toolbar toolbar = findViewById(R.id.toolbar);
         toolbar.setTitle("");
@@ -84,10 +84,10 @@ public class Multilib extends AppCompatActivity {
             update(true);
         } else {
             if (fileMultilib.exists()) {
-                Log.d("MULTILIBLOG", "fileMultilib exists");
+                //Log.d("MULTILIBLOG", "fileMultilib exists");
                 view();
             } else {
-                Log.d("MULTILIBLOG", "fileMultilib DON'T exists");
+                //Log.d("MULTILIBLOG", "fileMultilib DON'T exists");
                 update(true);
             }
         }
@@ -109,18 +109,18 @@ public class Multilib extends AppCompatActivity {
         RecyclerView listView = findViewById(R.id.listView);
         listView.setHasFixedSize(true);
         listView.setLayoutManager(new LinearLayoutManager(this));
-
         FileReader fr;
         int cont = 0;
         String checkLine;
         if (fileMultilib.exists())
-            Log.d("MULTILIBLOG", "VIEW:fileMultilib exists");
+            //Log.d("MULTILIBLOG", "VIEW:fileMultilib exists");
         try {
             fr = new FileReader(fileMultilib);
             BufferedReader br = new BufferedReader(fr);
             while (br.ready() && cont < 5) {
                 checkLine = br.readLine();
-                if (!checkLine.contains("+----"))
+                //Log.d("MULTILIBLOG", "file contains: " + checkLine);
+                if (!checkLine.contains("+--------------------------+"))
                     array.add(checkLine);
                 else
                     cont++;
@@ -131,10 +131,10 @@ public class Multilib extends AppCompatActivity {
             e.printStackTrace();
         }
         if (array.size() == 0) {
-            Log.d("MULTILIBLOG", "array size 0");
+            //Log.d("MULTILIBLOG", "array size 0");
             array.add(getString(R.string.downswipe));
-        }else
-            Log.d("MULTILIBLOG", "array size NOT 0");
+        } else
+            //Log.d("MULTILIBLOG", "array size NOT 0");
         adapter = new MultilibAdapter(array);
         listView.setAdapter(adapter);
     }
@@ -146,7 +146,7 @@ public class Multilib extends AppCompatActivity {
     public void update(boolean showBar) {
         DownloadMultilib download = new DownloadMultilib();
         if (ConnectionClass.isConnected(getBaseContext())) {
-            Log.d("MULTILIBLOG", "internet connection OK");
+            //Log.d("MULTILIBLOG", "internet connection OK");
             if (showBar)
                 bar.setVisibility(View.VISIBLE);
             download.execute();
@@ -161,25 +161,28 @@ public class Multilib extends AppCompatActivity {
     /*
      * Downloading class
      */
-    public static class DownloadMultilib extends AsyncTask<Void, Void, Void> {
+    public class DownloadMultilib extends AsyncTask<Void, Void, Void> {
         @Override
         protected Void doInBackground(Void... params) {
-            final String UTL_MULTILIB = "http://www.slackware.com/~alien/multilib/";
+            final String UTL_MULTILIB = "http://www.slackware.com/~alien/multilib/ChangeLog.txt";
             boolean errorGettingChangelog = false;
             int responseCode;
 
             try {
-                URL url = new URL(UTL_MULTILIB + "ChangeLog.txt");
-                FileOutputStream fos = new FileOutputStream(fileMultilib);
+                URL url = new URL(UTL_MULTILIB);
+                //Log.d("MULTILIBLOG", "url: " + url.toString());
+                File rootDir = new File(getFilesDir(), "SlackLog");
+                File multilibFile = new File(rootDir, "multilib.txt");
+                //Log.d("MULTILIBLOG", "file Multilib: " + multilibFile.getAbsolutePath());
+                FileOutputStream fos = new FileOutputStream(multilibFile);
                 HttpURLConnection conn = (HttpURLConnection) url.openConnection();
-                conn.setRequestMethod("GET");
+                conn.setConnectTimeout(10 * 1000);
                 conn.setRequestProperty("User-Agent", MainActivity.USER_AGENT);
                 responseCode = conn.getResponseCode();
                 byte[] buffer = new byte[8 * 1024];
                 int i;
-
                 if (responseCode == HttpURLConnection.HTTP_OK) {
-                    Log.d("MULTILIBLOG", "connection OK");
+                    //Log.d("MULTILIBLOG", "URLConnection connection OK");
                     InputStream is = new BufferedInputStream(conn.getInputStream());
                     while ((i = is.read(buffer)) != -1 && !isCancelled()) {
                         // if user breaks update process, download ends and
@@ -193,11 +196,9 @@ public class Multilib extends AppCompatActivity {
                     // class should free any resources during close
                     is.close();
                     fos.close();
-                } else {
-                    Log.d("MULTILIBLOG", "connection NOT OK");
                 }
             } catch (IOException e) {
-                Log.d("MULTILIBLOG", "errorGettingChangelog");
+                //Log.d("MULTILIBLOG", "error: " + e.toString());
                 errorGettingChangelog = true;
             }
 
@@ -206,7 +207,6 @@ public class Multilib extends AppCompatActivity {
                 try {
                     URL urlToGetDate = new URL(UTL_MULTILIB);
                     HttpURLConnection connDate = (HttpURLConnection) urlToGetDate.openConnection();
-                    connDate.setRequestMethod("GET");
                     connDate.setRequestProperty("User-Agent", MainActivity.USER_AGENT);
                     connDate.setConnectTimeout(15 * 1000);
                     connDate.setReadTimeout(20 * 1000);
@@ -235,8 +235,6 @@ public class Multilib extends AppCompatActivity {
                     editor.putString(LAST_UPDATE, copyLastUpdate);
                     editor.apply();
                 }
-            } else {
-                Log.d("MULTILIBLOG", "error getting file");
             }
             return null;
         }
