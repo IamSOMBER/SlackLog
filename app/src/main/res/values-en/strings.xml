@@ -38,7 +38,7 @@
     <string name="changelog_pref">Flag for downloadable changelog available</string>
     <string name="forum_autoupdate">Swipe to update automatically</string>
     <string name="multilib_pref">Marks for multilib update available</string>
-    <string name="web">Web page to download this app</string>
+    <string name="web">"Source code hosted on Github "</string>
     <string name="site">Official site</string>
     <string name="background">Background update check</string>
     <string name="title_activity_link">Web links</string>

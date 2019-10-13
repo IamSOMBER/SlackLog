@@ -1,4 +1,4 @@
-#Fri Oct 04 18:28:55 CEST 2019
+#Sun Oct 13 17:01:49 CEST 2019
 base.0=/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/dex/debug/mergeExtDexDebug/out/classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex

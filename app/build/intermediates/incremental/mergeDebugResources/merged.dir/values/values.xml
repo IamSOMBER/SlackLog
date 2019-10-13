@@ -885,7 +885,7 @@
     <string name="titolo">App dedicata alla distribuzione Slackware Linux</string>
     <string name="tux" translatable="false">tux</string>
     <string name="update">aggiorna</string>
-    <string name="web">Apre la pagina web da cui scaricare l\'app</string>
+    <string name="web">Codice sorgente su Github</string>
     <string name="write_error">Non è stato possibile inizializzare l\'applicazione a causa di un errore di scrittura nel file system</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>

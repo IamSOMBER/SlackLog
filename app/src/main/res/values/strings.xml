@@ -79,7 +79,7 @@
     <string name="multilib_pref">Segnala il rilascio di librerie aggiornate</string>
     <string name="args_num">Numero di argomenti</string>
     <string name="forum_autoupdate">Aggiorna automaticamente allo swipe</string>
-    <string name="web">Apre la pagina web da cui scaricare l\'app</string>
+    <string name="web">Codice sorgente su Github</string>
     <string name="site">Sito ufficiale</string>
     <string name="background">Aggiornamenti in background</string>
 

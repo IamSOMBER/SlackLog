@@ -44,6 +44,6 @@
     <string name="title_activity_link">Web links</string>
     <string name="titolo">App about Slackware Linux distro</string>
     <string name="update">update</string>
-    <string name="web">Web page to download this app</string>
+    <string name="web">"Source code hosted on Github "</string>
     <string name="write_error">Application cannot be started due to filesystem write error</string>
 </resources>

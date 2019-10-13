@@ -10,8 +10,8 @@ android {
         applicationId "com.sombersoft.slacklog"
         minSdkVersion 23
         targetSdkVersion 29
-        versionCode 81
-        versionName "2.1.31"
+        versionCode 82
+        versionName "2.1.33"
     }
 
     aaptOptions {
