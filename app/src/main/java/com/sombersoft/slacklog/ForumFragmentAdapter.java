@@ -1,6 +1,7 @@
 package com.sombersoft.slacklog;
 
 import android.os.Bundle;
+
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
@@ -14,9 +15,7 @@ public class ForumFragmentAdapter extends FragmentStatePagerAdapter {
 
     @Override
     public Fragment getItem(int item) {
-
         Bundle addBundle = new Bundle();
-
         switch (item) {
             case 0:
                 addBundle.putString("fileName", "topics64.txt");
@@ -37,72 +36,59 @@ public class ForumFragmentAdapter extends FragmentStatePagerAdapter {
                 return gen;
 
             case 3:
-                addBundle.putString("fileName", "topicsPack.txt");
-                FragmentForum pack = new FragmentForum();
-                pack.setArguments(addBundle);
-                return pack;
-
-            case 4:
                 addBundle.putString("fileName", "freeTopics.txt");
                 FragmentForum free = new FragmentForum();
                 free.setArguments(addBundle);
                 return free;
 
-            case 5:
-                addBundle.putString("fileName", "topicsGnome.txt");
-                FragmentForum gnome = new FragmentForum();
-                gnome.setArguments(addBundle);
-                return gnome;
+            case 4:
+                addBundle.putString("fileName", "topicsPack.txt");
+                FragmentForum pack = new FragmentForum();
+                pack.setArguments(addBundle);
+                return pack;
 
-            case 6:
+            case 5:
                 addBundle.putString("fileName", "topicsWiki.txt");
                 FragmentForum wiki = new FragmentForum();
                 wiki.setArguments(addBundle);
                 return wiki;
 
-            case 7:
+            case 6:
                 addBundle.putString("fileName", "topicsSecurity.txt");
                 FragmentForum sec = new FragmentForum();
                 sec.setArguments(addBundle);
                 return sec;
 
-            case 8:
+            case 7:
                 addBundle.putString("fileName", "topicsPorting.txt");
                 FragmentForum port = new FragmentForum();
                 port.setArguments(addBundle);
                 return port;
 
-            case 9:
+            case 8:
                 addBundle.putString("fileName", "topicsProgram.txt");
                 FragmentForum prog = new FragmentForum();
                 prog.setArguments(addBundle);
                 return prog;
 
-            case 10:
+            case 9:
                 addBundle.putString("fileName", "topicsHardware.txt");
                 FragmentForum hard = new FragmentForum();
                 hard.setArguments(addBundle);
                 return hard;
 
-            case 11:
+            case 10:
                 addBundle.putString("fileName", "topicsLaptop.txt");
                 FragmentForum lap = new FragmentForum();
                 lap.setArguments(addBundle);
                 return lap;
-
-            case 12:
-                addBundle.putString("fileName", "topicsMerchand.txt");
-                FragmentForum merch = new FragmentForum();
-                merch.setArguments(addBundle);
-                return merch;
         }
-
         return null;
     }
 
     @Override
     public int getCount() {
-        return 13;
+        return 11;
     }
 
     @Override
@@ -126,21 +112,17 @@ public class ForumFragmentAdapter extends FragmentStatePagerAdapter {
             case 4:
                 return "Packages";
             case 5:
-                return "Gnome Slacky";
-            case 6:
                 return "Wikislacky";
-            case 7:
+            case 6:
                 return "Sicurezza";
-            case 8:
+            case 7:
                 return "Porting Slackware";
-            case 9:
+            case 8:
                 return "Programmazione";
-            case 10:
+            case 9:
                 return "Hardware";
-            case 11:
+            case 10:
                 return "Laptop";
-            case 12:
-                return "Mercatino";
         }
         return null;
     }

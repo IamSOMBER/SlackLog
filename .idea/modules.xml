@@ -3,7 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Slacklog.iml" filepath="$PROJECT_DIR$/Slacklog.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="Slacklog/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/studio_workspace-Slacklog.iml" filepath="$PROJECT_DIR$/.idea/modules/studio_workspace-Slacklog.iml" group="Slacklog" />
     </modules>
   </component>
 </project>

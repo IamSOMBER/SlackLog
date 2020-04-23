@@ -6,22 +6,16 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentStatePagerAdapter;
 
 public class MainAdapter extends FragmentStatePagerAdapter {
-
-    MainAdapter(FragmentManager fm) {
-        super(fm);
+    public MainAdapter(@NonNull FragmentManager fm, int behavior) {
+        super(fm, behavior);
     }
 
     @Override
     public Fragment getItem(int item) {
-
-        switch (item) {
-            case 0:
-                return new FragmentSlacky();
-
-            case 1:
-                return new FragmentAlien();
+        if (item == 0) {
+            return new FragmentSlacky();
         }
-        return null;
+        return new AlienWebViewFragment();
     }
 
     @Override
@@ -41,15 +35,12 @@ public class MainAdapter extends FragmentStatePagerAdapter {
 
     @Override
     public CharSequence getPageTitle(int position) {
-
         switch (position) {
             case 0:
                 return "Slacky";
-
             case 1:
                 return "Alien";
         }
-
         return null;
     }
 }

@@ -35,11 +35,9 @@ public class FragmentForum extends Fragment {
                 Forum.update(false, swipeRefreshLayout);
             }
         });
-
         recyclerTopics = view.findViewById(R.id.recyclerTopics);
         recyclerTopics.setHasFixedSize(true);
         recyclerTopics.setLayoutManager(new LinearLayoutManager(context));
-
         String fileName = null;
         if (getArguments() != null) {
             fileName = getArguments().getString("fileName");
@@ -47,12 +45,11 @@ public class FragmentForum extends Fragment {
         assert fileName != null;
         fileTopics = new File(context.getCacheDir(), fileName);
         viewForum();
-
         return view;
     }
 
     private void viewForum() {
-        ArrayList<String> array = new ArrayList<String>();
+        ArrayList<String> array = new ArrayList<>();
         BufferedReader br;
         String readLine;
         if (fileTopics.exists())

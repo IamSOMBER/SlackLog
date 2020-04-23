@@ -8,6 +8,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Build;
 import android.preference.PreferenceManager;
+
 import androidx.annotation.NonNull;
 import androidx.core.app.JobIntentService;
 import androidx.core.app.NotificationCompat;
@@ -60,15 +61,12 @@ public class ChangelogService extends JobIntentService {
                 "current");
         String getVersion32Branch = preferences.getString(VERSION_PREF32,
                 "current");
-
         // get the type of cpu architecture, if selected, to check updated
         // changelog
         SharedPreferences settings = PreferenceManager
                 .getDefaultSharedPreferences(getBaseContext());
-
         String archType = settings.getString("ARCH_TYPE", "96"); // 96 is both
         // 64 & 32 bit
-
         // Builder class for NotificationCompat objects. Allows easier control
         // over all the flags,
         // as well as help constructing the typical notification layouts
@@ -93,28 +91,22 @@ public class ChangelogService extends JobIntentService {
         PendingIntent pendingIntent = PendingIntent.getActivity(this, 0,
                 notifyIntent, 0);
         builder.setContentIntent(pendingIntent);
-
         String url64;
-
         if (getVersion64Branch.equalsIgnoreCase("current"))
             url64 = URL_ADDRESS + "slackware64-current/";
         else
             url64 = URL_ADDRESS + "slackware64-14.1/";
-
         String url32;
-
         if (getVersion32Branch.equalsIgnoreCase("current"))
             url32 = URL_ADDRESS + "slackware-current/";
         else
             url32 = URL_ADDRESS + "slackware-14.1/";
-
         String latestVersion64Bit = null;
         String latestVersion32Bit = null;
 
         if (archType.equals("64") || archType.equals("96")) {
             latestVersion64Bit = onLineVersion(url64);
             lastUpdate64 = preferences.getString(LAST_UPDATE_64BIT, "never");
-
             if (latestVersion64Bit != null
                     && !latestVersion64Bit.equals("null")) // latestVersion??Bit
                 // assume "null"
@@ -127,24 +119,19 @@ public class ChangelogService extends JobIntentService {
                 // notification
                 changed64 = !latestVersion64Bit.equals(lastUpdate64);
         }
-
         if (archType.equals("32") || archType.equals("96")) {
             latestVersion32Bit = onLineVersion(url32);
             lastUpdate32 = preferences.getString(LAST_UPDATE_32BIT, "never");
-
             if (latestVersion32Bit != null
                     && !latestVersion32Bit.equals("null"))
                 changed32 = !latestVersion32Bit.equals(lastUpdate32);
         }
-
         if (archType.equals("96"))
             if (latestVersion32Bit != null && latestVersion64Bit != null
                     && !latestVersion32Bit.equals("null")
                     && !latestVersion64Bit.equals("null")) {
-
                 bothChanged = changed64 && changed32;
             }
-
         if (bothChanged) {
             builder.setContentText(getString(R.string.available32_64));
             if (alarmNotificationManager != null) {
@@ -153,10 +140,8 @@ public class ChangelogService extends JobIntentService {
             editor.putInt(STATE_SELECTED_NAVIGATION_ITEM, 0);
             editor.putBoolean(UPDATE_COMMAND, true);
             editor.apply();
-
             return;
         }
-
         if (changed64) {
             builder.setContentText(getString(R.string.available64));
             if (alarmNotificationManager != null) {
@@ -165,10 +150,8 @@ public class ChangelogService extends JobIntentService {
             editor.putInt(STATE_SELECTED_NAVIGATION_ITEM, 0);
             editor.putBoolean(UPDATE_COMMAND, true);
             editor.apply();
-
             return;
         }
-
         if (changed32) {
             builder.setContentText(getString(R.string.available32));
             if (alarmNotificationManager != null) {
@@ -187,7 +170,6 @@ public class ChangelogService extends JobIntentService {
         String line;
         int responseCode;
         URL url;
-
         try {
             url = new URL(urlReceived);
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
@@ -203,7 +185,6 @@ public class ChangelogService extends JobIntentService {
                         break;
                     }
                 }
-
                 br.close();
             } else {
                 if (urlReceived.contains("slackware64"))

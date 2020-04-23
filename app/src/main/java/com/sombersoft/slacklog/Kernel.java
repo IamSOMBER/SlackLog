@@ -5,16 +5,17 @@ import android.graphics.Color;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-import androidx.appcompat.widget.Toolbar;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -30,7 +31,6 @@ import java.util.Iterator;
 
 @SuppressWarnings("deprecation")
 public class Kernel extends AppCompatActivity {
-
     private static File kernelFile;
     private RecyclerView lvKernel;
     private DownloadKernel download;
@@ -42,9 +42,7 @@ public class Kernel extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         setContentView(R.layout.activity_kernel);
-
         File rootDir = new File(getFilesDir(), "SlackLog");
         swipeRefreshLayout = findViewById(R.id.refresh);
         swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
@@ -60,23 +58,18 @@ public class Kernel extends AppCompatActivity {
         // creation of object to avoid NullPointerException exception when back
         // button is pressed
         download = new DownloadKernel();
-
         Toolbar toolbar = findViewById(R.id.toolbar);
         toolbar.setTitle("");
         toolbar.setNavigationIcon(R.drawable.ic_launcher);
         setSupportActionBar(toolbar);
         if (getSupportActionBar() != null)
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
         kernelFile = new File(rootDir, "kernel.html");
-
         lvKernel = findViewById(R.id.lvKernel);
         lvKernel.setHasFixedSize(true);
         lvKernel.setLayoutManager(new LinearLayoutManager(this));
-
         TextView tvKernelSource = findViewById(R.id.tvFonteKernel);
         tvKernelSource.setShadowLayer(2, 1, 1, Color.WHITE);
-
         // Sponsors button to open web sites
         ImageView ivRedhat = findViewById(R.id.imageViewRedhat);
         ivRedhat.setOnClickListener(new OnClickListener() {
@@ -87,7 +80,6 @@ public class Kernel extends AppCompatActivity {
                 startActivity(new Intent(Intent.ACTION_VIEW, uri));
             }
         });
-
         ImageView ivLinuxFound = findViewById(R.id.imageViewLinuxFound);
         ivLinuxFound.setOnClickListener(new OnClickListener() {
 
@@ -97,7 +89,6 @@ public class Kernel extends AppCompatActivity {
                 startActivity(new Intent(Intent.ACTION_VIEW, uri));
             }
         });
-
         ImageView ivISC = findViewById(R.id.imageViewHostedISC);
         ivISC.setOnClickListener(new OnClickListener() {
 
@@ -107,7 +98,6 @@ public class Kernel extends AppCompatActivity {
                 startActivity(new Intent(Intent.ACTION_VIEW, uri));
             }
         });
-
         ImageView ivFastly = findViewById(R.id.imageViewFastly);
         ivFastly.setOnClickListener(new OnClickListener() {
 
@@ -117,7 +107,6 @@ public class Kernel extends AppCompatActivity {
                 startActivity(new Intent(Intent.ACTION_VIEW, uri));
             }
         });
-
         ImageView ivOsl = findViewById(R.id.imageViewOsl);
         ivOsl.setOnClickListener(new OnClickListener() {
 
@@ -127,7 +116,6 @@ public class Kernel extends AppCompatActivity {
                 startActivity(new Intent(Intent.ACTION_VIEW, uri));
             }
         });
-
         ImageView ivVexx = findViewById(R.id.imageViewVexxHost);
         ivVexx.setOnClickListener(new OnClickListener() {
 
@@ -137,7 +125,6 @@ public class Kernel extends AppCompatActivity {
                 startActivity(new Intent(Intent.ACTION_VIEW, uri));
             }
         });
-
         if (kernelFile.exists()) {
             ArrayList<String> array = new ArrayList<>();
             try {
@@ -151,10 +138,8 @@ public class Kernel extends AppCompatActivity {
             } catch (IOException e) {
                 e.printStackTrace();
             }
-
             adapter = new KernelAdapter(array);
             lvKernel.setAdapter(adapter);
-
         } else {
             bar.setVisibility(View.VISIBLE);
             update();
@@ -249,7 +234,6 @@ public class Kernel extends AppCompatActivity {
         protected ArrayList<String> doInBackground(Void... params) {
             ArrayList<String> array = new ArrayList<>();
             String line;
-
             if (ConnectionClass.isConnected(getBaseContext())) {
                 try {
                     URL url = new URL("https://www.kernel.org/");
@@ -297,7 +281,6 @@ public class Kernel extends AppCompatActivity {
         @Override
         protected void onCancelled() {
             super.onCancelled();
-
             if (swipeRefreshLayout.isRefreshing()) {
                 swipeRefreshLayout.setRefreshing(false);
                 download.cancel(true);

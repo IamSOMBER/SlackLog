@@ -8,17 +8,15 @@ import android.net.NetworkInfo;
  * check if connection is available
  */
 public class ConnectionClass {
-	public static boolean isConnected(Context c) {
-		ConnectivityManager cm = (ConnectivityManager) c
-				.getSystemService(Context.CONNECTIVITY_SERVICE);
+    public static boolean isConnected(Context c) {
+        ConnectivityManager cm = (ConnectivityManager) c
+                .getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo netInfo = null;
         if (cm != null) {
             netInfo = cm.getActiveNetworkInfo();
         }
-
         if (null != netInfo)
-			return netInfo.isConnected();
-
-		return false;
-	}
+            return netInfo.isConnected();
+        return false;
+    }
 }

@@ -40,7 +40,7 @@ public class FragmentSlacky extends Fragment {
     private static View view;
     private static Context mContext;
     private static RelativeLayout mainLayout;
-    private static final String SLACKYSITE_URL = "https://www.slacky.eu/slacky/Pagina_principale";
+    private static final String SLACKYSITE_URL = "https://slacky.eu/";
 
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,
@@ -52,7 +52,6 @@ public class FragmentSlacky extends Fragment {
         File rootDir = new File(mContext.getFilesDir(), "SlackLog");
         if (!rootDir.exists())
             rootDir.mkdir();
-
         mainLayout = view.findViewById(R.id.mainLayout);
         swipeRefreshLayout = view.findViewById(R.id.swipeUpdate);
         swipeRefreshLayout.setDistanceToTriggerSync(300);
@@ -62,7 +61,6 @@ public class FragmentSlacky extends Fragment {
                 updateFile(false);
             }
         });
-
         FloatingActionButton fabSlacky = view.findViewById(R.id.fabSlacky);
         fabSlacky.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -78,10 +76,8 @@ public class FragmentSlacky extends Fragment {
 
         newsFile = new File(rootDir, "newsSlacky.txt");
         tvNews = view.findViewById(R.id.tvNewsSlacky);
-
         if (!newsFile.exists())
             updateFile(true);
-
         showNewsSlacky();
         return view;
     }
@@ -97,19 +93,15 @@ public class FragmentSlacky extends Fragment {
     public static void showNewsSlacky() {
         if (newsFile.length() != 0) {
             tvNews.setBackgroundColor(Color.TRANSPARENT);
-
             try {
                 BufferedReader br = new BufferedReader(new FileReader(newsFile));
                 while (br.ready()) {
                     Spanned line = Html.fromHtml(br.readLine());
                     tvNews.append(line);
                 }
-
                 br.close();
-
             } catch (IOException e) {
-                e.printStackTrace();
-            }
+                e.printStackTrace();            }
         } else {
             tvNews.setPadding(0, 50, 0, 0);
             tvNews.setTextSize(15);

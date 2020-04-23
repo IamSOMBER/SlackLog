@@ -42,7 +42,6 @@ public class MultilibService extends JobIntentService {
         //sharedPreferences creation
         SharedPreferences mPref = getSharedPreferences(PREF, MODE_PRIVATE);
         Editor editor = mPref.edit();
-
         String name = "alarm_channel_notification";
         String id = "alarm_channel_id"; // The user-visible name of the channel
         String description = "alarm_channel_notification_icon"; // The user-visible description of the channel
@@ -90,7 +89,6 @@ public class MultilibService extends JobIntentService {
             connDate.setRequestMethod("GET");
             connDate.setRequestProperty("User-Agent", MainActivity.USER_AGENT);
             int responseCode = connDate.getResponseCode();
-
             if (responseCode == HttpURLConnection.HTTP_OK) {
                 BufferedReader br = new BufferedReader(new InputStreamReader(connDate.getInputStream()));
                 while ((l = br.readLine()) != null) {

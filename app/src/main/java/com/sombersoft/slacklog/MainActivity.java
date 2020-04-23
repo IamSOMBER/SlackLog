@@ -12,20 +12,23 @@ import android.content.SharedPreferences.Editor;
 import android.content.res.Configuration;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
-import androidx.annotation.NonNull;
-import com.google.android.material.navigation.NavigationView;
-import com.google.android.material.tabs.TabLayout;
-import androidx.fragment.app.FragmentManager;
-import androidx.viewpager.widget.ViewPager;
-import androidx.drawerlayout.widget.DrawerLayout;
-import androidx.appcompat.app.ActionBarDrawerToggle;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.ActionBarDrawerToggle;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentStatePagerAdapter;
+import androidx.viewpager.widget.ViewPager;
+
+import com.google.android.material.navigation.NavigationView;
+import com.google.android.material.tabs.TabLayout;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -36,7 +39,6 @@ import java.util.Iterator;
 
 @SuppressWarnings("deprecation")
 public class MainActivity extends AppCompatActivity {
-
     public static Context mContext;
     public static File newsFileSlacky;
     public static File newsFileAlien;
@@ -58,15 +60,12 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         setContentView(R.layout.activity_main);
-
         IntentFilter intentFilter = new IntentFilter("android.net.conn.CONNECTIVITY_CHANGE");
         changelogBroadcastReceiver = new ChangelogBroadcastReceiver();
         multilibBroadcastReceiver = new MultilibBroadcastReceiver();
         registerReceiver(changelogBroadcastReceiver, intentFilter);
         registerReceiver(multilibBroadcastReceiver, intentFilter);
-
         mToast = Toast.makeText(this, getString(R.string.exit),
                 Toast.LENGTH_SHORT);
         mContext = this;
@@ -74,22 +73,18 @@ public class MainActivity extends AppCompatActivity {
         String PREF = "slackPref";
         // FOLDER CREATION in internal storage
         File rootDir = new File(getFilesDir(), "SlackLog");
-
         if (!rootDir.exists())
             if (!rootDir.mkdir()) {
                 AlertDialog.Builder dialog = new AlertDialog.Builder(this);
                 dialog.setTitle(getString(R.string.error_title))
                         .setMessage(getString(R.string.write_error))
-                        .setPositiveButton(getString(R.string.close),
-                                new OnClickListener() {
-                                    @Override
-                                    public void onClick(DialogInterface dialog, int which) {
-
-                                        finish();
-                                    }
-                                }).create().show();
+                        .setPositiveButton(getString(R.string.close), new OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                finish();
+                            }
+                        }).create().show();
             }
-
         newsFileAlien = new File(rootDir, "newsAlien.txt");
         newsFileSlacky = new File(rootDir, "newsSlacky.txt");
         slackPreferences = getSharedPreferences(PREF, MODE_PRIVATE);
@@ -99,7 +94,7 @@ public class MainActivity extends AppCompatActivity {
         DrawerLayout mDrawerLayout = findViewById(R.id.drawer_layout);
         NavigationView navigationView = findViewById(R.id.drawer);
         viewPager = findViewById(R.id.mainPager);
-        mAdapter = new MainAdapter(fm);
+        mAdapter = new MainAdapter(fm, FragmentStatePagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);
         viewPager.setAdapter(mAdapter);
         TabLayout tabLayout = findViewById(R.id.htab_tabs);
         tabLayout.setupWithViewPager(viewPager);
@@ -117,16 +112,13 @@ public class MainActivity extends AppCompatActivity {
             public void onTabReselected(TabLayout.Tab tab) {
             }
         });
-
         String STATE_SELECTED_NAVIGATION_ITEM = "selected_navigation_item";
         viewPager.setCurrentItem(slackPreferences.getInt(
                 STATE_SELECTED_NAVIGATION_ITEM, 0));
-
         // Set up the action bar.
         Toolbar toolbar = findViewById(R.id.toolbar);
         toolbar.setTitle("");
         setSupportActionBar(toolbar);
-
         mDrawerToggle = new ActionBarDrawerToggle(this, mDrawerLayout,
                 toolbar, 0, 0) {
             public void onDrawerClosed(View view) {
@@ -137,7 +129,6 @@ public class MainActivity extends AppCompatActivity {
                 supportInvalidateOptionsMenu();
             }
         };
-
         mDrawerLayout.setDrawerListener(mDrawerToggle);
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
@@ -148,13 +139,10 @@ public class MainActivity extends AppCompatActivity {
                         try {
                             intent = new Intent(getBaseContext(), Changelog.class);
                             startActivity(intent);
-
                         } catch (Exception e) {
                             e.printStackTrace();
                         }
-
                         return true;
-
                     case R.id.multilib:
                         try {
                             intent = new Intent(getBaseContext(), Multilib.class);
@@ -162,9 +150,7 @@ public class MainActivity extends AppCompatActivity {
                         } catch (Exception e) {
                             e.printStackTrace();
                         }
-
                         return true;
-
                     case R.id.kernel:
                         try {
                             intent = new Intent(getBaseContext(), Kernel.class);
@@ -173,7 +159,6 @@ public class MainActivity extends AppCompatActivity {
                             e.printStackTrace();
                         }
                         return true;
-
                     case R.id.forum:
                         try {
                             editor.putBoolean(EXECUTE_UPDATE, true);
@@ -185,19 +170,16 @@ public class MainActivity extends AppCompatActivity {
                             e.printStackTrace();
                         }
                         return true;
-
                     case R.id.forum_lq:
                         try {
                             editor.putBoolean(EXECUTE_UPDATE, true);
                             editor.apply();
                             intent = new Intent(getBaseContext(), ForumLQ.class);
                             startActivity(intent);
-
                         } catch (Exception e) {
                             e.printStackTrace();
                         }
                         return true;
-
                     /*case R.id.donate:
                         LayoutInflater layoutInflater = LayoutInflater.from(MainActivity.this);
                         View promptView = layoutInflater.inflate(R.layout.dialog_amount, null);
@@ -274,14 +256,11 @@ public class MainActivity extends AppCompatActivity {
         if (mDrawerToggle.onOptionsItemSelected(item)) {
             return true;
         }
-
-        switch (item.getItemId()) {
-            case (R.id.abSettings):
-                Intent i = new Intent(this, SettingsActivity.class);
-                startActivity(i);
-                return true;
+        if (item.getItemId() == R.id.abSettings) {
+            Intent i = new Intent(this, SettingsActivity.class);
+            startActivity(i);
+            return true;
         }
-
         return super.onOptionsItemSelected(item);
     }
 
@@ -318,7 +297,6 @@ public class MainActivity extends AppCompatActivity {
             while (i.hasNext()) {
                 bw.write(i.next() + " ");
             }
-
             bw.close();
 
         } catch (IOException e) {

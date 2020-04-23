@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "applicationId": "com.sombersoft.slacklog",
+  "variantType": "BASE_APK",
+  "elements": [
+    {
+      "outputType": {
+        "type": "PROCESSED_RES"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": 84,
+        "versionName": "2.1.55",
+        "outputFile": "app-debug.apk",
+        "fullName": "debug",
+        "baseName": "debug",
+        "dirName": ""
+      },
+      "path": "resources-debug.ap_",
+      "properties": {
+        "packageId": "com.sombersoft.slacklog",
+        "split": "",
+        "minSdkVersion": "23"
+      }
+    }
+  ]
+}
