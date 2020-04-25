@@ -78,7 +78,7 @@ Referenced Strings:
   AfterDoctypeSystemKeyword
   AfterFrameset
   AfterHead
-  Alien
+  AlienBob
   AppCompatCustomView
   AppCompatDelegate
   AppCompatSpinner
@@ -175,6 +175,7 @@ Referenced Strings:
   GCM
   GET
   GMT
+  GNU/Linux
   GRID_SELECTOR_KEY
   Games
   GcmAvailableHelper
@@ -335,7 +336,6 @@ Referenced Strings:
   Slackware
   Slackware32
   Slackware64
-  Slacky
   Software
   Spinner
   StartTag
@@ -736,12 +736,12 @@ Referenced Strings:
   https://alien.slackbook.org/blog/
   https://slackware.osuosl.org/slackware
   https://slackware.osuosl.org/slackware64
-  https://slacky.eu/
   https://slacky.eu/forum
   https://vexxhost.com/
   https://www.fastly.com/
   https://www.isc.org/services/host/
   https://www.kernel.org/
+  https://www.linux.com/
   https://www.linuxfoundation.org/
   https://www.linuxquestions.org
   https://www.osuosl.org/
@@ -1422,7 +1422,7 @@ Marking styleable:RecyclerView_spanCount:-1 used because its prefix matches stri
 Marking styleable:RecyclerView_stackFromEnd:-1 used because its prefix matches string pool constant RecyclerView
 Marking attr:closeIconVisible:2130968724 used because its prefix matches string pool constant closeIconVisible
 Marking attr:viewInflaterClass:2130969175 used because its prefix matches string pool constant view
-Marking id:view_offset_helper:2131296599 used because its prefix matches string pool constant view
+Marking id:view_offset_helper:2131296601 used because its prefix matches string pool constant view
 Marking styleable:TextInputLayout:-1 used because its prefix matches string pool constant TextInputLayout
 Marking styleable:TextInputLayout_android_textColorHint:-1 used because its prefix matches string pool constant TextInputLayout
 Marking styleable:TextInputLayout_android_hint:-1 used because its prefix matches string pool constant TextInputLayout
@@ -1653,7 +1653,7 @@ Marking attr:windowFixedWidthMinor:2130969183 used because its prefix matches st
 Marking attr:windowMinWidthMajor:2130969184 used because its prefix matches string pool constant window
 Marking attr:windowMinWidthMinor:2130969185 used because its prefix matches string pool constant window
 Marking attr:windowNoTitle:2130969186 used because its prefix matches string pool constant window
-Marking id:time:2131296568 used because its prefix matches string pool constant time
+Marking id:time:2131296570 used because its prefix matches string pool constant time
 Marking attr:drawableStartCompat:2130968804 used because its prefix matches string pool constant drawableStart
 Marking dimen:item_touch_helper_max_drag_scroll_per_frame:2131165335 used because its prefix matches string pool constant item
 Marking dimen:item_touch_helper_swipe_escape_max_velocity:2131165336 used because its prefix matches string pool constant item
@@ -1686,7 +1686,7 @@ Marking attr:itemTextColor:2130968925 used because its prefix matches string poo
 Marking layout:item_drawer:2131492921 used because its prefix matches string pool constant item
 Marking styleable:ViewPager2:-1 used because its prefix matches string pool constant ViewPager
 Marking styleable:ViewPager2_android_orientation:-1 used because its prefix matches string pool constant ViewPager
-Marking id:smallLabel:2131296524 used because its prefix matches string pool constant small
+Marking id:smallLabel:2131296525 used because its prefix matches string pool constant small
 Marking dimen:notification_action_icon_size:2131165488 used because its prefix matches string pool constant notification
 Marking dimen:notification_action_text_size:2131165489 used because its prefix matches string pool constant notification
 Marking dimen:notification_big_circle_margin:2131165490 used because its prefix matches string pool constant notification
@@ -1795,11 +1795,11 @@ Marking attr:searchViewStyle:2130969032 used because its prefix matches string p
 Marking string:search_menu_title:2131689597 used because its prefix matches string pool constant search
 Marking xml:settings:2131886080 used because its prefix matches string pool constant set
 Marking menu:settings:2131558402 used because its prefix matches string pool constant set
-Marking id:transition_current_scene:2131296576 used because its prefix matches string pool constant transition
-Marking id:transition_layout_save:2131296577 used because its prefix matches string pool constant transition
-Marking id:transition_position:2131296578 used because its prefix matches string pool constant transition
-Marking id:transition_scene_layoutid_cache:2131296579 used because its prefix matches string pool constant transition
-Marking id:transition_transform:2131296580 used because its prefix matches string pool constant transition
+Marking id:transition_current_scene:2131296578 used because its prefix matches string pool constant transition
+Marking id:transition_layout_save:2131296579 used because its prefix matches string pool constant transition
+Marking id:transition_position:2131296580 used because its prefix matches string pool constant transition
+Marking id:transition_scene_layoutid_cache:2131296581 used because its prefix matches string pool constant transition
+Marking id:transition_transform:2131296582 used because its prefix matches string pool constant transition
 Marking styleable:CoordinatorLayout:-1 used because its prefix matches string pool constant CoordinatorLayout
 Marking styleable:CoordinatorLayout_keylines:-1 used because its prefix matches string pool constant CoordinatorLayout
 Marking styleable:CoordinatorLayout_statusBarBackground:-1 used because its prefix matches string pool constant CoordinatorLayout
@@ -1836,9 +1836,9 @@ Marking id:imageViewRedhat:2131296412 used because its prefix matches string poo
 Marking id:imageViewTux:2131296413 used because its prefix matches string pool constant image
 Marking id:imageViewVexxHost:2131296414 used because its prefix matches string pool constant image
 Marking id:never:2131296467 used because its prefix matches string pool constant never
-Marking id:title:2131296569 used because its prefix matches string pool constant title
-Marking id:titleDividerNoCustom:2131296570 used because its prefix matches string pool constant title
-Marking id:title_template:2131296571 used because its prefix matches string pool constant title
+Marking id:title:2131296571 used because its prefix matches string pool constant title
+Marking id:titleDividerNoCustom:2131296572 used because its prefix matches string pool constant title
+Marking id:title_template:2131296573 used because its prefix matches string pool constant title
 Marking attr:title:2130969152 used because its prefix matches string pool constant title
 Marking attr:titleEnabled:2130969153 used because its prefix matches string pool constant title
 Marking attr:titleMargin:2130969154 used because its prefix matches string pool constant title
@@ -2085,8 +2085,8 @@ Marking dimen:subtitle_corner_radius:2131165503 used because its prefix matches 
 Marking dimen:subtitle_outline_width:2131165504 used because its prefix matches string pool constant sub
 Marking dimen:subtitle_shadow_offset:2131165505 used because its prefix matches string pool constant sub
 Marking dimen:subtitle_shadow_radius:2131165506 used because its prefix matches string pool constant sub
-Marking id:submenuarrow:2131296537 used because its prefix matches string pool constant sub
-Marking id:submit_area:2131296538 used because its prefix matches string pool constant sub
+Marking id:submenuarrow:2131296538 used because its prefix matches string pool constant sub
+Marking id:submit_area:2131296539 used because its prefix matches string pool constant sub
 Marking attr:subMenuArrow:2130969075 used because its prefix matches string pool constant sub
 Marking attr:submitBackground:2130969076 used because its prefix matches string pool constant sub
 Marking attr:subtitle:2130969077 used because its prefix matches string pool constant sub
@@ -2094,7 +2094,7 @@ Marking attr:subtitleTextAppearance:2130969078 used because its prefix matches s
 Marking attr:subtitleTextColor:2130969079 used because its prefix matches string pool constant sub
 Marking attr:subtitleTextStyle:2130969080 used because its prefix matches string pool constant sub
 Marking attr:extendedFloatingActionButtonStyle:2130968842 used because its prefix matches string pool constant extended
-Marking layout:support_simple_spinner_dropdown_item:2131492974 used because its prefix matches string pool constant sup
+Marking layout:support_simple_spinner_dropdown_item:2131492975 used because its prefix matches string pool constant sup
 Marking attr:theme:2130969141 used because its prefix matches string pool constant th
 Marking attr:themeLineHeight:2130969142 used because its prefix matches string pool constant th
 Marking attr:thickness:2130969143 used because its prefix matches string pool constant th
@@ -2110,14 +2110,14 @@ Marking id:progressBar:2131296484 used because its prefix matches string pool co
 Marking attr:track:2130969169 used because its prefix matches string pool constant tr
 Marking attr:trackTint:2130969170 used because its prefix matches string pool constant tr
 Marking attr:trackTintMode:2130969171 used because its prefix matches string pool constant tr
-Marking id:transition_current_scene:2131296576 used because its prefix matches string pool constant tr
-Marking id:transition_layout_save:2131296577 used because its prefix matches string pool constant tr
-Marking id:transition_position:2131296578 used because its prefix matches string pool constant tr
-Marking id:transition_scene_layoutid_cache:2131296579 used because its prefix matches string pool constant tr
-Marking id:transition_transform:2131296580 used because its prefix matches string pool constant tr
+Marking id:transition_current_scene:2131296578 used because its prefix matches string pool constant tr
+Marking id:transition_layout_save:2131296579 used because its prefix matches string pool constant tr
+Marking id:transition_position:2131296580 used because its prefix matches string pool constant tr
+Marking id:transition_scene_layoutid_cache:2131296581 used because its prefix matches string pool constant tr
+Marking id:transition_transform:2131296582 used because its prefix matches string pool constant tr
 Marking string:openSite:2131689589 used because its prefix matches string pool constant open
 Marking attr:ttcIndex:2130969172 used because its prefix matches string pool constant tt
-Marking id:up:2131296597 used because its prefix matches string pool constant up
+Marking id:up:2131296599 used because its prefix matches string pool constant up
 Marking string:update:2131689623 used because its prefix matches string pool constant up
 Marking attr:queryBackground:2130969017 used because its prefix matches string pool constant query
 Marking attr:queryHint:2130969018 used because its prefix matches string pool constant query
@@ -2242,14 +2242,14 @@ Marking styleable:ViewStubCompat_android_layout:-1 used because its prefix match
 Marking styleable:ViewStubCompat_android_inflatedId:-1 used because its prefix matches string pool constant View
 Marking id:View2:2131296266 used because its prefix matches string pool constant View
 Marking attr:spanCount:2130969052 used because its prefix matches string pool constant span
-Marking id:tag_accessibility_actions:2131296543 used because its prefix matches string pool constant tag
-Marking id:tag_accessibility_clickable_spans:2131296544 used because its prefix matches string pool constant tag
-Marking id:tag_accessibility_heading:2131296545 used because its prefix matches string pool constant tag
-Marking id:tag_accessibility_pane_title:2131296546 used because its prefix matches string pool constant tag
-Marking id:tag_screen_reader_focusable:2131296547 used because its prefix matches string pool constant tag
-Marking id:tag_transition_group:2131296548 used because its prefix matches string pool constant tag
-Marking id:tag_unhandled_key_event_manager:2131296549 used because its prefix matches string pool constant tag
-Marking id:tag_unhandled_key_listeners:2131296550 used because its prefix matches string pool constant tag
+Marking id:tag_accessibility_actions:2131296545 used because its prefix matches string pool constant tag
+Marking id:tag_accessibility_clickable_spans:2131296546 used because its prefix matches string pool constant tag
+Marking id:tag_accessibility_heading:2131296547 used because its prefix matches string pool constant tag
+Marking id:tag_accessibility_pane_title:2131296548 used because its prefix matches string pool constant tag
+Marking id:tag_screen_reader_focusable:2131296549 used because its prefix matches string pool constant tag
+Marking id:tag_transition_group:2131296550 used because its prefix matches string pool constant tag
+Marking id:tag_unhandled_key_event_manager:2131296551 used because its prefix matches string pool constant tag
+Marking id:tag_unhandled_key_listeners:2131296552 used because its prefix matches string pool constant tag
 Marking string:link_broken:2131689546 used because its prefix matches string pool constant link
 Marking string:linkutili:2131689547 used because its prefix matches string pool constant link
 Marking id:scale:2131296498 used because its prefix matches string pool constant scale
@@ -3049,9 +3049,9 @@ layout:abc_alert_dialog_title_material:2131492874 => [attr:dialogPreferredPaddin
 layout:abc_cascading_menu_item_layout:2131492875 => [drawable:abc_list_divider_material:2131230768, attr:dropdownListPreferredItemHeight:2130968810, style:RtlOverlay_Widget_AppCompat_PopupMenuItem:2131755258, attr:textAppearanceLargePopupMenu:2130969123, style:RtlOverlay_Widget_AppCompat_PopupMenuItem_Title:2131755263, attr:textAppearanceSmallPopupMenu:2130969132, style:RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut:2131755260, style:RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow:2131755261]
 layout:abc_dialog_title_material:2131492876 => [attr:dialogPreferredPadding:2130968792, dimen:abc_dialog_padding_top_material:2131165221, layout:abc_screen_content_include:2131492884]
 layout:abc_expanded_menu_layout:2131492877 => [attr:panelMenuListWidth:2130969003]
-layout:abc_list_menu_item_layout:2131492880 => [attr:listPreferredItemHeightSmall:2130968955, attr:listPreferredItemPaddingLeft:2130968957, attr:listPreferredItemPaddingRight:2130968958, attr:textAppearanceListItemSmall:2130969127, id:title:2131296569]
+layout:abc_list_menu_item_layout:2131492880 => [attr:listPreferredItemHeightSmall:2130968955, attr:listPreferredItemPaddingLeft:2130968957, attr:listPreferredItemPaddingRight:2130968958, attr:textAppearanceListItemSmall:2130969127, id:title:2131296571]
 layout:abc_popup_menu_header_item_layout:2131492882 => [attr:dropdownListPreferredItemHeight:2130968810, attr:textAppearancePopupMenuHeader:2130969129]
-layout:abc_popup_menu_item_layout:2131492883 => [drawable:abc_list_divider_material:2131230768, attr:dropdownListPreferredItemHeight:2130968810, style:RtlOverlay_Widget_AppCompat_PopupMenuItem:2131755258, style:RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup:2131755259, attr:textAppearanceLargePopupMenu:2130969123, style:RtlOverlay_Widget_AppCompat_PopupMenuItem_Text:2131755262, id:title:2131296569, attr:textAppearanceSmallPopupMenu:2130969132, style:RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow:2131755261]
+layout:abc_popup_menu_item_layout:2131492883 => [drawable:abc_list_divider_material:2131230768, attr:dropdownListPreferredItemHeight:2130968810, style:RtlOverlay_Widget_AppCompat_PopupMenuItem:2131755258, style:RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup:2131755259, attr:textAppearanceLargePopupMenu:2130969123, style:RtlOverlay_Widget_AppCompat_PopupMenuItem_Text:2131755262, id:title:2131296571, attr:textAppearanceSmallPopupMenu:2130969132, style:RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow:2131755261]
 layout:abc_screen_content_include:2131492884 => [id:action_bar_activity_content:2131296304]
 layout:abc_screen_simple:2131492885 => [id:action_mode_bar:2131296316, layout:abc_action_mode_bar:2131492868, layout:abc_screen_content_include:2131492884]
 layout:abc_screen_simple_overlay_action_mode:2131492886 => [layout:abc_screen_content_include:2131492884, id:action_mode_bar:2131296316, layout:abc_action_mode_bar:2131492868]
@@ -3060,14 +3060,14 @@ layout:abc_search_dropdown_item_icons_2line:2131492888 => [style:RtlOverlay_Widg
 layout:abc_search_view:2131492889 => [string:abc_searchview_description_search:2131689493, attr:actionButtonStyle:2130968587, dimen:abc_dropdownitem_icon_width:2131165225, style:RtlOverlay_Widget_AppCompat_SearchView_MagIcon:2131755269, id:search_edit_frame:2131296509, dimen:abc_dropdownitem_text_padding_left:2131165226, dimen:abc_dropdownitem_text_padding_right:2131165227, attr:selectableItemBackgroundBorderless:2130969035, string:abc_searchview_description_clear:2131689491, string:abc_searchview_description_submit:2131689494, string:abc_searchview_description_voice:2131689495]
 layout:abc_select_dialog_material:2131492890 => [attr:listDividerAlertDialog:2130968948, dimen:abc_dialog_list_padding_bottom_no_buttons:2131165216, dimen:abc_dialog_list_padding_top_no_title:2131165217, style:Widget_AppCompat_ListView:2131755558]
 layout:abc_tooltip:2131492891 => [attr:tooltipFrameBackground:2130969167, dimen:tooltip_margin:2131165510, dimen:tooltip_vertical_padding:2131165513, dimen:tooltip_horizontal_padding:2131165509, style:TextAppearance_AppCompat_Tooltip:2131755331, attr:tooltipForegroundColor:2130969166]
-layout:activity_changelog:2131492892 => [color:blue_900:2131099702, drawable:slackbar:2131230893, attr:actionBarSize:2130968579, color:grey_white_1000:2131099853, string:appbar_scrolling_view_behavior:2131689504, color:orange_800:2131099996, id:progressBar:2131296484, color:grey_200:2131099843, id:tvMirror:2131296588]
+layout:activity_changelog:2131492892 => [color:blue_900:2131099702, drawable:slackbar:2131230893, attr:actionBarSize:2130968579, color:grey_white_1000:2131099853, string:appbar_scrolling_view_behavior:2131689504, color:orange_800:2131099996, id:progressBar:2131296484, color:grey_200:2131099843, id:tvMirror:2131296590]
 layout:activity_forum:2131492893 => [color:blue_800:2131099701, drawable:forumback:2131230837, attr:actionBarSize:2130968579, color:grey_300:2131099844, id:appBarLayout:2131296327, string:appbar_scrolling_view_behavior:2131689504]
 layout:activity_forum_lq:2131492894 => [color:indigo_500:2131099861, drawable:forumlq:2131230838, attr:actionBarSize:2130968579, color:red_800:2131100049, color:grey_white_1000:2131099853, color:grey_300:2131099844, id:appBarLayout:2131296327, string:appbar_scrolling_view_behavior:2131689504]
 layout:activity_fragment_alien:2131492895 => [drawable:slackware_background_alien:2131230895, color:grey_white_1000:2131099853, drawable:alienbob:2131230813]
 layout:activity_fragment_slacky:2131492896 => [drawable:slackware_background:2131230894, color:grey_800:2131099850, drawable:slacky:2131230898]
-layout:activity_kernel:2131492897 => [drawable:slackware_background:2131230894, color:amber_200:2131099676, id:imageViewRedhat:2131296412, id:toolbar:2131296572, string:estrattoKernel:2131689534, string:tux:2131689622, drawable:tux:2131230905, drawable:fastly:2131230836, drawable:vexxhost:2131230906, drawable:redhat_logo:2131230892, id:imageViewTux:2131296413, id:textView1:2131296559, drawable:osl:2131230889, id:imageViewHostedISC:2131296409, drawable:linuxfundation:2131230863, id:imageViewFastly:2131296408, drawable:hostedatisc:2131230840, id:imageViewOsl:2131296411, id:imageViewLinuxFound:2131296410, string:sponsor:2131689602, attr:colorPrimary:2130968744]
-layout:activity_main:2131492898 => [style:ThemeOverlay_AppCompat_Dark_ActionBar:2131755466, attr:colorPrimary:2130968744, id:toolbar:2131296572, attr:actionBarSize:2130968579, color:red_700:2131100048, color:grey_white_1000:2131099853, drawable:slackware_background:2131230894, id:appbar:2131296328, drawable:slackware_background_drawer:2131230896, layout:header:2131492919, menu:drawer_items:2131558401]
-layout:activity_multilib:2131492899 => [drawable:slackware_background:2131230894, attr:colorPrimary:2130968744, id:toolbar:2131296572]
+layout:activity_kernel:2131492897 => [drawable:slackware_background:2131230894, color:amber_200:2131099676, id:imageViewRedhat:2131296412, id:toolbar:2131296574, string:estrattoKernel:2131689534, string:tux:2131689622, drawable:tux:2131230905, drawable:fastly:2131230836, drawable:vexxhost:2131230906, drawable:redhat_logo:2131230892, id:imageViewTux:2131296413, id:textView1:2131296561, drawable:osl:2131230889, id:imageViewHostedISC:2131296409, drawable:linuxfundation:2131230863, id:imageViewFastly:2131296408, drawable:hostedatisc:2131230840, id:imageViewOsl:2131296411, id:imageViewLinuxFound:2131296410, string:sponsor:2131689602, attr:colorPrimary:2130968744]
+layout:activity_main:2131492898 => [style:ThemeOverlay_AppCompat_Dark_ActionBar:2131755466, attr:colorPrimary:2130968744, id:toolbar:2131296574, attr:actionBarSize:2130968579, color:red_700:2131100048, color:grey_white_1000:2131099853, drawable:slackware_background:2131230894, id:appbar:2131296328, drawable:slackware_background_drawer:2131230896, layout:header:2131492919, menu:drawer_items:2131558401]
+layout:activity_multilib:2131492899 => [drawable:slackware_background:2131230894, attr:colorPrimary:2130968744, id:toolbar:2131296574]
 layout:alien_webview_fragment:2131492900 => [drawable:slackware_background_alien:2131230895]
 layout:changelog_fragment:2131492901 => [drawable:slackware_background:2131230894]
 layout:design_bottom_navigation_item:2131492903 => [dimen:design_bottom_navigation_margin:2131165286, dimen:design_bottom_navigation_text_size:2131165288, dimen:design_bottom_navigation_active_text_size:2131165280]
@@ -3118,25 +3118,26 @@ layout:notification_template_big_media_narrow_custom:2131492957 => [layout:notif
 layout:notification_template_lines_media:2131492960 => [dimen:notification_content_margin_start:2131165491, style:TextAppearance_Compat_Notification_Title_Media:2131755360, style:TextAppearance_Compat_Notification_Time_Media:2131755358, style:TextAppearance_Compat_Notification_Line2_Media:2131755355, style:TextAppearance_Compat_Notification_Media:2131755356, style:TextAppearance_Compat_Notification_Info_Media:2131755353]
 layout:notification_template_media:2131492961 => [dimen:notification_large_icon_height:2131165492, dimen:notification_large_icon_width:2131165493, layout:notification_template_icon_group:2131492959, layout:notification_template_lines_media:2131492960, layout:notification_media_cancel_action:2131492953]
 layout:notification_template_media_custom:2131492962 => [dimen:notification_large_icon_height:2131165492, dimen:notification_large_icon_width:2131165493, layout:notification_template_icon_group:2131492959, id:cancel_action:2131296335, dimen:notification_main_column_padding_top:2131165494, dimen:notification_content_margin_start:2131165491, dimen:notification_right_side_padding_top:2131165497, style:TextAppearance_Compat_Notification_Time_Media:2131755358, style:TextAppearance_Compat_Notification_Info_Media:2131755353, layout:notification_media_cancel_action:2131492953]
-layout:row_topic:2131492968 => [id:tvnPosts:2131296593, color:grey_700:2131099849, drawable:author_selected:2131230814, id:tvDate:2131296582, color:orange_300:2131099990, drawable:date_back:2131230828, id:tvTopic:2131296592, id:tvAuthor:2131296581, color:grey_600:2131099848, drawable:num_post:2131230888]
-layout:row_topic_lq:2131492969 => [id:tvAuthor:2131296581, id:tvnPosts:2131296593, color:grey_700:2131099849, drawable:author_selected:2131230814, drawable:num_post:2131230888, id:tvTopic:2131296592, id:tvSummary:2131296591, drawable:date_back:2131230828, id:tvLastAuthor:2131296585, color:blue_600:2131099699]
+layout:row_topic:2131492968 => [id:tvnPosts:2131296595, color:grey_700:2131099849, drawable:author_selected:2131230814, id:tvDate:2131296584, color:orange_300:2131099990, drawable:date_back:2131230828, id:tvTopic:2131296594, id:tvAuthor:2131296583, color:grey_600:2131099848, drawable:num_post:2131230888]
+layout:row_topic_lq:2131492969 => [id:tvAuthor:2131296583, id:tvnPosts:2131296595, color:grey_700:2131099849, drawable:author_selected:2131230814, drawable:num_post:2131230888, id:tvTopic:2131296594, id:tvSummary:2131296593, drawable:date_back:2131230828, id:tvLastAuthor:2131296587, color:blue_600:2131099699]
 layout:select_dialog_item_material:2131492970 => [attr:listPreferredItemHeightSmall:2130968955, attr:listPreferredItemPaddingLeft:2130968957, attr:listPreferredItemPaddingRight:2130968958, attr:textAppearanceListItemSmall:2130969127, attr:textColorAlertDialogListItem:2130969135]
 layout:select_dialog_multichoice_material:2131492971 => [attr:listPreferredItemHeightSmall:2130968955, attr:dialogPreferredPadding:2130968792, dimen:abc_select_dialog_padding_start_material:2131165242, attr:textColorAlertDialogListItem:2130969135]
 layout:select_dialog_singlechoice_material:2131492972 => [attr:listPreferredItemHeightSmall:2130968955, attr:dialogPreferredPadding:2130968792, dimen:abc_select_dialog_padding_start_material:2131165242, attr:textColorAlertDialogListItem:2130969135]
-layout:support_simple_spinner_dropdown_item:2131492974 => [attr:dropdownListPreferredItemHeight:2130968810, attr:spinnerDropDownItemStyle:2130969054]
-layout:test_action_chip:2131492975 => [string:chip_text:2131689523, style:Widget_MaterialComponents_Chip_Action:2131755627]
-layout:test_design_checkbox:2131492976 => [color:checkbox_themeable_attribute_color:2131099739]
-layout:test_reflow_chipgroup:2131492977 => [string:chip_text:2131689523, style:Widget_MaterialComponents_Chip_Filter:2131755630]
-layout:test_toolbar_custom_background:2131492979 => [drawable:test_custom_background:2131230900]
-layout:test_toolbar_elevation:2131492980 => [dimen:design_appbar_elevation:2131165277]
-layout:test_toolbar_surface:2131492981 => [style:Widget_MaterialComponents_Toolbar_Surface:2131755684]
-layout:text_view_with_line_height_from_appearance:2131492982 => [style:TestStyleWithLineHeight:2131755297]
-layout:text_view_with_line_height_from_layout:2131492983 => [style:TestStyleWithLineHeight:2131755297, dimen:material_text_view_test_line_height_override:2131165342]
-layout:text_view_with_line_height_from_style:2131492984 => [style:TestStyleWithLineHeightAppearance:2131755298]
-layout:text_view_with_theme_line_height:2131492985 => [style:TestStyleWithThemeLineHeightAttribute:2131755299]
+layout:slackware_webview_fragment:2131492973 => [drawable:slackware_background_alien:2131230895]
+layout:support_simple_spinner_dropdown_item:2131492975 => [attr:dropdownListPreferredItemHeight:2130968810, attr:spinnerDropDownItemStyle:2130969054]
+layout:test_action_chip:2131492976 => [string:chip_text:2131689523, style:Widget_MaterialComponents_Chip_Action:2131755627]
+layout:test_design_checkbox:2131492977 => [color:checkbox_themeable_attribute_color:2131099739]
+layout:test_reflow_chipgroup:2131492978 => [string:chip_text:2131689523, style:Widget_MaterialComponents_Chip_Filter:2131755630]
+layout:test_toolbar_custom_background:2131492980 => [drawable:test_custom_background:2131230900]
+layout:test_toolbar_elevation:2131492981 => [dimen:design_appbar_elevation:2131165277]
+layout:test_toolbar_surface:2131492982 => [style:Widget_MaterialComponents_Toolbar_Surface:2131755684]
+layout:text_view_with_line_height_from_appearance:2131492983 => [style:TestStyleWithLineHeight:2131755297]
+layout:text_view_with_line_height_from_layout:2131492984 => [style:TestStyleWithLineHeight:2131755297, dimen:material_text_view_test_line_height_override:2131165342]
+layout:text_view_with_line_height_from_style:2131492985 => [style:TestStyleWithLineHeightAppearance:2131755298]
+layout:text_view_with_theme_line_height:2131492986 => [style:TestStyleWithThemeLineHeightAttribute:2131755299]
 drawable:abc_btn_borderless_material:2131230728 => [drawable:abc_btn_default_mtrl_shape:2131230734]
 drawable:abc_btn_check_material:2131230729 => [drawable:abc_btn_check_to_on_mtrl_015:2131230732, drawable:abc_btn_check_to_on_mtrl_000:2131230731]
-drawable:abc_btn_check_material_anim:2131230730 => [drawable:btn_checkbox_checked_mtrl:2131230817, drawable:btn_checkbox_unchecked_mtrl:2131230819, drawable:btn_checkbox_unchecked_to_checked_mtrl_animation:2131230820, id:unchecked:2131296594, id:checked:2131296342, drawable:btn_checkbox_checked_to_unchecked_mtrl_animation:2131230818]
+drawable:abc_btn_check_material_anim:2131230730 => [drawable:btn_checkbox_checked_mtrl:2131230817, drawable:btn_checkbox_unchecked_mtrl:2131230819, drawable:btn_checkbox_unchecked_to_checked_mtrl_animation:2131230820, id:unchecked:2131296596, id:checked:2131296342, drawable:btn_checkbox_checked_to_unchecked_mtrl_animation:2131230818]
 drawable:abc_btn_colored_material:2131230733 => [dimen:abc_button_inset_vertical_material:2131165203, dimen:abc_button_inset_horizontal_material:2131165202, dimen:abc_control_corner_material:2131165208, dimen:abc_button_padding_vertical_material:2131165205, dimen:abc_button_padding_horizontal_material:2131165204]
 drawable:abc_btn_default_mtrl_shape:2131230734 => [dimen:abc_button_inset_vertical_material:2131165203, dimen:abc_button_inset_horizontal_material:2131165202, dimen:abc_control_corner_material:2131165208, dimen:abc_button_padding_vertical_material:2131165205, dimen:abc_button_padding_horizontal_material:2131165204]
 drawable:abc_btn_radio_material:2131230735 => [drawable:abc_btn_radio_to_on_mtrl_015:2131230738, drawable:abc_btn_radio_to_on_mtrl_000:2131230737]
@@ -3175,7 +3176,7 @@ drawable:btn_radio_off_to_on_mtrl_animation:2131230822 => [drawable:btn_radio_of
 drawable:btn_radio_on_to_off_mtrl_animation:2131230824 => [drawable:btn_radio_on_mtrl:2131230823, anim:btn_radio_to_off_mtrl_ring_outer_animation:2130771988, anim:btn_radio_to_off_mtrl_ring_outer_path_animation:2130771989, anim:btn_radio_to_off_mtrl_dot_group_animation:2130771987]
 drawable:design_bottom_navigation_item_background:2131230830 => [attr:colorPrimary:2130968744]
 drawable:design_ic_visibility:2131230832 => [string:path_password_eye:2131689591]
-drawable:design_password_eye:2131230834 => [drawable:design_ic_visibility:2131230832, drawable:design_ic_visibility_off:2131230833, drawable:avd_show_password:2131230816, id:masked:2131296433, id:visible:2131296600, drawable:avd_hide_password:2131230815]
+drawable:design_password_eye:2131230834 => [drawable:design_ic_visibility:2131230832, drawable:design_ic_visibility_off:2131230833, drawable:avd_show_password:2131230816, id:masked:2131296433, id:visible:2131296602, drawable:avd_hide_password:2131230815]
 drawable:design_snackbar_background:2131230835 => [dimen:design_snackbar_background_corner_radius:2131165309, color:design_snackbar_background_color:2131099819]
 drawable:mtrl_dialog_background:2131230866 => [dimen:appcompat_dialog_background_inset:2131165265, dimen:mtrl_shape_corner_size_medium_component:2131165472, attr:colorSurface:2130968750]
 drawable:mtrl_dropdown_arrow:2131230867 => [drawable:mtrl_ic_arrow_drop_up:2131230869, drawable:mtrl_ic_arrow_drop_down:2131230868]
@@ -3363,26 +3364,26 @@ dimen:notification_action_icon_size:2131165488,
    id:search_voice_btn:2131296514,
    id:select_dialog_listview:2131296515,
    id:shortcut:2131296517,
-   id:spacer:2131296529,
-   id:split_action_bar:2131296530,
-   id:submenuarrow:2131296537,
-   id:submit_area:2131296538,
-   id:tag_accessibility_actions:2131296543,
-   id:tag_accessibility_clickable_spans:2131296544,
-   id:tag_accessibility_heading:2131296545,
-   id:tag_accessibility_pane_title:2131296546,
-   id:tag_screen_reader_focusable:2131296547,
-   id:tag_transition_group:2131296548,
-   id:tag_unhandled_key_event_manager:2131296549,
-   id:tag_unhandled_key_listeners:2131296550,
-   id:textSpacerNoButtons:2131296556,
-   id:textSpacerNoTitle:2131296557,
-   id:time:2131296568,
-   id:title:2131296569,
-   id:titleDividerNoCustom:2131296570,
-   id:title_template:2131296571,
-   id:topPanel:2131296574,
-   id:up:2131296597,
+   id:spacer:2131296530,
+   id:split_action_bar:2131296531,
+   id:submenuarrow:2131296538,
+   id:submit_area:2131296539,
+   id:tag_accessibility_actions:2131296545,
+   id:tag_accessibility_clickable_spans:2131296546,
+   id:tag_accessibility_heading:2131296547,
+   id:tag_accessibility_pane_title:2131296548,
+   id:tag_screen_reader_focusable:2131296549,
+   id:tag_transition_group:2131296550,
+   id:tag_unhandled_key_event_manager:2131296551,
+   id:tag_unhandled_key_listeners:2131296552,
+   id:textSpacerNoButtons:2131296558,
+   id:textSpacerNoTitle:2131296559,
+   id:time:2131296570,
+   id:title:2131296571,
+   id:titleDividerNoCustom:2131296572,
+   id:title_template:2131296573,
+   id:topPanel:2131296576,
+   id:up:2131296599,
    drawable:notification_action_background:2131230876,
    drawable:notification_bg:2131230877,
    drawable:notification_bg_low:2131230878,
@@ -4519,7 +4520,6 @@ dimen:notification_action_icon_size:2131165488,
    layout:activity_changelog:2131492892,
    layout:activity_forum:2131492893,
    layout:activity_forum_lq:2131492894,
-   layout:activity_fragment_slacky:2131492896,
    layout:activity_kernel:2131492897,
    layout:activity_main:2131492898,
    layout:activity_multilib:2131492899,
@@ -4565,13 +4565,14 @@ dimen:notification_action_icon_size:2131165488,
    layout:select_dialog_item_material:2131492970,
    layout:select_dialog_multichoice_material:2131492971,
    layout:select_dialog_singlechoice_material:2131492972,
-   layout:support_simple_spinner_dropdown_item:2131492974,
+   layout:slackware_webview_fragment:2131492973,
+   layout:support_simple_spinner_dropdown_item:2131492975,
    id:save_overlay_view:2131296497,
-   id:transition_current_scene:2131296576,
-   id:transition_layout_save:2131296577,
-   id:transition_position:2131296578,
-   id:transition_scene_layoutid_cache:2131296579,
-   id:transition_transform:2131296580,
+   id:transition_current_scene:2131296578,
+   id:transition_layout_save:2131296579,
+   id:transition_position:2131296580,
+   id:transition_scene_layoutid_cache:2131296581,
+   id:transition_transform:2131296582,
    plurals:mtrl_badge_content_description:2131623936,
    drawable:abc_ab_share_pack_mtrl_alpha:2131230726,
    drawable:abc_btn_borderless_material:2131230728,
@@ -4713,13 +4714,13 @@ dimen:notification_action_icon_size:2131165488,
    id:navigation_header_container:2131296466,
    id:scale:2131296498,
    id:selected:2131296516,
-   id:smallLabel:2131296524,
-   id:snackbar_action:2131296525,
-   id:snackbar_text:2131296526,
-   id:textinput_counter:2131296565,
-   id:textinput_error:2131296566,
-   id:textinput_helper_text:2131296567,
-   id:view_offset_helper:2131296599,
+   id:smallLabel:2131296525,
+   id:snackbar_action:2131296526,
+   id:snackbar_text:2131296527,
+   id:textinput_counter:2131296567,
+   id:textinput_error:2131296568,
+   id:textinput_helper_text:2131296569,
+   id:view_offset_helper:2131296601,
    id:View2:2131296266,
    id:abMirror:2131296267,
    id:abSettings:2131296268,
@@ -4730,7 +4731,6 @@ dimen:notification_action_icon_size:2131165488,
    id:collapsing_toolbar:2131296350,
    id:drawer:2131296370,
    id:drawer_layout:2131296371,
-   id:fabSlacky:2131296382,
    id:forum:2131296392,
    id:forumPager:2131296393,
    id:horScroll:2131296401,
@@ -4756,23 +4756,23 @@ dimen:notification_action_icon_size:2131165488,
    id:recyclerTopics:2131296489,
    id:refresh:2131296490,
    id:relative:2131296491,
-   id:swipeUpdate:2131296539,
-   id:swipe_alien_update:2131296540,
-   id:tabLayout:2131296541,
-   id:textViewKernel:2131296561,
-   id:textViewMultilib:2131296562,
-   id:toolbar:2131296572,
-   id:tvAuthor:2131296581,
-   id:tvDate:2131296582,
-   id:tvFonteKernel:2131296583,
-   id:tvLastAuthor:2131296585,
-   id:tvLastDate:2131296586,
-   id:tvLog:2131296587,
-   id:tvMirror:2131296588,
-   id:tvNewsSlacky:2131296590,
-   id:tvSummary:2131296591,
-   id:tvTopic:2131296592,
-   id:tvnPosts:2131296593,
+   id:slackware_webview:2131296522,
+   id:swipe_alien_update:2131296541,
+   id:swipe_slackware_update:2131296542,
+   id:tabLayout:2131296543,
+   id:textViewKernel:2131296563,
+   id:textViewMultilib:2131296564,
+   id:toolbar:2131296574,
+   id:tvAuthor:2131296583,
+   id:tvDate:2131296584,
+   id:tvFonteKernel:2131296585,
+   id:tvLastAuthor:2131296587,
+   id:tvLastDate:2131296588,
+   id:tvLog:2131296589,
+   id:tvMirror:2131296590,
+   id:tvSummary:2131296593,
+   id:tvTopic:2131296594,
+   id:tvnPosts:2131296595,
    menu:ab_mirror:2131558400,
    menu:settings:2131558402,
    drawable:header:2131230839,
@@ -5051,6 +5051,7 @@ Skipped unused resource res/drawable/mtrl_popupmenu_background.xml: 782 bytes (r
 Skipped unused resource res/drawable-v23/mtrl_popupmenu_background_dark.xml: 1541 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable/paypal.png: 5571 bytes (replaced with small dummy file of size 67 bytes)
 Skipped unused resource res/drawable/paypal_logo.png: 327835 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/drawable/slacky.png: 9172 bytes (replaced with small dummy file of size 67 bytes)
 Skipped unused resource res/drawable/test_custom_background.xml: 229 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable/tooltip_frame_light.xml: 504 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable-mdpi-v4/date_selected.png: 688 bytes (replaced with small dummy file of size 67 bytes)
@@ -5084,6 +5085,7 @@ Skipped unused resource res/layout/abc_action_bar_up_container.xml: 593 bytes (r
 Skipped unused resource res/layout/abc_activity_chooser_view.xml: 3977 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/layout/abc_activity_chooser_view_list_item.xml: 2750 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/layout/activity_fragment_alien.xml: 3413 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout/activity_fragment_slacky.xml: 3387 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/layout/custom_dialog.xml: 850 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/layout/design_bottom_navigation_item.xml: 3272 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/layout/design_bottom_sheet_dialog.xml: 2194 bytes (replaced with small dummy file of size 9 bytes)

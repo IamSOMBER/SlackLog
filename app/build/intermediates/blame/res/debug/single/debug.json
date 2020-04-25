@@ -52,16 +52,16 @@
         "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/layout/row_multilib.xml"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/layout_activity_kernel.xml.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/layout/activity_kernel.xml"
+        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable_header.jpg.flat",
+        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable/header.jpg"
     },
     {
         "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-hdpi_topic_daily.png.flat",
         "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-hdpi/topic_daily.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable_header.jpg.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable/header.jpg"
+        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/layout_activity_kernel.xml.flat",
+        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/layout/activity_kernel.xml"
     },
     {
         "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-nodpi_slackware_background_forum.png.flat",
@@ -298,6 +298,10 @@
     {
         "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-nodpi_slackware_background_drawer.png.flat",
         "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-nodpi/slackware_background_drawer.png"
+    },
+    {
+        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/layout_slackware_webview_fragment.xml.flat",
+        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/layout/slackware_webview_fragment.xml"
     },
     {
         "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/anim_zoom_out.xml.flat",

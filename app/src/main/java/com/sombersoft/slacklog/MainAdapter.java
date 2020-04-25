@@ -13,7 +13,7 @@ public class MainAdapter extends FragmentStatePagerAdapter {
     @Override
     public Fragment getItem(int item) {
         if (item == 0) {
-            return new FragmentSlacky();
+            return new SlackwareWebViewFragment();
         }
         return new AlienWebViewFragment();
     }
@@ -37,9 +37,9 @@ public class MainAdapter extends FragmentStatePagerAdapter {
     public CharSequence getPageTitle(int position) {
         switch (position) {
             case 0:
-                return "Slacky";
+                return "GNU/Linux";
             case 1:
-                return "Alien";
+                return "AlienBob";
         }
         return null;
     }

@@ -1,7 +1,7 @@
 # compiler: R8
 # compiler_version: 2.0.59
 # min_api: 23
-# pg_map_id: fae4e20
+# pg_map_id: 27478e5
 # common_typos_disable
 android.support.v4.media.MediaBrowserCompat$CustomActionResultReceiver -> android.support.v4.media.MediaBrowserCompat$CustomActionResultReceiver:
     void onReceiveResult(int,android.os.Bundle) -> f
@@ -765,8 +765,8 @@ androidx.appcompat.app.AlertDialog$Builder -> b.b.k.f$a:
     12:12:androidx.appcompat.app.AlertDialog create():0 -> a
     13:13:androidx.appcompat.app.AlertDialog create():0:0 -> a
 androidx.appcompat.app.AppCompatActivity -> b.b.k.g:
-    androidx.appcompat.app.AppCompatDelegate mDelegate -> o
-    android.content.res.Resources mResources -> p
+    android.content.res.Resources mResources -> o
+    androidx.appcompat.app.AppCompatDelegate mDelegate -> n
     1:1:void androidx.appcompat.app.AppCompatDelegateImpl.attachBaseContext(android.content.Context):0:0 -> attachBaseContext
     1:1:void attachBaseContext(android.content.Context):0 -> attachBaseContext
     void onSupportActionModeStarted(androidx.appcompat.view.ActionMode) -> b
@@ -7227,7 +7227,6 @@ androidx.core.app.ActivityCompat -> b.g.d.a:
     void finishAffinity(android.app.Activity) -> d
     androidx.core.app.ActivityCompat$PermissionCompatDelegate getPermissionCompatDelegate() -> e
     void recreate(android.app.Activity) -> f
-    void startActivityForResult(android.app.Activity,android.content.Intent,int,android.os.Bundle) -> g
 androidx.core.app.ActivityCompat$PermissionCompatDelegate -> b.g.d.a$a:
 androidx.core.app.ActivityRecreator -> b.g.d.b:
     android.os.Handler mainHandler -> g
@@ -10114,13 +10113,12 @@ androidx.fragment.app.Fragment$SavedState$1 -> androidx.fragment.app.Fragment$e$
     1:1:java.lang.Object[] newArray(int):0 -> newArray
 androidx.fragment.app.FragmentActivity -> b.k.a.e:
     androidx.fragment.app.FragmentController mFragments -> g
-    int mNextCandidateRequestIndex -> m
+    int mNextCandidateRequestIndex -> l
     boolean mCreated -> i
     androidx.lifecycle.LifecycleRegistry mFragmentLifecycleRegistry -> h
     boolean mResumed -> j
     boolean mStopped -> k
-    boolean mStartedActivityFromFragment -> l
-    androidx.collection.SparseArrayCompat mPendingFragmentActivityResults -> n
+    androidx.collection.SparseArrayCompat mPendingFragmentActivityResults -> m
     1:1:androidx.fragment.app.FragmentController androidx.fragment.app.FragmentController.createController(androidx.fragment.app.FragmentHostCallback):0:0 -> <init>
     1:1:void <init>():0 -> <init>
     2:2:void <init>():0:0 -> <init>
@@ -26518,23 +26516,23 @@ com.sombersoft.slacklog.AlienWebViewFragment$2 -> c.d.a.a$b:
     android.webkit.WebView val$myWebView -> b
     void onRefresh() -> a
 com.sombersoft.slacklog.Changelog -> com.sombersoft.slacklog.Changelog:
-    android.content.SharedPreferences$Editor editor -> B
-    android.content.Context mContext -> C
-    android.widget.RelativeLayout mainLayout -> G
-    android.app.AlertDialog$Builder alertMirror -> t
-    com.google.android.material.tabs.TabLayout tabLayout -> F
-    android.widget.TextView textViewBranch -> r
-    java.util.List listVersion -> s
-    android.widget.ProgressBar bar -> E
-    java.lang.String version -> q
-    java.lang.String branch -> u
-    androidx.viewpager.widget.ViewPager viewPager -> w
-    java.lang.String copyLastUpdate64 -> y
-    com.sombersoft.slacklog.ChangelogFragmentAdapter adapter -> x
-    java.io.File rootDir -> v
-    java.lang.String copyLastUpdate32 -> z
-    android.content.SharedPreferences slackPreferences -> A
-    com.sombersoft.slacklog.Changelog$DownloadLog download -> D
+    com.google.android.material.tabs.TabLayout tabLayout -> E
+    java.util.List listVersion -> r
+    android.widget.TextView textViewBranch -> q
+    android.content.SharedPreferences$Editor editor -> A
+    android.content.Context mContext -> B
+    android.widget.RelativeLayout mainLayout -> F
+    android.app.AlertDialog$Builder alertMirror -> s
+    android.widget.ProgressBar bar -> D
+    java.lang.String version -> p
+    android.content.SharedPreferences slackPreferences -> z
+    java.lang.String branch -> t
+    com.sombersoft.slacklog.ChangelogFragmentAdapter adapter -> w
+    java.lang.String copyLastUpdate32 -> y
+    androidx.viewpager.widget.ViewPager viewPager -> v
+    java.lang.String copyLastUpdate64 -> x
+    com.sombersoft.slacklog.Changelog$DownloadLog download -> C
+    java.io.File rootDir -> u
     1:1:void androidx.core.app.NavUtils.navigateUpFromSameTask(android.app.Activity):0:0 -> onOptionsItemSelected
     1:1:boolean onOptionsItemSelected(android.view.MenuItem):0 -> onOptionsItemSelected
     2:2:void androidx.core.app.NavUtils.navigateUpTo(android.app.Activity,android.content.Intent):0:0 -> onOptionsItemSelected
@@ -26734,29 +26732,29 @@ com.sombersoft.slacklog.ChangelogService -> com.sombersoft.slacklog.ChangelogSer
     void enqueueWork(android.content.Context,android.content.Intent) -> f
     java.lang.String onLineVersion(java.lang.String) -> g
 com.sombersoft.slacklog.Forum -> com.sombersoft.slacklog.Forum:
-    java.lang.String fileHardware -> G
-    java.lang.String fileProgram -> F
-    java.lang.String fileLaptop -> H
-    com.sombersoft.slacklog.Forum$DownloadTopics download -> J
-    boolean autoUpdate -> q
-    android.widget.RelativeLayout mainLayout -> L
-    java.util.LinkedHashMap forum -> M
-    android.widget.ProgressBar bar -> K
-    boolean check -> s
-    java.lang.String fileTopics64 -> y
-    android.content.SharedPreferences$Editor editor -> r
-    androidx.viewpager.widget.ViewPager viewPager -> v
-    java.lang.String fileTopics32 -> x
-    java.lang.String fileTopicsGenDisc -> z
-    androidx.fragment.app.FragmentManager fm -> t
-    java.lang.String fileTopicsPack -> A
-    android.content.Context mContext -> u
-    java.lang.String fileWiki -> C
-    java.lang.String fileTopicsFree -> B
-    android.content.SharedPreferences settings -> I
-    com.sombersoft.slacklog.ForumFragmentAdapter viewPagerAdapter -> w
-    java.lang.String filePort -> E
-    java.lang.String fileSec -> D
+    java.lang.String fileLaptop -> G
+    java.lang.String fileHardware -> F
+    boolean autoUpdate -> p
+    com.sombersoft.slacklog.Forum$DownloadTopics download -> I
+    java.util.LinkedHashMap forum -> L
+    boolean check -> r
+    android.widget.RelativeLayout mainLayout -> K
+    android.widget.ProgressBar bar -> J
+    java.lang.String fileTopics32 -> w
+    androidx.fragment.app.FragmentManager fm -> s
+    java.lang.String fileTopicsGenDisc -> y
+    java.lang.String fileTopics64 -> x
+    android.content.SharedPreferences$Editor editor -> q
+    androidx.viewpager.widget.ViewPager viewPager -> u
+    java.lang.String fileTopicsPack -> z
+    java.lang.String fileTopicsFree -> A
+    java.lang.String fileSec -> C
+    android.content.SharedPreferences settings -> H
+    android.content.Context mContext -> t
+    java.lang.String fileWiki -> B
+    java.lang.String fileProgram -> E
+    com.sombersoft.slacklog.ForumFragmentAdapter viewPagerAdapter -> v
+    java.lang.String filePort -> D
     1:1:void createMap():0:0 -> onCreate
     1:1:void onCreate(android.os.Bundle):0 -> onCreate
     2:2:void onCreate(android.os.Bundle):0:0 -> onCreate
@@ -26832,32 +26830,32 @@ com.sombersoft.slacklog.ForumFragmentAdapter -> c.d.a.e:
     java.lang.CharSequence getPageTitle(int) -> e
     androidx.fragment.app.Fragment getItem(int) -> i
 com.sombersoft.slacklog.ForumLQ -> com.sombersoft.slacklog.ForumLQ:
-    java.lang.String fileLQNews -> G
-    android.widget.RelativeLayout mainLayout -> N
-    boolean autoUpdate -> q
-    java.util.LinkedHashMap forumLQ -> J
-    java.lang.String fileLQNewbie -> t
-    java.lang.String fileLQHardware -> v
-    android.content.Context mContext -> s
-    java.lang.String fileLQMobile -> x
-    com.sombersoft.slacklog.ForumLQ$DownloadTopicsLQ download -> I
-    java.lang.String fileLQServer -> z
-    com.sombersoft.slacklog.ForumLQ$SectionsPagerAdapter mSectionsPagerAdapter -> L
-    java.lang.String fileLQNet -> B
-    androidx.viewpager.widget.ViewPager mViewPager -> K
-    java.lang.String fileLQCloud -> D
-    java.lang.String fileLQMisc -> F
-    android.widget.HorizontalScrollView horizontalScrollView -> P
-    java.lang.String fileLQSoftware -> u
-    java.lang.String fileLQLaptop -> w
-    android.widget.ProgressBar bar -> M
-    java.lang.String fileLQSec -> y
-    android.content.SharedPreferences$Editor editorDef -> r
-    android.widget.LinearLayout linearLayout -> O
-    java.lang.String fileLQDesktop -> A
-    java.lang.String fileLQDistro -> C
-    android.content.SharedPreferences settings -> H
-    java.lang.String fileLQScreen -> E
+    android.widget.HorizontalScrollView horizontalScrollView -> O
+    java.lang.String fileLQSoftware -> t
+    java.lang.String fileLQLaptop -> v
+    android.widget.ProgressBar bar -> L
+    java.lang.String fileLQSec -> x
+    android.content.SharedPreferences settings -> G
+    android.content.SharedPreferences$Editor editorDef -> q
+    android.widget.LinearLayout linearLayout -> N
+    java.lang.String fileLQDesktop -> z
+    java.lang.String fileLQDistro -> B
+    java.lang.String fileLQScreen -> D
+    java.lang.String fileLQNews -> F
+    boolean autoUpdate -> p
+    java.util.LinkedHashMap forumLQ -> I
+    java.lang.String fileLQNewbie -> s
+    android.widget.RelativeLayout mainLayout -> M
+    java.lang.String fileLQHardware -> u
+    java.lang.String fileLQMobile -> w
+    java.lang.String fileLQServer -> y
+    android.content.Context mContext -> r
+    com.sombersoft.slacklog.ForumLQ$SectionsPagerAdapter mSectionsPagerAdapter -> K
+    java.lang.String fileLQNet -> A
+    java.lang.String fileLQCloud -> C
+    com.sombersoft.slacklog.ForumLQ$DownloadTopicsLQ download -> H
+    java.lang.String fileLQMisc -> E
+    androidx.viewpager.widget.ViewPager mViewPager -> J
     1:1:void createMap():0:0 -> onCreate
     1:1:void onCreate(android.os.Bundle):0 -> onCreate
     2:2:void onCreate(android.os.Bundle):0:0 -> onCreate
@@ -27236,71 +27234,13 @@ com.sombersoft.slacklog.FragmentForumLQ -> c.d.a.n:
 com.sombersoft.slacklog.FragmentForumLQ$1 -> c.d.a.n$a:
     androidx.swiperefreshlayout.widget.SwipeRefreshLayout val$swipeRefreshLayout -> a
     void onRefresh() -> a
-com.sombersoft.slacklog.FragmentSlacky -> c.d.a.o:
-    android.content.Context mContext -> b0
-    java.io.File newsFile -> W
-    android.view.View view -> a0
-    android.widget.TextView tvNews -> X
-    android.widget.RelativeLayout mainLayout -> c0
-    androidx.swiperefreshlayout.widget.SwipeRefreshLayout swipeRefreshLayout -> Y
-    android.widget.ProgressBar bar -> Z
-    1:1:void updateFile(boolean):0:0 -> A
-    1:1:android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle):0 -> A
-    2:2:void showNewsSlacky():0:0 -> A
-    2:2:android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle):0 -> A
-    3:3:android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle):0:0 -> A
-com.sombersoft.slacklog.FragmentSlacky$1 -> c.d.a.o$a:
-    1:1:void com.sombersoft.slacklog.FragmentSlacky.updateFile(boolean):0:0 -> a
-    1:1:void onRefresh():0 -> a
-com.sombersoft.slacklog.FragmentSlacky$2 -> c.d.a.o$b:
-    com.sombersoft.slacklog.FragmentSlacky this$0 -> b
-    1:1:android.content.Context com.sombersoft.slacklog.FragmentSlacky.access$000():0:0 -> onClick
-    1:1:void onClick(android.view.View):0 -> onClick
-    2:2:void onClick(android.view.View):0:0 -> onClick
-    3:3:void androidx.fragment.app.Fragment.startActivity(android.content.Intent,android.os.Bundle):0:0 -> onClick
-    3:3:void androidx.fragment.app.Fragment.startActivity(android.content.Intent):0 -> onClick
-    3:3:void onClick(android.view.View):0 -> onClick
-    4:4:void androidx.fragment.app.FragmentActivity$HostCallbacks.onStartActivityFromFragment(androidx.fragment.app.Fragment,android.content.Intent,int,android.os.Bundle):0:0 -> onClick
-    4:4:void androidx.fragment.app.Fragment.startActivity(android.content.Intent,android.os.Bundle):0 -> onClick
-    4:4:void androidx.fragment.app.Fragment.startActivity(android.content.Intent):0 -> onClick
-    4:4:void onClick(android.view.View):0 -> onClick
-    5:5:void androidx.fragment.app.FragmentActivity.startActivityFromFragment(androidx.fragment.app.Fragment,android.content.Intent,int,android.os.Bundle):0:0 -> onClick
-    5:5:void androidx.fragment.app.FragmentActivity$HostCallbacks.onStartActivityFromFragment(androidx.fragment.app.Fragment,android.content.Intent,int,android.os.Bundle):0 -> onClick
-    5:5:void androidx.fragment.app.Fragment.startActivity(android.content.Intent,android.os.Bundle):0 -> onClick
-    5:5:void androidx.fragment.app.Fragment.startActivity(android.content.Intent):0 -> onClick
-    5:5:void onClick(android.view.View):0 -> onClick
-    6:6:void androidx.fragment.app.Fragment.startActivity(android.content.Intent,android.os.Bundle):0:0 -> onClick
-    6:6:void androidx.fragment.app.Fragment.startActivity(android.content.Intent):0 -> onClick
-    6:6:void onClick(android.view.View):0 -> onClick
-    7:7:android.widget.RelativeLayout com.sombersoft.slacklog.FragmentSlacky.access$100():0:0 -> onClick
-    7:7:void onClick(android.view.View):0 -> onClick
-    8:8:void onClick(android.view.View):0:0 -> onClick
-com.sombersoft.slacklog.FragmentSlacky$DownloadSlacky -> c.d.a.o$c:
-    1:1:java.util.ArrayList doInBackground(java.lang.Void[]):0:0 -> doInBackground
-    1:1:java.lang.Object doInBackground(java.lang.Object[]):0 -> doInBackground
-    1:1:androidx.swiperefreshlayout.widget.SwipeRefreshLayout com.sombersoft.slacklog.FragmentSlacky.access$200():0:0 -> onCancelled
-    1:1:void onCancelled():0 -> onCancelled
-    2:2:void onCancelled():0:0 -> onCancelled
-    1:1:androidx.swiperefreshlayout.widget.SwipeRefreshLayout com.sombersoft.slacklog.FragmentSlacky.access$200():0:0 -> onPostExecute
-    1:1:void onPostExecute(java.util.ArrayList):0 -> onPostExecute
-    1:1:void onPostExecute(java.lang.Object):0 -> onPostExecute
-    2:2:void onPostExecute(java.util.ArrayList):0:0 -> onPostExecute
-    2:2:void onPostExecute(java.lang.Object):0 -> onPostExecute
-    3:3:android.widget.ProgressBar com.sombersoft.slacklog.FragmentSlacky.access$300():0:0 -> onPostExecute
-    3:3:void onPostExecute(java.util.ArrayList):0 -> onPostExecute
-    3:3:void onPostExecute(java.lang.Object):0 -> onPostExecute
-    4:4:void onPostExecute(java.util.ArrayList):0:0 -> onPostExecute
-    4:4:void onPostExecute(java.lang.Object):0 -> onPostExecute
-    5:5:void com.sombersoft.slacklog.MainActivity.makeFile(java.util.ArrayList,java.io.File):0:0 -> onPostExecute
-    5:5:void onPostExecute(java.util.ArrayList):0 -> onPostExecute
-    5:5:void onPostExecute(java.lang.Object):0 -> onPostExecute
 com.sombersoft.slacklog.Kernel -> com.sombersoft.slacklog.Kernel:
-    java.io.File kernelFile -> t
-    androidx.swiperefreshlayout.widget.SwipeRefreshLayout swipeRefreshLayout -> s
-    androidx.recyclerview.widget.RecyclerView lvKernel -> q
-    android.widget.ProgressBar bar -> v
-    com.sombersoft.slacklog.KernelAdapter adapter -> u
-    com.sombersoft.slacklog.Kernel$DownloadKernel download -> r
+    java.io.File kernelFile -> s
+    androidx.swiperefreshlayout.widget.SwipeRefreshLayout swipeRefreshLayout -> r
+    android.widget.ProgressBar bar -> u
+    androidx.recyclerview.widget.RecyclerView lvKernel -> p
+    com.sombersoft.slacklog.Kernel$DownloadKernel download -> q
+    com.sombersoft.slacklog.KernelAdapter adapter -> t
     1:1:void androidx.activity.ComponentActivity.onBackPressed():0:0 -> onBackPressed
     1:1:void onBackPressed():0 -> onBackPressed
     2:2:void onBackPressed():0:0 -> onBackPressed
@@ -27372,7 +27312,7 @@ com.sombersoft.slacklog.Kernel$DownloadKernel -> com.sombersoft.slacklog.Kernel$
     9:9:void com.sombersoft.slacklog.Kernel.makeFile(java.util.ArrayList):0:0 -> onPostExecute
     9:9:void onPostExecute(java.util.ArrayList):0 -> onPostExecute
     9:9:void onPostExecute(java.lang.Object):0 -> onPostExecute
-com.sombersoft.slacklog.KernelAdapter -> c.d.a.p:
+com.sombersoft.slacklog.KernelAdapter -> c.d.a.o:
     java.util.ArrayList array -> c
     int getItemCount() -> a
     1:1:void onBindViewHolder(com.sombersoft.slacklog.KernelAdapter$Holder,int):0:0 -> d
@@ -27424,19 +27364,17 @@ com.sombersoft.slacklog.KernelAdapter -> c.d.a.p:
     19:19:void onBindViewHolder(androidx.recyclerview.widget.RecyclerView$ViewHolder,int):0 -> d
     1:1:com.sombersoft.slacklog.KernelAdapter$Holder onCreateViewHolder(android.view.ViewGroup,int):0:0 -> e
     1:1:androidx.recyclerview.widget.RecyclerView$ViewHolder onCreateViewHolder(android.view.ViewGroup,int):0 -> e
-com.sombersoft.slacklog.KernelAdapter$Holder -> c.d.a.p$a:
+com.sombersoft.slacklog.KernelAdapter$Holder -> c.d.a.o$a:
     android.widget.TextView tvKernel -> t
 com.sombersoft.slacklog.MainActivity -> com.sombersoft.slacklog.MainActivity:
-    androidx.viewpager.widget.ViewPager viewPager -> y
-    com.sombersoft.slacklog.MainAdapter mAdapter -> z
-    androidx.appcompat.app.ActionBarDrawerToggle mDrawerToggle -> t
-    android.content.SharedPreferences$Editor editor -> r
-    android.widget.Toast mToast -> s
-    android.content.SharedPreferences slackPreferences -> q
-    java.io.File newsFileSlacky -> x
-    com.sombersoft.slacklog.ChangelogBroadcastReceiver changelogBroadcastReceiver -> u
-    com.sombersoft.slacklog.MultilibBroadcastReceiver multilibBroadcastReceiver -> v
-    android.content.Context mContext -> w
+    android.widget.Toast mToast -> r
+    androidx.appcompat.app.ActionBarDrawerToggle mDrawerToggle -> s
+    androidx.viewpager.widget.ViewPager viewPager -> v
+    android.content.SharedPreferences$Editor editor -> q
+    com.sombersoft.slacklog.MainAdapter mAdapter -> w
+    android.content.SharedPreferences slackPreferences -> p
+    com.sombersoft.slacklog.ChangelogBroadcastReceiver changelogBroadcastReceiver -> t
+    com.sombersoft.slacklog.MultilibBroadcastReceiver multilibBroadcastReceiver -> u
     1:1:void androidx.activity.ComponentActivity.onBackPressed():0:0 -> onBackPressed
     1:1:void onBackPressed():0 -> onBackPressed
     2:2:void onBackPressed():0:0 -> onBackPressed
@@ -27466,21 +27404,21 @@ com.sombersoft.slacklog.MainActivity$3 -> com.sombersoft.slacklog.MainActivity$c
     void onDrawerClosed(android.view.View) -> d
 com.sombersoft.slacklog.MainActivity$4 -> com.sombersoft.slacklog.MainActivity$d:
     com.sombersoft.slacklog.MainActivity this$0 -> a
-com.sombersoft.slacklog.MainAdapter -> c.d.a.q:
+com.sombersoft.slacklog.MainAdapter -> c.d.a.p:
     int getCount() -> c
     int getItemPosition(java.lang.Object) -> d
     java.lang.CharSequence getPageTitle(int) -> e
     androidx.fragment.app.Fragment getItem(int) -> i
 com.sombersoft.slacklog.Multilib -> com.sombersoft.slacklog.Multilib:
-    android.widget.RelativeLayout mainLayout -> y
-    java.io.File fileMultilib -> r
-    java.io.File rootDir -> q
-    com.sombersoft.slacklog.MultilibAdapter adapter -> t
-    android.content.SharedPreferences mPref -> s
-    android.content.SharedPreferences$Editor editor -> w
-    android.widget.ProgressBar bar -> v
-    java.lang.String copyLastUpdate -> u
-    androidx.swiperefreshlayout.widget.SwipeRefreshLayout swipeRefreshLayout -> x
+    androidx.swiperefreshlayout.widget.SwipeRefreshLayout swipeRefreshLayout -> w
+    android.widget.RelativeLayout mainLayout -> x
+    java.io.File fileMultilib -> q
+    com.sombersoft.slacklog.MultilibAdapter adapter -> s
+    android.content.SharedPreferences mPref -> r
+    android.widget.ProgressBar bar -> u
+    android.content.SharedPreferences$Editor editor -> v
+    java.io.File rootDir -> p
+    java.lang.String copyLastUpdate -> t
     void update(boolean) -> w
     1:1:void androidx.recyclerview.widget.LinearLayoutManager.<init>(android.content.Context):0:0 -> x
     1:1:void view():0 -> x
@@ -27552,7 +27490,7 @@ com.sombersoft.slacklog.Multilib$DownloadMultilib -> com.sombersoft.slacklog.Mul
     5:5:void com.sombersoft.slacklog.Multilib.access$500(com.sombersoft.slacklog.Multilib):0:0 -> onPostExecute
     5:5:void onPostExecute(java.lang.Void):0 -> onPostExecute
     5:5:void onPostExecute(java.lang.Object):0 -> onPostExecute
-com.sombersoft.slacklog.MultilibAdapter -> c.d.a.r:
+com.sombersoft.slacklog.MultilibAdapter -> c.d.a.q:
     java.util.ArrayList array -> c
     int getItemCount() -> a
     1:1:void onBindViewHolder(com.sombersoft.slacklog.MultilibAdapter$ViewHolder,int):0:0 -> d
@@ -27629,7 +27567,7 @@ com.sombersoft.slacklog.MultilibAdapter -> c.d.a.r:
     29:29:void onBindViewHolder(androidx.recyclerview.widget.RecyclerView$ViewHolder,int):0 -> d
     1:1:com.sombersoft.slacklog.MultilibAdapter$ViewHolder onCreateViewHolder(android.view.ViewGroup,int):0:0 -> e
     1:1:androidx.recyclerview.widget.RecyclerView$ViewHolder onCreateViewHolder(android.view.ViewGroup,int):0 -> e
-com.sombersoft.slacklog.MultilibAdapter$ViewHolder -> c.d.a.r$a:
+com.sombersoft.slacklog.MultilibAdapter$ViewHolder -> c.d.a.q$a:
     android.widget.TextView tvMultilib -> t
 com.sombersoft.slacklog.MultilibService -> com.sombersoft.slacklog.MultilibService:
     java.lang.String lastOnLineUpdate -> k
@@ -27644,6 +27582,18 @@ com.sombersoft.slacklog.MultilibService -> com.sombersoft.slacklog.MultilibServi
     5:5:void onHandleWork(android.content.Intent):0 -> d
     6:6:void onHandleWork(android.content.Intent):0:0 -> d
     void enqueueWork(android.content.Context,android.content.Intent) -> f
+com.sombersoft.slacklog.SlackwareWebViewFragment -> c.d.a.r:
+    android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle) -> A
+com.sombersoft.slacklog.SlackwareWebViewFragment$1 -> c.d.a.r$a:
+    androidx.swiperefreshlayout.widget.SwipeRefreshLayout val$swipeRefreshLayout -> a
+    1:1:boolean androidx.swiperefreshlayout.widget.SwipeRefreshLayout.isRefreshing():0:0 -> onPageFinished
+    1:1:void onPageFinished(android.webkit.WebView,java.lang.String):0 -> onPageFinished
+    2:2:void onPageFinished(android.webkit.WebView,java.lang.String):0:0 -> onPageFinished
+com.sombersoft.slacklog.SlackwareWebViewFragment$2 -> c.d.a.r$b:
+    androidx.swiperefreshlayout.widget.SwipeRefreshLayout val$swipeRefreshLayout -> c
+    android.view.View val$view -> a
+    android.webkit.WebView val$myWebView -> b
+    void onRefresh() -> a
 org.jsoup.SerializationException -> d.a.a:
 org.jsoup.UncheckedIOException -> d.a.b:
 org.jsoup.helper.ChangeNotifyingArrayList -> d.a.c.a:

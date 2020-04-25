@@ -52,20 +52,20 @@
         "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-xhdpi/date_selected.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
-        "source": "/home/mirko/.gradle/caches/transforms-2/files-2.1/d800ea1314c62420157609d3c94aa597/appcompat-1.1.0/res/drawable-xxhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/release/drawable_btn_checkbox_unchecked_mtrl.xml.flat",
         "source": "/home/mirko/.gradle/caches/transforms-2/files-2.1/d800ea1314c62420157609d3c94aa597/appcompat-1.1.0/res/drawable/btn_checkbox_unchecked_mtrl.xml"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/release/drawable-hdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
-        "source": "/home/mirko/.gradle/caches/transforms-2/files-2.1/d800ea1314c62420157609d3c94aa597/appcompat-1.1.0/res/drawable-hdpi-v4/abc_ic_menu_share_mtrl_alpha.png"
+        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
+        "source": "/home/mirko/.gradle/caches/transforms-2/files-2.1/d800ea1314c62420157609d3c94aa597/appcompat-1.1.0/res/drawable-xxhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
         "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/release/drawable-mdpi-v4_abc_ic_star_half_black_16dp.png.flat",
         "source": "/home/mirko/.gradle/caches/transforms-2/files-2.1/d800ea1314c62420157609d3c94aa597/appcompat-1.1.0/res/drawable-mdpi-v4/abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/release/drawable-hdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
+        "source": "/home/mirko/.gradle/caches/transforms-2/files-2.1/d800ea1314c62420157609d3c94aa597/appcompat-1.1.0/res/drawable-hdpi-v4/abc_ic_menu_share_mtrl_alpha.png"
     },
     {
         "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/release/drawable_btn_checkbox_checked_mtrl.xml.flat",
@@ -2694,6 +2694,10 @@
     {
         "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/release/drawable_abc_btn_default_mtrl_shape.xml.flat",
         "source": "/home/mirko/.gradle/caches/transforms-2/files-2.1/d800ea1314c62420157609d3c94aa597/appcompat-1.1.0/res/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/release/layout_slackware_webview_fragment.xml.flat",
+        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/layout/slackware_webview_fragment.xml"
     },
     {
         "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/release/drawable-xhdpi_topic_daily.png.flat",

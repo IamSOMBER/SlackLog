@@ -256,6 +256,7 @@ androidx.core.app.ComponentActivity:
 android.support.v4.media.MediaMetadataCompatApi21$Builder
 androidx.fragment.app.FragmentActivity$HostCallbacks:
     public void onStartActivityFromFragment(androidx.fragment.app.Fragment,android.content.Intent,int)
+    public void onStartActivityFromFragment(androidx.fragment.app.Fragment,android.content.Intent,int,android.os.Bundle)
     public void onStartIntentSenderFromFragment(androidx.fragment.app.Fragment,android.content.IntentSender,int,android.content.Intent,int,int,int,android.os.Bundle)
     public void onRequestPermissionsFromFragment(androidx.fragment.app.Fragment,java.lang.String[],int)
     public boolean onShouldShowRequestPermissionRationale(java.lang.String)
@@ -1090,6 +1091,7 @@ androidx.collection.SparseArrayCompat:
     public java.lang.Object putIfAbsent(int,java.lang.Object)
     public boolean isEmpty()
     public void setValueAt(int,java.lang.Object)
+    public int indexOfKey(int)
     public boolean containsKey(int)
     public boolean containsValue(java.lang.Object)
 androidx.viewpager2.widget.PageTransformerAdapter
@@ -1290,6 +1292,8 @@ androidx.fragment.app.Fragment:
     public void setHasOptionsMenu(boolean)
     public boolean getUserVisibleHint()
     public androidx.loader.app.LoaderManager getLoaderManager()
+    public void startActivity(android.content.Intent)
+    public void startActivity(android.content.Intent,android.os.Bundle)
     public void startActivityForResult(android.content.Intent,int)
     public void startActivityForResult(android.content.Intent,int,android.os.Bundle)
     public void startIntentSenderForResult(android.content.IntentSender,int,android.content.Intent,int,int,int,android.os.Bundle)
@@ -3251,6 +3255,7 @@ androidx.core.widget.ScrollerCompat
 androidx.fragment.app.FragmentHostCallback:
     public void <init>(android.content.Context,android.os.Handler,int)
     public void onStartActivityFromFragment(androidx.fragment.app.Fragment,android.content.Intent,int)
+    public void onStartActivityFromFragment(androidx.fragment.app.Fragment,android.content.Intent,int,android.os.Bundle)
     public void onStartIntentSenderFromFragment(androidx.fragment.app.Fragment,android.content.IntentSender,int,android.content.Intent,int,int,int,android.os.Bundle)
     public void onRequestPermissionsFromFragment(androidx.fragment.app.Fragment,java.lang.String[],int)
     public boolean onShouldShowRequestPermissionRationale(java.lang.String)
@@ -3822,6 +3827,7 @@ androidx.core.app.ActivityCompat:
     protected void <init>()
     public static void setPermissionCompatDelegate(androidx.core.app.ActivityCompat$PermissionCompatDelegate)
     public static boolean invalidateOptionsMenu(android.app.Activity)
+    public static void startActivityForResult(android.app.Activity,android.content.Intent,int,android.os.Bundle)
     public static void startIntentSenderForResult(android.app.Activity,android.content.IntentSender,int,android.content.Intent,int,int,int,android.os.Bundle)
     public static void finishAfterTransition(android.app.Activity)
     public static android.net.Uri getReferrer(android.app.Activity)
@@ -4760,6 +4766,7 @@ androidx.core.app.NotificationCompat$InboxStyle
 androidx.media.MediaBrowserServiceCompatApi21$MediaBrowserServiceAdaptor
 androidx.transition.Slide$3
 androidx.legacy.widget.Space
+com.sombersoft.slacklog.FragmentSlacky$1
 androidx.recyclerview.widget.DiffUtil$DiffResult
 androidx.viewpager2.widget.ViewPager2$PageAwareAccessibilityProvider$1
 androidx.appcompat.resources.R$attr
@@ -4821,6 +4828,7 @@ androidx.core.text.TextUtilsCompat:
     private static final java.lang.String HEBR_SCRIPT_SUBTAG
 androidx.appcompat.resources.R$style
 com.sombersoft.slacklog.MainActivity:
+    public static void makeFile(java.util.ArrayList,java.io.File)
     private static final int SETTINGS_MANAGEMENT
     private static final java.lang.String TAB_PREVIOUS_STATE
     public static final java.lang.String USER_AGENT
@@ -5025,6 +5033,7 @@ androidx.appcompat.app.ActionBar$Tab:
 androidx.core.view.animation.PathInterpolatorApi14
 androidx.fragment.app.FragmentActivity:
     public void <init>(int)
+    private int allocateRequestIndex(androidx.fragment.app.Fragment)
     public void supportFinishAfterTransition()
     public void setEnterSharedElementCallback(androidx.core.app.SharedElementCallback)
     public void setExitSharedElementCallback(androidx.core.app.SharedElementCallback)
@@ -5033,6 +5042,7 @@ androidx.fragment.app.FragmentActivity:
     public androidx.loader.app.LoaderManager getSupportLoaderManager()
     public final void validateRequestPermissionsRequestCode(int)
     public void startActivityFromFragment(androidx.fragment.app.Fragment,android.content.Intent,int)
+    public void startActivityFromFragment(androidx.fragment.app.Fragment,android.content.Intent,int,android.os.Bundle)
     public void startIntentSenderFromFragment(androidx.fragment.app.Fragment,android.content.IntentSender,int,android.content.Intent,int,int,int,android.os.Bundle)
     void requestPermissionsFromFragment(androidx.fragment.app.Fragment,java.lang.String[],int)
     boolean mRequestedPermissionsFromFragment
@@ -5441,8 +5451,7 @@ androidx.legacy.app.FragmentCompat
 androidx.annotation.InspectableProperty$ValueType
 android.support.v4.media.MediaMetadataCompat$RatingKey
 androidx.core.R
-com.sombersoft.slacklog.FragmentSlacky:
-    private static final java.lang.String SLACKYSITE_URL
+com.sombersoft.slacklog.FragmentSlacky
 androidx.core.view.accessibility.AccessibilityNodeInfoCompat$CollectionItemInfoCompat:
     public static androidx.core.view.accessibility.AccessibilityNodeInfoCompat$CollectionItemInfoCompat obtain(int,int,int,int,boolean)
     public int getColumnIndex()
@@ -6086,6 +6095,7 @@ androidx.recyclerview.widget.RecyclerView$ItemAnimator:
     public static final int FLAG_INVALIDATED
     public static final int FLAG_MOVED
     public static final int FLAG_APPEARED_IN_PRE_LAYOUT
+com.sombersoft.slacklog.FragmentSlacky$DownloadSlacky
 com.google.android.material.tabs.TabLayoutMediator$ViewPagerOnTabSelectedListener
 androidx.recyclerview.widget.ItemTouchHelper$Callback$2
 androidx.media.MediaBrowserServiceCompat$ServiceBinderImpl$5
@@ -7277,6 +7287,7 @@ androidx.appcompat.widget.FitWindowsFrameLayout:
     public void <init>(android.content.Context)
 com.google.android.material.R$drawable:
     private void <init>()
+com.sombersoft.slacklog.FragmentSlacky$2
 androidx.core.view.LayoutInflaterCompat:
     private void <init>()
     public static void setFactory(android.view.LayoutInflater,androidx.core.view.LayoutInflaterFactory)
@@ -7721,7 +7732,6 @@ androidx.fragment.app.FragmentActivity$HostCallbacks:
     public android.view.LayoutInflater onGetLayoutInflater()
     public androidx.fragment.app.FragmentActivity onGetHost()
     public void onSupportInvalidateOptionsMenu()
-    public void onStartActivityFromFragment(androidx.fragment.app.Fragment,android.content.Intent,int,android.os.Bundle)
     public boolean onHasWindowAnimations()
     public int onGetWindowAnimations()
     public void onAttachFragment(androidx.fragment.app.Fragment)
@@ -8204,7 +8214,6 @@ com.google.android.material.textfield.CutoutDrawable:
 androidx.core.text.TextDirectionHeuristicsCompat$TextDirectionHeuristicImpl:
     public final boolean doCheck(java.lang.CharSequence,int,int)
 androidx.collection.SparseArrayCompat:
-    public int indexOfKey(int)
     public int indexOfValue(java.lang.Object)
     public void clear()
 androidx.core.view.accessibility.AccessibilityViewCommand$SetProgressArguments
@@ -8309,8 +8318,6 @@ androidx.fragment.app.Fragment:
     public final boolean isHidden()
     public void onHiddenChanged()
     public final boolean getRetainInstance()
-    public void startActivity(android.content.Intent)
-    public void startActivity(android.content.Intent,android.os.Bundle)
     public void onActivityResult()
     public void onRequestPermissionsResult()
     public android.view.LayoutInflater onGetLayoutInflater(android.os.Bundle)
@@ -9332,6 +9339,8 @@ com.google.android.material.datepicker.MonthAdapter:
     public boolean isFirstInRow(int)
     public boolean isLastInRow(int)
     public final void initializeStyles(android.content.Context)
+com.sombersoft.slacklog.SlackwareWebViewFragment$1:
+    public final synthetic com.sombersoft.slacklog.SlackwareWebViewFragment this$0
 androidx.appcompat.widget.ListPopupWindow:
     public void <init>(android.content.Context,android.util.AttributeSet,int)
     public void setPromptPosition(int)
@@ -10111,7 +10120,6 @@ androidx.fragment.app.FragmentHostCallback:
     public android.view.LayoutInflater onGetLayoutInflater()
     public abstract java.lang.Object onGetHost()
     public void onSupportInvalidateOptionsMenu()
-    public void onStartActivityFromFragment(androidx.fragment.app.Fragment,android.content.Intent,int,android.os.Bundle)
     public boolean onHasWindowAnimations()
     public int onGetWindowAnimations()
     public android.view.View onFindViewById(int)
@@ -10279,6 +10287,8 @@ com.google.android.material.datepicker.CalendarConstraints:
 androidx.core.view.MarginLayoutParamsCompat
 androidx.core.widget.NestedScrollView$OnScrollChangeListener:
     public abstract void onScrollChange(androidx.core.widget.NestedScrollView,int,int,int,int)
+com.sombersoft.slacklog.SlackwareWebViewFragment$2:
+    public final synthetic com.sombersoft.slacklog.SlackwareWebViewFragment this$0
 androidx.vectordrawable.graphics.drawable.AnimatedVectorDrawableCompat:
     public void <init>(android.content.Context)
     public static androidx.vectordrawable.graphics.drawable.AnimatedVectorDrawableCompat createFromXmlInner(android.content.Context,android.content.res.Resources,org.xmlpull.v1.XmlPullParser,android.util.AttributeSet,android.content.res.Resources$Theme)
@@ -11084,8 +11094,6 @@ androidx.core.widget.TintableImageSourceView
 androidx.recyclerview.widget.StaggeredGridLayoutManager$AnchorInfo:
     public void saveSpanReferenceLines(androidx.recyclerview.widget.StaggeredGridLayoutManager$Span[])
     public void assignCoordinateFromPadding(int)
-com.sombersoft.slacklog.FragmentSlacky$1:
-    public final synthetic com.sombersoft.slacklog.FragmentSlacky this$0
 androidx.customview.widget.FocusStrategy
 androidx.appcompat.widget.DropDownListView$GateKeeperDrawable:
     public void setEnabled(boolean)
@@ -11102,10 +11110,11 @@ android.support.v4.media.session.PlaybackStateCompat$CustomAction$1:
     public android.support.v4.media.session.PlaybackStateCompat$CustomAction createFromParcel(android.os.Parcel)
     public android.support.v4.media.session.PlaybackStateCompat$CustomAction[] newArray(int)
 com.sombersoft.slacklog.MainActivity:
-    public static void makeFile(java.util.ArrayList,java.io.File)
     public static synthetic androidx.viewpager.widget.ViewPager access$000()
     public static synthetic android.content.SharedPreferences$Editor access$100(com.sombersoft.slacklog.MainActivity)
     public final java.lang.String EXECUTE_UPDATE
+    public static android.content.Context mContext
+    public static java.io.File newsFileSlacky
     public static java.io.File newsFileAlien
 com.google.android.material.floatingactionbutton.FloatingActionButtonImpl$DisabledElevationAnimation:
     public final synthetic com.google.android.material.floatingactionbutton.FloatingActionButtonImpl this$0
@@ -11164,10 +11173,9 @@ androidx.fragment.app.FragmentActivity:
     public final android.view.View dispatchFragmentsOnCreateView(android.view.View,java.lang.String,android.content.Context,android.util.AttributeSet)
     public void onResumeFragments()
     public boolean onPrepareOptionsPanel(android.view.View,android.view.Menu)
-    public void startActivityFromFragment(androidx.fragment.app.Fragment,android.content.Intent,int,android.os.Bundle)
-    public final int allocateRequestIndex(androidx.fragment.app.Fragment)
     public final void markFragmentsCreated()
     public boolean mStartedIntentSenderFromFragment
+    public boolean mStartedActivityFromFragment
 com.google.android.material.theme.MaterialComponentsViewInflater:
     public static void <clinit>()
 androidx.appcompat.view.ViewPropertyAnimatorCompatSet:
@@ -11605,13 +11613,6 @@ androidx.arch.core.executor.DefaultTaskExecutor:
     public volatile android.os.Handler mMainHandler
 androidx.appcompat.widget.AbsActionBarView$VisibilityAnimListener:
     public androidx.appcompat.widget.AbsActionBarView$VisibilityAnimListener withFinalVisibility(androidx.core.view.ViewPropertyAnimatorCompat,int)
-com.sombersoft.slacklog.FragmentSlacky:
-    public static void updateFile(boolean)
-    public static void showNewsSlacky()
-    public static synthetic android.content.Context access$000()
-    public static synthetic android.widget.RelativeLayout access$100()
-    public static synthetic androidx.swiperefreshlayout.widget.SwipeRefreshLayout access$200()
-    public static synthetic android.widget.ProgressBar access$300()
 android.support.v4.media.session.MediaControllerCompat$PlaybackInfo
 com.google.android.material.badge.BadgeUtils:
     public static void updateBadgeBounds(android.graphics.Rect,float,float,float,float)
@@ -12192,9 +12193,6 @@ androidx.recyclerview.widget.RecyclerView$ItemAnimator:
     public void onAnimationFinished()
     public abstract boolean canReuseUpdatedViewHolder(androidx.recyclerview.widget.RecyclerView$ViewHolder)
     public androidx.recyclerview.widget.RecyclerView$ItemAnimator$ItemHolderInfo obtainHolderInfo()
-com.sombersoft.slacklog.FragmentSlacky$DownloadSlacky:
-    public varargs java.util.ArrayList doInBackground()
-    public void onPostExecute(java.util.ArrayList)
 com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton$3:
     public final synthetic com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton this$0
 androidx.viewpager2.adapter.FragmentStateAdapter$5:
