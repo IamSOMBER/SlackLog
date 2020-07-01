@@ -1,486 +1,486 @@
 [
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/layout_activity_forum.xml.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/layout/activity_forum.xml"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-nodpi_line.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-nodpi/line.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/layout_row_changelog.xml.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/layout/row_changelog.xml"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-hdpi_topic_img.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-hdpi/topic_img.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-xhdpi_last.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-xhdpi/last.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_action_view_as_list.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-mdpi/ic_action_view_as_list.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-hdpi-v11_ic_multilib.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-hdpi-v11/ic_multilib.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/layout_row_topic.xml.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/layout/row_topic.xml"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/layout_forum_fragment.xml.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/layout/forum_fragment.xml"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_action_settings.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-hdpi/ic_action_settings.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_launcher.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-xhdpi-v11_ic_multilib.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-xhdpi-v11/ic_multilib.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/layout_header.xml.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/layout/header.xml"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-mdpi_date_selected.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-mdpi/date_selected.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-xxhdpi_topic_daily.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-xxhdpi/topic_daily.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/layout_alien_webview_fragment.xml.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/layout/alien_webview_fragment.xml"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_action_web_site.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-xxhdpi/ic_action_web_site.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable_paypal.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable/paypal.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/layout_activity_fragment_slacky.xml.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/layout/activity_fragment_slacky.xml"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/layout_row_kernel.xml.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/layout/row_kernel.xml"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-hdpi_lqforum.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-hdpi/lqforum.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-xxhdpi_topic_img.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-xxhdpi/topic_img.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/layout_row_topic.xml.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/layout/row_topic.xml"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_action_refresh.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-xhdpi/ic_action_refresh.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/layout_row_multilib.xml.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/layout/row_multilib.xml"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/layout_header.xml.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/layout/header.xml"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable_header.jpg.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable/header.jpg"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-mdpi_cambiamirror.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-mdpi/cambiamirror.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-hdpi_topic_daily.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-hdpi/topic_daily.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-nodpi_slackware_background_forum.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-nodpi/slackware_background_forum.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/layout_activity_kernel.xml.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/layout/activity_kernel.xml"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-hdpi_lqforum.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-hdpi/lqforum.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-nodpi_slackware_background_forum.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-nodpi/slackware_background_forum.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-hdpi_hostedatisc.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-hdpi/hostedatisc.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-hdpi/ic_launcher.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_action_about.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-xxhdpi/ic_action_about.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-nodpi_slackware_background_alien.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-nodpi/slackware_background_alien.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-xhdpi_last.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-xhdpi/last.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/layout_item_drawer.xml.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/layout/item_drawer.xml"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/anim_fade_in.xml.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/anim/fade_in.xml"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable_change.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable/change.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-nodpi_slackware_background_alien.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-nodpi/slackware_background_alien.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-xxhdpi_date_selected.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-xxhdpi/date_selected.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-hdpi_author_selected.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-hdpi/author_selected.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-nodpi_build.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-nodpi/build.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-mdpi_tux.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-mdpi/tux.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-xhdpi_date_selected.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-xhdpi/date_selected.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v11_ic_changelog.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-xxhdpi-v11/ic_changelog.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-mdpi_tux.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-mdpi/tux.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/layout_forum_fragment.xml.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/layout/forum_fragment.xml"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-mdpi_cambiamirror.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-mdpi/cambiamirror.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/layout_changelog_fragment.xml.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/layout/changelog_fragment.xml"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/layout_alien_webview_fragment.xml.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/layout/alien_webview_fragment.xml"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-hdpi-v11_ic_multilib.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-hdpi-v11/ic_multilib.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-hdpi_redhat_logo.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-hdpi/redhat_logo.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_action_about.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-hdpi/ic_action_about.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_action_settings.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-mdpi/ic_action_settings.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-nodpi_slackware_background.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-nodpi/slackware_background.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-nodpi_slackware_background.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-nodpi/slackware_background.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/menu_settings.xml.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/menu/settings.xml"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/layout_activity_forum.xml.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/layout/activity_forum.xml"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_action_view_as_list.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-mdpi/ic_action_view_as_list.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/layout_slacky_webview_fragment.xml.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/layout/slacky_webview_fragment.xml"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable_num_post.xml.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable/num_post.xml"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable_slackbar.jpg.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable/slackbar.jpg"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_action_view_as_list.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-xxhdpi/ic_action_view_as_list.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_action_about.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-xhdpi/ic_action_about.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_action_web_site.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-mdpi/ic_action_web_site.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/anim_zoom_out.xml.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/anim/zoom_out.xml"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_action_view_as_list.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-hdpi/ic_action_view_as_list.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_action_view_as_list.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-hdpi/ic_action_view_as_list.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/xml_settings.xml.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/xml/settings.xml"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/anim_bounce.xml.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/anim/bounce.xml"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_action_refresh.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-xhdpi/ic_action_refresh.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable_slacky.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable/slacky.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_action_refresh.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-mdpi/ic_action_refresh.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-nodpi_slackware_background_drawer.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-nodpi/slackware_background_drawer.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/menu_ab_mirror.xml.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/menu/ab_mirror.xml"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable_num_post.xml.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable/num_post.xml"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_action_refresh.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-xxhdpi/ic_action_refresh.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-mdpi-v11_ic_changelog.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-mdpi-v11/ic_changelog.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable_paypal.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable/paypal.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/layout_activity_forum_lq.xml.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/layout/activity_forum_lq.xml"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_action_refresh.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-hdpi/ic_action_refresh.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-mdpi_topic_daily.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-mdpi/topic_daily.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable_kernel.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable/kernel.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_action_web_site.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-hdpi/ic_action_web_site.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_action_about.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-xxhdpi/ic_action_about.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-nodpi_build.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-nodpi/build.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/layout_infodialog.xml.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/layout/infodialog.xml"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/layout/activity_main.xml"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v11_ic_changelog.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-xxhdpi-v11/ic_changelog.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-xhdpi_author_selected.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-xhdpi/author_selected.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-hdpi_linuxfundation.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-hdpi/linuxfundation.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-xxhdpi_author_selected.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-xxhdpi/author_selected.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_action_settings.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-xxhdpi/ic_action_settings.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_action_web_site.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-xxhdpi/ic_action_web_site.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/layout_activity_forum_lq.xml.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/layout/activity_forum_lq.xml"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_action_view_as_list.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-xxhdpi/ic_action_view_as_list.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/anim_fade_in.xml.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/anim/fade_in.xml"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v11_ic_multilib.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-xxhdpi-v11/ic_multilib.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/layout_row_kernel.xml.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/layout/row_kernel.xml"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_action_about.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-mdpi/ic_action_about.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-hdpi_date_selected.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-hdpi/date_selected.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_action_settings.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-xxhdpi/ic_action_settings.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-nodpi_line.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-nodpi/line.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-hdpi_date_selected.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-hdpi/date_selected.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-mdpi_date_selected.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-mdpi/date_selected.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-xhdpi_tux.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-xhdpi/tux.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/layout_slacky_webview_fragment.xml.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/layout/slacky_webview_fragment.xml"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-hdpi_linuxfundation.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-hdpi/linuxfundation.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-xxhdpi_lqforum.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-xxhdpi/lqforum.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_action_refresh.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-hdpi/ic_action_refresh.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-xhdpi-v11_ic_changelog.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-xhdpi-v11/ic_changelog.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-xhdpi_lqforum.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-xhdpi/lqforum.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-mdpi_topic_img.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-mdpi/topic_img.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/anim_fade_out.xml.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/anim/fade_out.xml"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-hdpi_author_selected.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-hdpi/author_selected.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-hdpi_fastly.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-hdpi/fastly.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_action_view_as_list.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-xhdpi/ic_action_view_as_list.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-xhdpi-v11_ic_changelog.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-xhdpi-v11/ic_changelog.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-hdpi_hostedatisc.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-hdpi/hostedatisc.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable_alienbob.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable/alienbob.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-hdpi-v11_ic_changelog.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-hdpi-v11/ic_changelog.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-hdpi-v11_ic_changelog.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-hdpi-v11/ic_changelog.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_action_about.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-xhdpi/ic_action_about.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-mdpi-v11_ic_multilib.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-mdpi-v11/ic_multilib.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/layout_activity_fragment_alien.xml.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/layout/activity_fragment_alien.xml"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_action_settings.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-xhdpi/ic_action_settings.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable_date_back.xml.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable/date_back.xml"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-hdpi_tux.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-hdpi/tux.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-xxhdpi_author_selected.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-xxhdpi/author_selected.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable_forumback.jpg.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable/forumback.jpg"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable_slacky.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable/slacky.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-hdpi_redhat_logo.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-hdpi/redhat_logo.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable_forumlq.jpg.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable/forumlq.jpg"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-xxhdpi_cambiamirror.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-xxhdpi/cambiamirror.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable_paypal_logo.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable/paypal_logo.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-mdpi_lqforum.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-mdpi/lqforum.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_action_web_site.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-xhdpi/ic_action_web_site.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_action_web_site.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-mdpi/ic_action_web_site.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-mdpi-v11_ic_changelog.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-mdpi-v11/ic_changelog.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-xxhdpi_last.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-xxhdpi/last.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-xhdpi_lqforum.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-xhdpi/lqforum.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/layout_row_topic_lq.xml.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/layout/row_topic_lq.xml"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-nodpi_slackware_background_drawer.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-nodpi/slackware_background_drawer.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-hdpi_topic_daily.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-hdpi/topic_daily.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/layout_slackware_webview_fragment.xml.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/layout/slackware_webview_fragment.xml"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/layout_infodialog.xml.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/layout/infodialog.xml"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/anim_zoom_out.xml.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/anim/zoom_out.xml"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-xxhdpi_tux.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-xxhdpi/tux.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/layout/activity_main.xml"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-xxhdpi_lqforum.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-xxhdpi/lqforum.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable_alienbob.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable/alienbob.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-xhdpi_topic_img.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-xhdpi/topic_img.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-xhdpi-v11_ic_multilib.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-xhdpi-v11/ic_multilib.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable_alien.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable/alien.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/anim_bounce.xml.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/anim/bounce.xml"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-mdpi_last.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-mdpi/last.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/layout_activity_changelog.xml.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/layout/activity_changelog.xml"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/layout_activity_fragment_slacky.xml.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/layout/activity_fragment_slacky.xml"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-mdpi/ic_launcher.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/menu_ab_mirror.xml.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/menu/ab_mirror.xml"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_action_about.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-mdpi/ic_action_about.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_action_refresh.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-xxhdpi/ic_action_refresh.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-xhdpi_author_selected.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-xhdpi/author_selected.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-mdpi_author_selected.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-mdpi/author_selected.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_action_settings.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-mdpi/ic_action_settings.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/layout_activity_fragment_alien.xml.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/layout/activity_fragment_alien.xml"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-mdpi_lqforum.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-mdpi/lqforum.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable_slacky_s.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable/slacky_s.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-hdpi_fastly.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-hdpi/fastly.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/layout_activity_changelog.xml.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/layout/activity_changelog.xml"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-xxhdpi_topic_img.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-xxhdpi/topic_img.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-xhdpi_date_selected.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-xhdpi/date_selected.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-xhdpi_topic_img.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-xhdpi/topic_img.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_action_web_site.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-xhdpi/ic_action_web_site.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable_slackbar.jpg.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable/slackbar.jpg"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-hdpi_last.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-hdpi/last.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-hdpi_last.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-hdpi/last.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-mdpi_topic_img.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-mdpi/topic_img.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable_slacky_s.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable/slacky_s.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/menu_drawer_items.xml.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/menu/drawer_items.xml"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable_alien.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable/alien.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/xml_settings.xml.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/xml/settings.xml"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-xxhdpi_cambiamirror.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-xxhdpi/cambiamirror.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable_lq_logo.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable/lq_logo.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-xxhdpi_tux.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-xxhdpi/tux.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/layout_row_changelog.xml.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/layout/row_changelog.xml"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_action_settings.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-xhdpi/ic_action_settings.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/menu_settings.xml.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/menu/settings.xml"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/layout_row_topic_lq.xml.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/layout/row_topic_lq.xml"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/anim_zoom_in.xml.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/anim/zoom_in.xml"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-hdpi_topic_img.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-hdpi/topic_img.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-mdpi/ic_launcher.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-mdpi-v11_ic_multilib.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-mdpi-v11/ic_multilib.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-hdpi_osl.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-hdpi/osl.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-xhdpi_tux.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-xhdpi/tux.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable_paypal_logo.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable/paypal_logo.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-mdpi_last.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-mdpi/last.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_action_about.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-hdpi/ic_action_about.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-hdpi_vexxhost.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-hdpi/vexxhost.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-xhdpi_cambiamirror.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-xhdpi/cambiamirror.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-hdpi_osl.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-hdpi/osl.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-xxhdpi_topic_daily.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-xxhdpi/topic_daily.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-hdpi_tux.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-hdpi/tux.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable_header.jpg.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable/header.jpg"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-xxhdpi_last.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-xxhdpi/last.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-hdpi_vexxhost.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-hdpi/vexxhost.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/menu_drawer_items.xml.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/menu/drawer_items.xml"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable_date_back.xml.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable/date_back.xml"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-xhdpi_topic_daily.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-xhdpi/topic_daily.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/layout_item_drawer.xml.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/layout/item_drawer.xml"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_action_settings.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-hdpi/ic_action_settings.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_action_refresh.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-mdpi/ic_action_refresh.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v11_ic_multilib.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-xxhdpi-v11/ic_multilib.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable_change.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable/change.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-hdpi_cambiamirror.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-hdpi/cambiamirror.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable_kernel.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable/kernel.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/anim_fade_out.xml.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/anim/fade_out.xml"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-xhdpi_topic_daily.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-xhdpi/topic_daily.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/layout_changelog_fragment.xml.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/layout/changelog_fragment.xml"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/layout_slackware_webview_fragment.xml.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/layout/slackware_webview_fragment.xml"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/layout_activity_multilib.xml.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/layout/activity_multilib.xml"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/layout_row_multilib.xml.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/layout/row_multilib.xml"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable_lq_logo.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable/lq_logo.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/layout_activity_multilib.xml.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/layout/activity_multilib.xml"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/anim_zoom_in.xml.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/anim/zoom_in.xml"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-hdpi/ic_launcher.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_action_web_site.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-hdpi/ic_action_web_site.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-xxhdpi_date_selected.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-xxhdpi/date_selected.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-xhdpi_cambiamirror.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-xhdpi/cambiamirror.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_action_view_as_list.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-xhdpi/ic_action_view_as_list.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable_forumback.jpg.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable/forumback.jpg"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/layout_activity_kernel.xml.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/layout/activity_kernel.xml"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-mdpi_author_selected.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-mdpi/author_selected.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-hdpi_cambiamirror.png.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-hdpi/cambiamirror.png"
     },
     {
-        "merged": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable-mdpi_topic_daily.png.flat",
-        "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable-mdpi/topic_daily.png"
+        "merged": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/res/merged/debug/drawable_forumlq.jpg.flat",
+        "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/drawable/forumlq.jpg"
     }
 ]

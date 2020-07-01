@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-small-v4/values-small-v4.xml",
+            "outputFile": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-small-v4/values-small-v4.xml",
             "map": [
                 {
-                    "source": "/home/mirko/.gradle/caches/transforms-2/files-2.1/17b03f69ffae40f88f7bcb392c943d9a/material-1.1.0/res/values-small-v4/values-small-v4.xml",
+                    "source": "/home/mirko/.gradle/caches/transforms-2/files-2.1/081958b85be993b26123dd5b1125e07f/material-1.1.0/res/values-small-v4/values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

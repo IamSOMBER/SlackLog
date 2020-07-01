@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v14/values-v14.xml",
+            "outputFile": "/run/media/mirko/share/studio_workspace/Slacklog/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v14/values-v14.xml",
             "map": [
                 {
-                    "source": "/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/values-v14/styles.xml",
+                    "source": "/run/media/mirko/share/studio_workspace/Slacklog/app/src/main/res/values-v14/styles.xml",
                     "from": {
                         "startLines": "6,24",
                         "startColumns": "4,4",

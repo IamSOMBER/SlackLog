@@ -92,41 +92,42 @@ public class ChangelogService extends JobIntentService {
                 notifyIntent, 0);
         builder.setContentIntent(pendingIntent);
         String url64;
-        if (getVersion64Branch.equalsIgnoreCase("current"))
-            url64 = URL_ADDRESS + "slackware64-current/";
-        else
-            url64 = URL_ADDRESS + "slackware64-14.1/";
-        String url32;
-        if (getVersion32Branch.equalsIgnoreCase("current"))
-            url32 = URL_ADDRESS + "slackware-current/";
-        else
-            url32 = URL_ADDRESS + "slackware-14.1/";
         String latestVersion64Bit = null;
+        if (getVersion64Branch != null) {
+            if (getVersion64Branch.equalsIgnoreCase("current"))
+                url64 = URL_ADDRESS + "slackware64-current/";
+            else
+                url64 = URL_ADDRESS + "slackware64-14.1/";
+            if (archType != null && (archType.equals("64") || archType.equals("96"))) {
+                latestVersion64Bit = onLineVersion(url64);
+                lastUpdate64 = preferences.getString(LAST_UPDATE_64BIT, "never");
+                if (latestVersion64Bit != null && !latestVersion64Bit.equals("null")) // latestVersion??Bit
+                    // assume "null"
+                    // value for example
+                    // when connected to
+                    // a captive portal
+                    // so it must be
+                    // checked to avoid
+                    // an empty
+                    // notification
+                    changed64 = !latestVersion64Bit.equals(lastUpdate64);
+            }
+        }
+        String url32;
         String latestVersion32Bit = null;
-
-        if (archType.equals("64") || archType.equals("96")) {
-            latestVersion64Bit = onLineVersion(url64);
-            lastUpdate64 = preferences.getString(LAST_UPDATE_64BIT, "never");
-            if (latestVersion64Bit != null
-                    && !latestVersion64Bit.equals("null")) // latestVersion??Bit
-                // assume "null"
-                // value for example
-                // when connected to
-                // a captive portal
-                // so it must be
-                // checked to avoid
-                // an empty
-                // notification
-                changed64 = !latestVersion64Bit.equals(lastUpdate64);
+        if (getVersion32Branch != null) {
+            if (getVersion32Branch.equalsIgnoreCase("current"))
+                url32 = URL_ADDRESS + "slackware-current/";
+            else
+                url32 = URL_ADDRESS + "slackware-14.1/";
+            if (archType != null && (archType.equals("32") || archType.equals("96"))) {
+                latestVersion32Bit = onLineVersion(url32);
+                lastUpdate32 = preferences.getString(LAST_UPDATE_32BIT, "never");
+                if (latestVersion32Bit != null && !latestVersion32Bit.equals("null"))
+                    changed32 = !latestVersion32Bit.equals(lastUpdate32);
+            }
         }
-        if (archType.equals("32") || archType.equals("96")) {
-            latestVersion32Bit = onLineVersion(url32);
-            lastUpdate32 = preferences.getString(LAST_UPDATE_32BIT, "never");
-            if (latestVersion32Bit != null
-                    && !latestVersion32Bit.equals("null"))
-                changed32 = !latestVersion32Bit.equals(lastUpdate32);
-        }
-        if (archType.equals("96"))
+        if (archType != null && archType.equals("96"))
             if (latestVersion32Bit != null && latestVersion64Bit != null
                     && !latestVersion32Bit.equals("null")
                     && !latestVersion64Bit.equals("null")) {
